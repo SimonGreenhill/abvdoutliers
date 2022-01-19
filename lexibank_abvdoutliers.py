@@ -1,7 +1,6 @@
 import re
 from pathlib import Path
 
-from nexusmaker import load_cldf
 from nameparser import HumanName
 from cldfbench.datadir import DataDir
 from clldutils.misc import slug
@@ -58,11 +57,3 @@ class Dataset(abvd.BVD):
             wl.to_cldf(args.writer, concepts)
             # Now normalize the typedby and checkedby values:
             args.writer.objects['LanguageTable'][-1] = normalize_contributors(args.writer.objects['LanguageTable'][-1])
-        
-        # make nexus
-        rdr = self.cldf_reader()
-        print(type(rdr))
-        x = list(load_cldf(rdr, table='FormTable'))
-        print(len(x))
-        print(x[1])
-        

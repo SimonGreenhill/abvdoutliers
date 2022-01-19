@@ -15,7 +15,10 @@ setup(
     zip_safe=False,
     entry_points={
         'lexibank.dataset': [
-            'abvdoceanic=lexibank_abvdoutliers:Dataset',
+            'abvdoutliers=lexibank_abvdoutliers:Dataset',
+        ],
+        'cldfbench.commands': [
+            'abvdoutliers=abvdoutliers_commands',
         ],
     },
     extras_require={"test": ["pytest-cldf"]},
