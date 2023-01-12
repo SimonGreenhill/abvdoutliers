@@ -1,0 +1,2593 @@
+#NEXUS
+
+
+
+BEGIN DATA;
+  DIMENSIONS NTAX=55 NCHAR=1696;
+  FORMAT DATATYPE=STANDARD MISSING=? GAP=-  SYMBOLS="01";
+  CHARSTATELABELS
+    1 above_0ascertainment,
+    2 above_1,
+    3 above_25,
+    4 above_9,
+    5 above_u_116_175_above_1,
+    6 above_u_217_175_above_1,
+    7 and_0ascertainment,
+    8 and_1,
+    9 and_2,
+    10 and_69,
+    11 and_8,
+    12 and_9,
+    13 and_u_512_192_and_1,
+    14 ashes_0ascertainment,
+    15 ashes_1,
+    16 ashes_67,
+    17 ashes_u_653_146_ashes_1,
+    18 at_0ascertainment,
+    19 at_1,
+    20 at_5,
+    21 at_u_136_173_at_1,
+    22 at_u_1654_173_at_1,
+    23 back_0ascertainment,
+    24 back_100,
+    25 back_11,
+    26 back_12,
+    27 back_3,
+    28 back_62,
+    29 back_u_235_13_back_1,
+    30 back_u_512_13_back_1,
+    31 badevil_0ascertainment,
+    32 badevil_1,
+    33 badevil_10,
+    34 badevil_32,
+    35 badevil_42,
+    36 badevil_9,
+    37 badevil_u_1212_165_badevil_3,
+    38 badevil_u_155_165_badevil_1,
+    39 badevil_u_217_165_badevil_1,
+    40 badevil_u_375_165_badevil_1,
+    41 badevil_u_512_165_badevil_1,
+    42 belly_0ascertainment,
+    43 belly_1,
+    44 belly_10,
+    45 belly_19,
+    46 belly_2,
+    47 belly_7,
+    48 belly_8,
+    49 belly_9,
+    50 belly_u_1030_14_belly_1,
+    51 belly_u_1055_14_belly_1,
+    52 belly_u_676_14_belly_1,
+    53 belly_u_763_14_belly_1,
+    54 belly_u_85_14_belly_1,
+    55 below_0ascertainment,
+    56 below_54,
+    57 below_8,
+    58 below_u_116_176_below_1,
+    59 below_u_653_176_below_1,
+    60 big_0ascertainment,
+    61 big_10,
+    62 big_11,
+    63 big_12,
+    64 big_13,
+    65 big_130,
+    66 big_31,
+    67 big_73,
+    68 big_u_1004_153_big_1,
+    69 big_u_116_153_big_1,
+    70 big_u_1214_153_big_1,
+    71 big_u_152_153_big_3,
+    72 big_u_217_153_big_1,
+    73 big_u_375_153_big_1,
+    74 big_u_64_153_big_2,
+    75 big_u_654_153_big_1,
+    76 bird_0ascertainment,
+    77 bird_1,
+    78 bird_u_243_97_bird_2,
+    79 black_0ascertainment,
+    80 black_40,
+    81 black_5,
+    82 black_6,
+    83 black_64,
+    84 black_7,
+    85 black_u_1212_147_black_1,
+    86 black_u_1654_147_black_1,
+    87 black_u_763_147_black_1,
+    88 black_u_85_147_black_1,
+    89 blood_0ascertainment,
+    90 blood_1,
+    91 blood_4,
+    92 blood_55,
+    93 blood_61,
+    94 blood_u_1214_23_blood_1,
+    95 blood_u_243_23_blood_1,
+    96 bone_0ascertainment,
+    97 bone_10,
+    98 bone_52,
+    99 branch_0ascertainment,
+    100 branch_1,
+    101 branch_13,
+    102 branch_2,
+    103 branch_65,
+    104 breast_0ascertainment,
+    105 breast_1,
+    106 breast_3,
+    107 breast_41,
+    108 breast_43,
+    109 breast_7,
+    110 breast_u_239_18_breast_1,
+    111 breast_u_559_18_breast_1,
+    112 child_0ascertainment,
+    113 child_27,
+    114 child_6,
+    115 child_63,
+    116 child_u_116_56_child_1,
+    117 child_u_264_56_child_1,
+    118 child_u_375_56_child_1,
+    119 child_u_512_56_child_1,
+    120 child_u_52_56_child_1,
+    121 child_u_763_56_child_1,
+    122 cloud_0ascertainment,
+    123 cloud_118,
+    124 cloud_12,
+    125 cloud_13,
+    126 cloud_14,
+    127 cloud_3,
+    128 cloud_47,
+    129 cloud_67,
+    130 cloud_u_1030_131_cloud_1,
+    131 cloud_u_1212_131_cloud_1,
+    132 cloud_u_1654_131_cloud_1,
+    133 cloud_u_753_131_cloud_1,
+    134 cold_0ascertainment,
+    135 cold_1,
+    136 cold_10,
+    137 cold_42,
+    138 cold_52,
+    139 cold_74,
+    140 cold_8,
+    141 cold_9,
+    142 cold_u_512_139_cold_1,
+    143 correcttrue_0ascertainment,
+    144 correcttrue_10,
+    145 correcttrue_105,
+    146 correcttrue_106,
+    147 correcttrue_107,
+    148 correcttrue_40,
+    149 correcttrue_41,
+    150 correcttrue_8,
+    151 correcttrue_9,
+    152 correcttrue_u_116_166_correcttrue_1,
+    153 correcttrue_u_52_166_correcttrue_1,
+    154 correcttrue_u_64_166_correcttrue_1,
+    155 correcttrue_u_675_166_correcttrue_2,
+    156 day_0ascertainment,
+    157 day_1,
+    158 day_23,
+    159 day_27,
+    160 day_6,
+    161 day_7,
+    162 day_8,
+    163 dirty_0ascertainment,
+    164 dirty_10,
+    165 dirty_114,
+    166 dirty_17,
+    167 dirty_37,
+    168 dirty_7,
+    169 dirty_8,
+    170 dirty_9,
+    171 dirty_u_1030_10_dirty_1,
+    172 dirty_u_1055_10_dirty_1,
+    173 dirty_u_136_10_dirty_1,
+    174 dirty_u_163_10_dirty_1,
+    175 dirty_u_217_10_dirty_1,
+    176 dirty_u_239_10_dirty_1,
+    177 dirty_u_763_10_dirty_1,
+    178 dog_0ascertainment,
+    179 dog_7,
+    180 dog_u_116_96_dog_1,
+    181 dog_u_1212_96_dog_1,
+    182 dog_u_217_96_dog_1,
+    183 dog_u_238_96_dog_1,
+    184 dog_u_512_96_dog_1,
+    185 dog_u_559_96_dog_1,
+    186 dog_u_64_96_dog_1,
+    187 dry_0ascertainment,
+    188 dry_1,
+    189 dry_11,
+    190 dry_12,
+    191 dry_13,
+    192 dry_38,
+    193 dry_66,
+    194 dry_91,
+    195 dry_u_136_140_dry_1,
+    196 dullblunt_0ascertainment,
+    197 dullblunt_1,
+    198 dullblunt_10,
+    199 dullblunt_11,
+    200 dullblunt_12,
+    201 dullblunt_18,
+    202 dullblunt_49,
+    203 dullblunt_50,
+    204 dullblunt_61,
+    205 dullblunt_u_116_82_dullblunt_1,
+    206 dullblunt_u_1213_82_dullblunt_1,
+    207 dullblunt_u_1627_82_dullblunt_1,
+    208 dullblunt_u_217_82_dullblunt_1,
+    209 dullblunt_u_512_82_dullblunt_1,
+    210 dust_0ascertainment,
+    211 dust_1,
+    212 dust_90,
+    213 dust_u_1163_11_dust_1,
+    214 dust_u_1628_11_dust_1,
+    215 dust_u_217_11_dust_1,
+    216 dust_u_242_11_dust_1,
+    217 dust_u_253_11_dust_1,
+    218 dust_u_512_11_dust_1,
+    219 dust_u_64_11_dust_1,
+    220 ear_0ascertainment,
+    221 ear_1,
+    222 ear_19,
+    223 ear_u_512_43_ear_1,
+    224 ear_u_52_43_ear_1,
+    225 earth_soil_0ascertainment,
+    226 earth_soil_10,
+    227 earth_soil_11,
+    228 earth_soil_32,
+    229 earth_soil_35,
+    230 earth_soil_u_118_119_earthsoil_1,
+    231 egg_0ascertainment,
+    232 egg_1,
+    233 egg_30,
+    234 egg_36,
+    235 egg_5,
+    236 egg_6,
+    237 egg_7,
+    238 egg_9,
+    239 egg_94,
+    240 egg_u_116_98_egg_1,
+    241 egg_u_243_98_egg_1,
+    242 egg_u_375_98_egg_1,
+    243 eight_0ascertainment,
+    244 eight_3,
+    245 eye_0ascertainment,
+    246 eye_1,
+    247 eye_4,
+    248 far_0ascertainment,
+    249 far_13,
+    250 far_14,
+    251 far_4,
+    252 far_43,
+    253 far_u_1030_180_far_1,
+    254 far_u_1055_180_far_1,
+    255 far_u_116_180_far_1,
+    256 far_u_1628_180_far_1,
+    257 far_u_217_180_far_1,
+    258 far_u_264_180_far_1,
+    259 far_u_675_180_far_1,
+    260 far_u_763_180_far_1,
+    261 far_u_85_180_far_1,
+    262 fat_grease_0ascertainment,
+    263 fat_grease_1,
+    264 fat_grease_12,
+    265 fat_grease_13,
+    266 fat_grease_14,
+    267 fat_grease_44,
+    268 fat_grease_75,
+    269 fat_grease_u_1004_104_fatgrease_1,
+    270 fat_grease_u_1163_104_fatgrease_1,
+    271 fat_grease_u_116_104_fatgrease_1,
+    272 fat_grease_u_1214_104_fatgrease_1,
+    273 father_0ascertainment,
+    274 father_1,
+    275 father_19,
+    276 father_31,
+    277 father_9,
+    278 father_u_116_60_father_1,
+    279 father_u_1214_60_father_1,
+    280 father_u_512_60_father_2,
+    281 feather_0ascertainment,
+    282 feather_1,
+    283 feather_5,
+    284 feather_50,
+    285 feather_79,
+    286 feather_80,
+    287 feather_u_116_99_feather_1,
+    288 feather_u_653_99_feather_1,
+    289 feather_u_676_99_feather_1,
+    290 fire_0ascertainment,
+    291 fire_1,
+    292 fire_17,
+    293 fire_u_1214_143_fire_1,
+    294 fire_u_1627_143_fire_1,
+    295 fire_u_375_143_fire_1,
+    296 fire_u_512_143_fire_1,
+    297 fish_0ascertainment,
+    298 fish_1,
+    299 fish_32,
+    300 fish_u_246_111_fish_1,
+    301 five_0ascertainment,
+    302 five_1,
+    303 five_9,
+    304 flower_0ascertainment,
+    305 flower_1,
+    306 flower_18,
+    307 flower_37,
+    308 flower_38,
+    309 flower_7,
+    310 flower_72,
+    311 flower_8,
+    312 flower_9,
+    313 flower_u_116_116_flower_1,
+    314 flower_u_1212_116_flower_1,
+    315 flower_u_136_116_flower_1,
+    316 flower_u_1654_116_flower_1,
+    317 flower_u_753_116_flower_1,
+    318 fog_0ascertainment,
+    319 fog_1,
+    320 fog_10,
+    321 fog_22,
+    322 fog_36,
+    323 fog_47,
+    324 fog_88,
+    325 fog_u_128_132_fog_1,
+    326 fog_u_653_132_fog_1,
+    327 four_0ascertainment,
+    328 four_1,
+    329 fruit_0ascertainment,
+    330 fruit_1,
+    331 fruit_u_128_117_fruit_1,
+    332 fruit_u_264_117_fruit_2,
+    333 good_0ascertainment,
+    334 good_125,
+    335 good_14,
+    336 good_15,
+    337 good_16,
+    338 good_17,
+    339 good_21,
+    340 good_58,
+    341 good_62,
+    342 good_76,
+    343 good_92,
+    344 good_u_163_164_good_1,
+    345 good_u_375_164_good_1,
+    346 grass_0ascertainment,
+    347 grass_1,
+    348 grass_102,
+    349 grass_13,
+    350 grass_30,
+    351 grass_58,
+    352 grass_68,
+    353 grass_u_152_118_grass_1,
+    354 grass_u_1654_118_grass_1,
+    355 grass_u_253_118_grass_1,
+    356 grass_u_375_118_grass_1,
+    357 grass_u_676_118_grass_1,
+    358 green_0ascertainment,
+    359 green_1,
+    360 green_12,
+    361 green_13,
+    362 green_61,
+    363 green_86,
+    364 green_87,
+    365 green_88,
+    366 green_9,
+    367 green_u_116_151_green_1,
+    368 green_u_1212_151_green_1,
+    369 green_u_152_151_green_2,
+    370 green_u_38_151_green_2,
+    371 green_u_52_151_green_1,
+    372 green_u_675_151_green_1,
+    373 green_u_763_151_green_1,
+    374 green_u_85_151_green_1,
+    375 hair_0ascertainment,
+    376 hair_29,
+    377 hair_31,
+    378 hair_36,
+    379 hair_40,
+    380 hair_u_116_26_hair_1,
+    381 hair_u_85_26_hair_1,
+    382 hand_0ascertainment,
+    383 hand_1,
+    384 hand_u_116_1_hand_2,
+    385 he_she_0ascertainment,
+    386 he_she_1,
+    387 he_she_5,
+    388 head_0ascertainment,
+    389 head_1,
+    390 head_10,
+    391 head_14,
+    392 head_u_1055_24_head_1,
+    393 head_u_1163_24_head_1,
+    394 head_u_116_24_head_1,
+    395 heavy_0ascertainment,
+    396 heavy_37,
+    397 heavy_38,
+    398 heavy_46,
+    399 heavy_66,
+    400 heavy_u_152_142_heavy_2,
+    401 heavy_u_246_142_heavy_1,
+    402 house_0ascertainment,
+    403 house_14,
+    404 house_6,
+    405 house_u_116_61_house_1,
+    406 house_u_512_61_house_1,
+    407 how_0ascertainment,
+    408 how_11,
+    409 how_35,
+    410 how_u_1004_194_how_1,
+    411 how_u_116_194_how_1,
+    412 husband_0ascertainment,
+    413 husband_13,
+    414 husband_14,
+    415 husband_23,
+    416 husband_36,
+    417 husband_77,
+    418 husband_u_11_57_husband_1,
+    419 husband_u_136_57_husband_1,
+    420 husband_u_1627_57_husband_1,
+    421 husband_u_264_57_husband_1,
+    422 husband_u_512_57_husband_1,
+    423 i_0ascertainment,
+    424 i_1,
+    425 if_0ascertainment,
+    426 if_1,
+    427 if_18,
+    428 if_28,
+    429 if_5,
+    430 if_6,
+    431 if_u_1055_193_if_1,
+    432 if_u_1163_193_if_1,
+    433 if_u_128_193_if_5,
+    434 if_u_375_193_if_1,
+    435 if_u_52_193_if_1,
+    436 if_u_589_193_if_1,
+    437 ininside_0ascertainment,
+    438 ininside_1,
+    439 ininside_26,
+    440 ininside_5,
+    441 ininside_u_116_174_ininside_2,
+    442 ininside_u_512_174_ininside_1,
+    443 intestines_0ascertainment,
+    444 intestines_1,
+    445 intestines_11,
+    446 intestines_12,
+    447 intestines_31,
+    448 intestines_35,
+    449 intestines_u_1004_16_intestines_1,
+    450 intestines_u_239_16_intestines_1,
+    451 intestines_u_253_16_intestines_1,
+    452 intestines_u_512_16_intestines_1,
+    453 intestines_u_763_16_intestines_1,
+    454 lake_0ascertainment,
+    455 lake_1,
+    456 lake_6,
+    457 lake_7,
+    458 lake_u_1055_126_lake_1,
+    459 lake_u_1163_126_lake_1,
+    460 lake_u_753_126_lake_1,
+    461 lake_u_763_126_lake_2,
+    462 leaf_0ascertainment,
+    463 leaf_1,
+    464 leaf_u_1214_114_leaf_1,
+    465 left_0ascertainment,
+    466 left_1,
+    467 left_11,
+    468 left_31,
+    469 left_u_238_2_left_1,
+    470 left_u_38_2_left_2,
+    471 left_u_654_2_left_1,
+    472 leg_foot_0ascertainment,
+    473 leg_foot_100,
+    474 leg_foot_30,
+    475 lightning_0ascertainment,
+    476 lightning_2,
+    477 lightning_35,
+    478 lightning_36,
+    479 lightning_9,
+    480 lightning_u_1004_135_lightning_1,
+    481 lightning_u_116_135_lightning_1,
+    482 lightning_u_1214_135_lightning_1,
+    483 lightning_u_156_135_lightning_1,
+    484 lightning_u_512_135_lightning_1,
+    485 liver_0ascertainment,
+    486 liver_1,
+    487 liver_6,
+    488 liver_u_653_17_liver_1,
+    489 long_0ascertainment,
+    490 long_105,
+    491 long_16,
+    492 long_63,
+    493 long_72,
+    494 long_73,
+    495 long_u_1030_155_long_1,
+    496 louse_0ascertainment,
+    497 louse_1,
+    498 louse_3,
+    499 louse_u_653_108_louse_1,
+    500 man_male_0ascertainment,
+    501 man_male_1,
+    502 man_male_10,
+    503 man_male_14,
+    504 man_male_u_116_54_manmale_1,
+    505 man_male_u_653_54_manmale_1,
+    506 man_male_u_654_54_manmale_1,
+    507 meat_flesh_0ascertainment,
+    508 meat_flesh_10,
+    509 meat_flesh_14,
+    510 meat_flesh_18,
+    511 meat_flesh_u_1055_103_meatflesh_1,
+    512 meat_flesh_u_1163_103_meatflesh_1,
+    513 meat_flesh_u_1627_103_meatflesh_1,
+    514 meat_flesh_u_258_103_meatflesh_1,
+    515 meat_flesh_u_512_103_meatflesh_1,
+    516 meat_flesh_u_653_103_meatflesh_1,
+    517 meat_flesh_u_763_103_meatflesh_1,
+    518 moon_0ascertainment,
+    519 moon_1,
+    520 moon_3,
+    521 moon_37,
+    522 moon_6,
+    523 moon_7,
+    524 moon_u_375_129_moon_1,
+    525 moon_u_654_129_moon_1,
+    526 mosquito_0ascertainment,
+    527 mosquito_1,
+    528 mosquito_54,
+    529 mosquito_u_239_109_mosquito_1,
+    530 mother_0ascertainment,
+    531 mother_1,
+    532 mother_15,
+    533 mother_4,
+    534 mother_6,
+    535 mother_7,
+    536 mother_u_1055_59_mother_1,
+    537 mother_u_1163_59_mother_1,
+    538 mother_u_116_59_mother_1,
+    539 mother_u_1214_59_mother_1,
+    540 mother_u_375_59_mother_1,
+    541 mouth_0ascertainment,
+    542 mouth_1,
+    543 mouth_2,
+    544 mouth_49,
+    545 mouth_u_1627_30_mouth_1,
+    546 name_0ascertainment,
+    547 name_1,
+    548 name_6,
+    549 name_u_243_63_name_1,
+    550 narrow_0ascertainment,
+    551 narrow_1,
+    552 narrow_10,
+    553 narrow_11,
+    554 narrow_12,
+    555 narrow_15,
+    556 narrow_26,
+    557 narrow_27,
+    558 narrow_48,
+    559 narrow_84,
+    560 narrow_89,
+    561 narrow_90,
+    562 narrow_u_1055_158_narrow_1,
+    563 narrow_u_1163_158_narrow_1,
+    564 narrow_u_116_158_narrow_1,
+    565 narrow_u_118_158_narrow_1,
+    566 narrow_u_136_158_narrow_1,
+    567 narrow_u_1628_158_narrow_1,
+    568 narrow_u_206_158_narrow_1,
+    569 narrow_u_217_158_narrow_1,
+    570 narrow_u_235_158_narrow_1,
+    571 narrow_u_247_158_narrow_2,
+    572 narrow_u_258_158_narrow_1,
+    573 narrow_u_64_158_narrow_1,
+    574 narrow_u_654_158_narrow_1,
+    575 narrow_u_675_158_narrow_2,
+    576 near_0ascertainment,
+    577 near_30,
+    578 near_31,
+    579 near_38,
+    580 near_43,
+    581 near_45,
+    582 near_9,
+    583 near_u_1030_179_near_1,
+    584 near_u_116_179_near_1,
+    585 near_u_1214_179_near_1,
+    586 near_u_1626_179_near_1,
+    587 near_u_217_179_near_1,
+    588 near_u_264_179_near_2,
+    589 near_u_52_179_near_1,
+    590 neck_0ascertainment,
+    591 neck_132,
+    592 neck_18,
+    593 neck_20,
+    594 neck_46,
+    595 neck_u_1163_25_neck_1,
+    596 neck_u_1212_25_neck_1,
+    597 needle_0ascertainment,
+    598 needle_1,
+    599 needle_21,
+    600 needle_30,
+    601 needle_66,
+    602 needle_9,
+    603 needle_u_664_68_needle_2,
+    604 new_0ascertainment,
+    605 new_1,
+    606 new_7,
+    607 night_0ascertainment,
+    608 night_1,
+    609 night_10,
+    610 night_70,
+    611 nine_0ascertainment,
+    612 nine_5,
+    613 nonot_0ascertainment,
+    614 nonot_10,
+    615 nonot_11,
+    616 nonot_111,
+    617 nonot_12,
+    618 nonot_13,
+    619 nonot_42,
+    620 nonot_u_1004_195_nonot_1,
+    621 nonot_u_116_195_nonot_3,
+    622 nonot_u_1627_195_nonot_1,
+    623 nonot_u_1636_195_nonot_1,
+    624 nonot_u_253_195_nonot_1,
+    625 nose_0ascertainment,
+    626 nose_1,
+    627 old_0ascertainment,
+    628 old_1,
+    629 old_10,
+    630 old_11,
+    631 old_44,
+    632 old_48,
+    633 old_53,
+    634 old_9,
+    635 old_u_1214_162_old_1,
+    636 old_u_156_162_old_1,
+    637 old_u_653_162_old_1,
+    638 old_u_85_162_old_1,
+    639 one_0ascertainment,
+    640 one_14,
+    641 one_15,
+    642 one_18,
+    643 one_41,
+    644 one_u_512_197_one_1,
+    645 onehundred_0ascertainment,
+    646 onehundred_2,
+    647 onehundred_u_1628_209_onehundred_1,
+    648 onehundred_u_375_209_onehundred_1,
+    649 onethousand_0ascertainment,
+    650 onethousand_12,
+    651 onethousand_2,
+    652 onethousand_3,
+    653 onethousand_u_1212_210_onethousand_1,
+    654 onethousand_u_1626_210_onethousand_1,
+    655 onethousand_u_238_210_onethousand_1,
+    656 onethousand_u_375_210_onethousand_1,
+    657 onethousand_u_675_210_onethousand_1,
+    658 painfulsick_0ascertainment,
+    659 painfulsick_1,
+    660 painfulsick_10,
+    661 painfulsick_13,
+    662 painfulsick_u_116_160_painfulsick_1,
+    663 painfulsick_u_11_160_painfulsick_1,
+    664 painfulsick_u_512_160_painfulsick_1,
+    665 painfulsick_u_753_160_painfulsick_1,
+    666 painfulsick_u_763_160_painfulsick_2,
+    667 person_humanbeing_0ascertainment,
+    668 person_humanbeing_1,
+    669 person_humanbeing_4,
+    670 person_humanbeing_u_163_53_personhumanbeing_1,
+    671 person_humanbeing_u_512_53_personhumanbeing_1,
+    672 person_humanbeing_u_559_53_personhumanbeing_1,
+    673 person_humanbeing_u_763_53_personhumanbeing_1,
+    674 rain_0ascertainment,
+    675 rain_1,
+    676 rain_12,
+    677 rain_u_1214_133_rain_1,
+    678 rain_u_1627_133_rain_1,
+    679 rain_u_512_133_rain_1,
+    680 rat_0ascertainment,
+    681 rat_1,
+    682 rat_12,
+    683 rat_13,
+    684 rat_14,
+    685 rat_3,
+    686 rat_u_116_102_rat_1,
+    687 rat_u_375_102_rat_1,
+    688 red_0ascertainment,
+    689 red_1,
+    690 red_13,
+    691 red_14,
+    692 red_36,
+    693 red_43,
+    694 red_51,
+    695 red_u_512_149_red_1,
+    696 right_0ascertainment,
+    697 right_32,
+    698 right_33,
+    699 right_5,
+    700 right_7,
+    701 right_u_238_3_right_1,
+    702 right_u_239_3_right_1,
+    703 road_path_0ascertainment,
+    704 road_path_1,
+    705 road_path_22,
+    706 road_path_52,
+    707 road_path_u_1004_6_roadpath_1,
+    708 road_path_u_1212_6_roadpath_1,
+    709 road_path_u_156_6_roadpath_1,
+    710 road_path_u_1627_6_roadpath_1,
+    711 road_path_u_64_6_roadpath_1,
+    712 road_path_u_763_6_roadpath_1,
+    713 root_0ascertainment,
+    714 root_2,
+    715 root_u_1214_115_root_1,
+    716 root_u_253_115_root_1,
+    717 root_u_676_115_root_2,
+    718 root_u_763_115_root_1,
+    719 rope_0ascertainment,
+    720 rope_1,
+    721 rope_10,
+    722 rope_64,
+    723 rope_73,
+    724 rope_74,
+    725 rope_9,
+    726 rope_92,
+    727 rope_u_116_65_rope_1,
+    728 rotten_0ascertainment,
+    729 rotten_117,
+    730 rotten_13,
+    731 rotten_14,
+    732 rotten_15,
+    733 rotten_16,
+    734 rotten_85,
+    735 rotten_86,
+    736 rotten_9,
+    737 rotten_u_1055_112_rotten_1,
+    738 rotten_u_1213_112_rotten_1,
+    739 rotten_u_1214_112_rotten_1,
+    740 rotten_u_654_112_rotten_1,
+    741 salt_0ascertainment,
+    742 salt_20,
+    743 salt_3,
+    744 salt_47,
+    745 salt_7,
+    746 salt_u_1004_125_salt_1,
+    747 salt_u_1163_125_salt_1,
+    748 salt_u_163_125_salt_1,
+    749 salt_u_653_125_salt_1,
+    750 salt_u_763_125_salt_1,
+    751 sand_0ascertainment,
+    752 sand_1,
+    753 sand_30,
+    754 sand_41,
+    755 sand_u_116_121_sand_1,
+    756 sand_u_512_121_sand_1,
+    757 sea_0ascertainment,
+    758 sea_1,
+    759 sea_10,
+    760 sea_12,
+    761 sea_u_1627_124_sea_1,
+    762 seven_0ascertainment,
+    763 seven_1,
+    764 sharp_0ascertainment,
+    765 sharp_14,
+    766 sharp_2,
+    767 sharp_36,
+    768 sharp_83,
+    769 sharp_u_152_81_sharp_2,
+    770 sharp_u_659_81_sharp_1,
+    771 short_0ascertainment,
+    772 short_10,
+    773 short_3,
+    774 short_42,
+    775 short_62,
+    776 short_8,
+    777 short_9,
+    778 shoulder_0ascertainment,
+    779 shoulder_10,
+    780 shoulder_22,
+    781 shoulder_78,
+    782 shoulder_79,
+    783 shoulder_8,
+    784 shoulder_97,
+    785 shoulder_u_118_19_shoulder_1,
+    786 shoulder_u_11_19_shoulder_1,
+    787 shoulder_u_1212_19_shoulder_1,
+    788 shoulder_u_1628_19_shoulder_1,
+    789 shoulder_u_247_19_shoulder_2,
+    790 shyashamed_0ascertainment,
+    791 shyashamed_1,
+    792 shyashamed_3,
+    793 shyashamed_31,
+    794 shyashamed_4,
+    795 shyashamed_48,
+    796 shyashamed_u_38_161_shyashamed_1,
+    797 shyashamed_u_64_161_shyashamed_2,
+    798 six_0ascertainment,
+    799 six_1,
+    800 six_25,
+    801 skin_0ascertainment,
+    802 skin_1,
+    803 skin_u_512_12_skin_1,
+    804 sky_0ascertainment,
+    805 sky_1,
+    806 sky_u_1212_128_sky_1,
+    807 small_0ascertainment,
+    808 small_1,
+    809 small_10,
+    810 small_12,
+    811 small_13,
+    812 small_141,
+    813 small_32,
+    814 small_35,
+    815 small_37,
+    816 small_66,
+    817 small_u_1214_152_small_1,
+    818 small_u_1628_152_small_1,
+    819 small_u_1654_152_small_1,
+    820 small_u_512_152_small_1,
+    821 smoke_0ascertainment,
+    822 smoke_13,
+    823 smoke_2,
+    824 smoke_57,
+    825 smoke_63,
+    826 smoke_u_1654_145_smoke_1,
+    827 snake_0ascertainment,
+    828 snake_12,
+    829 snake_u_1004_106_snake_1,
+    830 snake_u_116_106_snake_1,
+    831 snake_u_1626_106_snake_1,
+    832 snake_u_259_106_snake_1,
+    833 snake_u_38_106_snake_1,
+    834 spider_0ascertainment,
+    835 spider_1,
+    836 spider_5,
+    837 spider_58,
+    838 spider_u_116_110_spider_3,
+    839 spider_u_1214_110_spider_1,
+    840 spider_u_128_110_spider_1,
+    841 spider_u_136_110_spider_1,
+    842 spider_u_1626_110_spider_1,
+    843 spider_u_1628_110_spider_1,
+    844 spider_u_163_110_spider_1,
+    845 spider_u_247_110_spider_1,
+    846 spider_u_52_110_spider_1,
+    847 spider_u_559_110_spider_1,
+    848 spider_u_675_110_spider_1,
+    849 spider_u_676_110_spider_1,
+    850 star_0ascertainment,
+    851 star_1,
+    852 star_13,
+    853 star_18,
+    854 star_28,
+    855 star_32,
+    856 star_u_653_130_star_1,
+    857 stick_wood_0ascertainment,
+    858 stick_wood_1,
+    859 stick_wood_26,
+    860 stick_wood_u_1055_79_stickwood_1,
+    861 stick_wood_u_264_79_stickwood_1,
+    862 stick_wood_u_589_79_stickwood_1,
+    863 stone_0ascertainment,
+    864 stone_1,
+    865 stone_38,
+    866 stone_39,
+    867 stone_4,
+    868 tail_0ascertainment,
+    869 tail_1,
+    870 tail_10,
+    871 tail_11,
+    872 tail_13,
+    873 tail_38,
+    874 tail_u_116_105_tail_1,
+    875 tail_u_1214_105_tail_1,
+    876 tail_u_375_105_tail_1,
+    877 tail_u_512_105_tail_1,
+    878 ten_0ascertainment,
+    879 ten_10,
+    880 ten_11,
+    881 ten_30,
+    882 ten_31,
+    883 ten_5,
+    884 ten_u_243_206_ten_1,
+    885 ten_u_512_206_ten_1,
+    886 that_0ascertainment,
+    887 that_1,
+    888 that_65,
+    889 that_u_258_178_that_1,
+    890 that_u_512_178_that_1,
+    891 thatch_roof_0ascertainment,
+    892 thatch_roof_1,
+    893 thatch_roof_10,
+    894 thatch_roof_11,
+    895 thatch_roof_23,
+    896 thatch_roof_50,
+    897 thatch_roof_55,
+    898 thatch_roof_77,
+    899 thatch_roof_u_11_62_thatchroof_1,
+    900 thatch_roof_u_1213_62_thatchroof_1,
+    901 thatch_roof_u_1214_62_thatchroof_1,
+    902 thatch_roof_u_375_62_thatchroof_1,
+    903 thatch_roof_u_512_62_thatchroof_1,
+    904 they_0ascertainment,
+    905 they_1,
+    906 they_u_1004_187_they_1,
+    907 they_u_116_187_they_1,
+    908 they_u_217_187_they_1,
+    909 they_u_512_187_they_1,
+    910 thick_0ascertainment,
+    911 thick_10,
+    912 thick_3,
+    913 thick_36,
+    914 thick_39,
+    915 thick_u_1055_157_thick_1,
+    916 thick_u_1214_157_thick_1,
+    917 thick_u_1628_157_thick_1,
+    918 thick_u_375_157_thick_1,
+    919 thick_u_512_157_thick_1,
+    920 thick_u_654_157_thick_1,
+    921 thin_0ascertainment,
+    922 thin_1,
+    923 thin_13,
+    924 thin_18,
+    925 thin_34,
+    926 thin_5,
+    927 thin_6,
+    928 thin_u_1055_156_thin_1,
+    929 thin_u_1214_156_thin_1,
+    930 thin_u_239_156_thin_1,
+    931 thin_u_247_156_thin_1,
+    932 thin_u_654_156_thin_1,
+    933 this_0ascertainment,
+    934 this_1,
+    935 this_17,
+    936 this_7,
+    937 this_u_116_177_this_1,
+    938 this_u_206_177_this_1,
+    939 this_u_512_177_this_1,
+    940 this_u_676_177_this_2,
+    941 thou_0ascertainment,
+    942 thou_1,
+    943 thou_5,
+    944 thou_u_116_183_thou_1,
+    945 thou_u_512_183_thou_1,
+    946 three_0ascertainment,
+    947 three_1,
+    948 thunder_0ascertainment,
+    949 thunder_106,
+    950 thunder_14,
+    951 thunder_2,
+    952 thunder_37,
+    953 thunder_u_1214_134_thunder_1,
+    954 thunder_u_247_134_thunder_2,
+    955 tobite_0ascertainment,
+    956 tobite_1,
+    957 tobite_14,
+    958 tobite_7,
+    959 tobite_8,
+    960 tobite_83,
+    961 tobite_9,
+    962 tobite_u_512_41_tobite_1,
+    963 toblow_0ascertainment,
+    964 toblow_11,
+    965 toblow_12,
+    966 toblow_36,
+    967 toblow_4,
+    968 toblow_5,
+    969 toblow_6,
+    970 toblow_7,
+    971 toblow_8,
+    972 toblow_9,
+    973 tobreathe_0ascertainment,
+    974 tobreathe_1,
+    975 tobreathe_10,
+    976 tobreathe_11,
+    977 tobreathe_13,
+    978 tobreathe_14,
+    979 tobreathe_40,
+    980 tobreathe_80,
+    981 tobreathe_9,
+    982 tobreathe_u_1004_28_tobreathe_1,
+    983 tobreathe_u_116_28_tobreathe_1,
+    984 tobreathe_u_85_28_tobreathe_1,
+    985 toburn_0ascertainment,
+    986 toburn_1,
+    987 toburn_106,
+    988 toburn_107,
+    989 toburn_3,
+    990 toburn_62,
+    991 toburn_63,
+    992 toburn_8,
+    993 toburn_u_11_144_toburn_1,
+    994 toburn_u_512_144_toburn_1,
+    995 tobuy_0ascertainment,
+    996 tobuy_1,
+    997 tobuy_10,
+    998 tobuy_43,
+    999 tobuy_7,
+    1000 tobuy_8,
+    1001 tobuy_9,
+    1002 tobuy_u_52_91_tobuy_1,
+    1003 tochew_0ascertainment,
+    1004 tochew_1,
+    1005 tochew_7,
+    1006 tochew_76,
+    1007 tochew_8,
+    1008 tochew_9,
+    1009 tochew_u_1654_38_tochew_1,
+    1010 tochew_u_238_38_tochew_1,
+    1011 tochew_u_512_38_tochew_1,
+    1012 tochew_u_675_38_tochew_1,
+    1013 tochew_u_85_38_tochew_1,
+    1014 tochoose_0ascertainment,
+    1015 tochoose_1,
+    1016 tochoose_10,
+    1017 tochoose_41,
+    1018 tochoose_6,
+    1019 tochoose_u_1212_85_tochoose_1,
+    1020 tochoose_u_1213_85_tochoose_1,
+    1021 tochoose_u_156_85_tochoose_1,
+    1022 tochoose_u_246_85_tochoose_1,
+    1023 toclimb_0ascertainment,
+    1024 toclimb_2,
+    1025 toclimb_32,
+    1026 toclimb_6,
+    1027 toclimb_u_116_172_toclimb_3,
+    1028 toclimb_u_1654_172_toclimb_1,
+    1029 tocome_0ascertainment,
+    1030 tocome_1,
+    1031 tocome_42,
+    1032 tocome_44,
+    1033 tocome_u_116_7_tocome_1,
+    1034 tocome_u_217_7_tocome_1,
+    1035 tocome_u_264_7_tocome_2,
+    1036 tocome_u_58_7_tocome_1,
+    1037 tocook_0ascertainment,
+    1038 tocook_10,
+    1039 tocook_2,
+    1040 tocook_51,
+    1041 tocook_9,
+    1042 tocook_L,
+    1043 tocook_u_1004_39_tocook_1,
+    1044 tocook_u_512_39_tocook_1,
+    1045 tocook_u_52_39_tocook_1,
+    1046 tocount_0ascertainment,
+    1047 tocount_34,
+    1048 tocount_43,
+    1049 tocount_62,
+    1050 tocount_63,
+    1051 tocount_8,
+    1052 tocount_9,
+    1053 tocount_u_116_196_tocount_1,
+    1054 tocount_u_11_196_tocount_1,
+    1055 tocount_u_52_196_tocount_1,
+    1056 tocry_0ascertainment,
+    1057 tocry_1,
+    1058 tocry_38,
+    1059 tocry_58,
+    1060 tocry_72,
+    1061 tocry_u_116_34_tocry_1,
+    1062 tocry_u_1654_34_tocry_1,
+    1063 tocry_u_239_34_tocry_1,
+    1064 todiebedead_0ascertainment,
+    1065 todiebedead_1,
+    1066 todiebedead_3,
+    1067 todiebedead_41,
+    1068 todiebedead_u_116_75_todiebedead_1,
+    1069 todiebedead_u_763_75_todiebedead_1,
+    1070 todig_0ascertainment,
+    1071 todig_1,
+    1072 todig_17,
+    1073 todig_6,
+    1074 todig_u_116_90_todig_1,
+    1075 todream_0ascertainment,
+    1076 todream_16,
+    1077 todream_36,
+    1078 todream_46,
+    1079 todream_7,
+    1080 todrink_0ascertainment,
+    1081 todrink_1,
+    1082 todrink_u_512_40_todrink_1,
+    1083 toeat_0ascertainment,
+    1084 toeat_1,
+    1085 toeat_u_1654_37_toeat_1,
+    1086 tofall_0ascertainment,
+    1087 tofall_10,
+    1088 tofall_11,
+    1089 tofall_12,
+    1090 tofall_124,
+    1091 tofall_14,
+    1092 tofall_44,
+    1093 tofall_58,
+    1094 tofall_59,
+    1095 tofall_86,
+    1096 tofall_88,
+    1097 tofall_89,
+    1098 tofall_u_1212_95_tofall_1,
+    1099 tofall_u_156_95_tofall_1,
+    1100 tofall_u_52_95_tofall_1,
+    1101 tofear_0ascertainment,
+    1102 tofear_1,
+    1103 tofear_8,
+    1104 tofear_9,
+    1105 tofear_92,
+    1106 tofear_93,
+    1107 tofear_u_653_22_tofear_1,
+    1108 toflow_0ascertainment,
+    1109 toflow_10,
+    1110 toflow_16,
+    1111 toflow_24,
+    1112 toflow_32,
+    1113 toflow_33,
+    1114 toflow_36,
+    1115 toflow_u_116_123_toflow_1,
+    1116 toflow_u_155_123_toflow_1,
+    1117 toflow_u_559_123_toflow_1,
+    1118 tofly_0ascertainment,
+    1119 tofly_11,
+    1120 tofly_12,
+    1121 tofly_45,
+    1122 tofly_68,
+    1123 tofly_u_136_101_tofly_1,
+    1124 tofly_u_38_101_tofly_1,
+    1125 togrow_0ascertainment,
+    1126 togrow_1,
+    1127 togrow_7,
+    1128 togrow_u_1214_86_togrow_1,
+    1129 tohear_0ascertainment,
+    1130 tohear_1,
+    1131 tohear_u_116_44_tohear_1,
+    1132 tohide_0ascertainment,
+    1133 tohide_1,
+    1134 tohide_17,
+    1135 tohide_u_116_171_tohide_1,
+    1136 tohide_u_136_171_tohide_1,
+    1137 tohide_u_1628_171_tohide_1,
+    1138 tohide_u_163_171_tohide_1,
+    1139 tohide_u_235_171_tohide_1,
+    1140 tohide_u_264_171_tohide_1,
+    1141 tohide_u_512_171_tohide_1,
+    1142 tohit_0ascertainment,
+    1143 tohit_10,
+    1144 tohit_12,
+    1145 tohit_13,
+    1146 tohit_44,
+    1147 tohit_6,
+    1148 tohit_7,
+    1149 tohit_8,
+    1150 tohit_9,
+    1151 tohit_u_116_72_tohit_1,
+    1152 tohit_u_11_72_tohit_2,
+    1153 tohit_u_1212_72_tohit_1,
+    1154 tohit_u_512_72_tohit_1,
+    1155 tohold_0ascertainment,
+    1156 tohold_1,
+    1157 tohold_11,
+    1158 tohold_12,
+    1159 tohold_120,
+    1160 tohold_13,
+    1161 tohold_14,
+    1162 tohold_15,
+    1163 tohold_17,
+    1164 tohold_35,
+    1165 tohold_54,
+    1166 tohold_56,
+    1167 tohold_u_1004_89_tohold_1,
+    1168 tohold_u_244_89_tohold_1,
+    1169 tohold_u_512_89_tohold_1,
+    1170 tohold_u_52_89_tohold_2,
+    1171 tohold_u_654_89_tohold_1,
+    1172 tohold_u_763_89_tohold_1,
+    1173 tohold_u_85_89_tohold_1,
+    1174 tohunt_0ascertainment,
+    1175 tohunt_14,
+    1176 tohunt_28,
+    1177 tohunt_53,
+    1178 tohunt_6,
+    1179 tohunt_7,
+    1180 tohunt_8,
+    1181 tohunt_88,
+    1182 tohunt_u_1004_69_tohunt_1,
+    1183 tohunt_u_1030_69_tohunt_1,
+    1184 tohunt_u_1055_69_tohunt_1,
+    1185 tohunt_u_116_69_tohunt_1,
+    1186 tohunt_u_1212_69_tohunt_4,
+    1187 tohunt_u_152_69_tohunt_3,
+    1188 tohunt_u_156_69_tohunt_1,
+    1189 tohunt_u_1626_69_tohunt_2,
+    1190 tohunt_u_1628_69_tohunt_1,
+    1191 tohunt_u_238_69_tohunt_1,
+    1192 tohunt_u_264_69_tohunt_1,
+    1193 tohunt_u_38_69_tohunt_2,
+    1194 tohunt_u_512_69_tohunt_1,
+    1195 tohunt_u_589_69_tohunt_1,
+    1196 tohunt_u_58_69_tohunt_2,
+    1197 tokill_0ascertainment,
+    1198 tokill_10,
+    1199 tokill_2,
+    1200 tokill_28,
+    1201 tokill_43,
+    1202 tokill_8,
+    1203 tokill_82,
+    1204 tokill_9,
+    1205 tokill_u_116_74_tokill_1,
+    1206 tokill_u_1214_74_tokill_1,
+    1207 tokill_u_217_74_tokill_1,
+    1208 tokill_u_664_74_tokill_2,
+    1209 toknowbeknowledgeable_0ascertainment,
+    1210 toknowbeknowledgeable_1,
+    1211 toknowbeknowledgeable_12,
+    1212 toknowbeknowledgeable_122,
+    1213 toknowbeknowledgeable_13,
+    1214 toknowbeknowledgeable_14,
+    1215 toknowbeknowledgeable_15,
+    1216 toknowbeknowledgeable_16,
+    1217 toknowbeknowledgeable_17,
+    1218 toknowbeknowledgeable_18,
+    1219 toknowbeknowledgeable_52,
+    1220 toknowbeknowledgeable_95,
+    1221 toknowbeknowledgeable_u_1004_20_toknowbeknowledgeable_1,
+    1222 toknowbeknowledgeable_u_116_20_toknowbeknowledgeable_1,
+    1223 toknowbeknowledgeable_u_38_20_toknowbeknowledgeable_1,
+    1224 toknowbeknowledgeable_u_559_20_toknowbeknowledgeable_1,
+    1225 toknowbeknowledgeable_u_653_20_toknowbeknowledgeable_1,
+    1226 tolaugh_0ascertainment,
+    1227 tolaugh_3,
+    1228 tolaugh_50,
+    1229 tolaugh_7,
+    1230 tolaugh_u_1212_33_tolaugh_1,
+    1231 toliedown_0ascertainment,
+    1232 toliedown_21,
+    1233 toliedown_40,
+    1234 toliedown_6,
+    1235 toliedown_7,
+    1236 toliedown_81,
+    1237 toliedown_82,
+    1238 toliedown_u_1055_49_toliedown_1,
+    1239 toliedown_u_239_49_toliedown_1,
+    1240 toliedown_u_64_49_toliedown_1,
+    1241 tolivebealive_0ascertainment,
+    1242 tolivebealive_1,
+    1243 tolivebealive_28,
+    1244 tolivebealive_36,
+    1245 tolivebealive_6,
+    1246 tolivebealive_u_1654_76_tolivebealive_1,
+    1247 tongue_0ascertainment,
+    1248 tongue_15,
+    1249 tongue_7,
+    1250 tongue_u_1654_32_tongue_1,
+    1251 toopenuncover_0ascertainment,
+    1252 toopenuncover_1,
+    1253 toopenuncover_10,
+    1254 toopenuncover_35,
+    1255 toopenuncover_36,
+    1256 toopenuncover_42,
+    1257 toopenuncover_8,
+    1258 toopenuncover_81,
+    1259 toopenuncover_82,
+    1260 toopenuncover_9,
+    1261 toopenuncover_u_116_92_toopenuncover_1,
+    1262 toopenuncover_u_136_92_toopenuncover_1,
+    1263 toopenuncover_u_156_92_toopenuncover_1,
+    1264 toopenuncover_u_239_92_toopenuncover_1,
+    1265 toopenuncover_u_38_92_toopenuncover_2,
+    1266 toopenuncover_u_52_92_toopenuncover_2,
+    1267 toopenuncover_u_58_92_toopenuncover_3,
+    1268 toopenuncover_u_64_92_toopenuncover_1,
+    1269 tooth_0ascertainment,
+    1270 tooth_1,
+    1271 tooth_6,
+    1272 tooth_u_116_31_tooth_1,
+    1273 tooth_u_1654_31_tooth_1,
+    1274 toplant_0ascertainment,
+    1275 toplant_2,
+    1276 toplant_4,
+    1277 toplant_u_116_84_toplant_1,
+    1278 toplant_u_11_84_toplant_1,
+    1279 toplant_u_156_84_toplant_1,
+    1280 toplant_u_512_84_toplant_1,
+    1281 topoundbeat_0ascertainment,
+    1282 topoundbeat_2,
+    1283 topoundbeat_72,
+    1284 topoundbeat_u_1213_93_topoundbeat_1,
+    1285 topoundbeat_u_210_93_topoundbeat_1,
+    1286 tosay_0ascertainment,
+    1287 tosay_11,
+    1288 tosay_12,
+    1289 tosay_127,
+    1290 tosay_128,
+    1291 tosay_129,
+    1292 tosay_168,
+    1293 tosay_169,
+    1294 tosay_170,
+    1295 tosay_27,
+    1296 tosay_43,
+    1297 tosay_48,
+    1298 tosay_59,
+    1299 tosay_60,
+    1300 tosay_88,
+    1301 tosay_u_1030_64_tosay_1,
+    1302 tosay_u_152_64_tosay_1,
+    1303 tosay_u_210_64_tosay_1,
+    1304 tosay_u_217_64_tosay_1,
+    1305 toscratch_0ascertainment,
+    1306 toscratch_10,
+    1307 toscratch_12,
+    1308 toscratch_29,
+    1309 toscratch_31,
+    1310 toscratch_33,
+    1311 toscratch_44,
+    1312 toscratch_65,
+    1313 toscratch_9,
+    1314 toscratch_u_1163_77_toscratch_1,
+    1315 toscratch_u_116_77_toscratch_1,
+    1316 toscratch_u_1213_77_toscratch_1,
+    1317 toscratch_u_52_77_toscratch_1,
+    1318 tosee_0ascertainment,
+    1319 tosee_1,
+    1320 tosee_103,
+    1321 tosee_104,
+    1322 tosee_132,
+    1323 tosee_37,
+    1324 tosee_8,
+    1325 tosee_u_1004_46_tosee_1,
+    1326 tosee_u_116_46_tosee_1,
+    1327 tosee_u_1214_46_tosee_1,
+    1328 tosee_u_156_46_tosee_1,
+    1329 tosee_u_512_46_tosee_1,
+    1330 tosee_u_589_46_tosee_2,
+    1331 tosee_u_753_46_tosee_3,
+    1332 tosew_0ascertainment,
+    1333 tosew_13,
+    1334 tosew_14,
+    1335 tosew_17,
+    1336 tosew_31,
+    1337 tosew_u_253_67_tosew_1,
+    1338 tosew_u_52_67_tosew_1,
+    1339 tosew_u_559_67_tosew_1,
+    1340 toshoot_0ascertainment,
+    1341 toshoot_1,
+    1342 toshoot_17,
+    1343 toshoot_3,
+    1344 toshoot_u_210_70_toshoot_1,
+    1345 toshoot_u_64_70_toshoot_1,
+    1346 tosit_0ascertainment,
+    1347 tosit_1,
+    1348 tosit_16,
+    1349 tosit_17,
+    1350 tosit_62,
+    1351 tosit_84,
+    1352 tosit_u_116_51_tosit_1,
+    1353 tosleep_0ascertainment,
+    1354 tosleep_10,
+    1355 tosleep_63,
+    1356 tosleep_u_217_48_tosleep_1,
+    1357 tosniffsmell_0ascertainment,
+    1358 tosniffsmell_10,
+    1359 tosniffsmell_41,
+    1360 tosniffsmell_45,
+    1361 tosniffsmell_78,
+    1362 tosniffsmell_9,
+    1363 tosniffsmell_u_1030_29_tosniffsmell_1,
+    1364 tosniffsmell_u_1163_29_tosniffsmell_1,
+    1365 tosniffsmell_u_11_29_tosniffsmell_1,
+    1366 tosniffsmell_u_1212_29_tosniffsmell_2,
+    1367 tosniffsmell_u_206_29_tosniffsmell_1,
+    1368 tosniffsmell_u_512_29_tosniffsmell_1,
+    1369 tosniffsmell_u_654_29_tosniffsmell_1,
+    1370 tosniffsmell_u_675_29_tosniffsmell_1,
+    1371 tospit_0ascertainment,
+    1372 tospit_120,
+    1373 tospit_14,
+    1374 tospit_15,
+    1375 tospit_16,
+    1376 tospit_17,
+    1377 tospit_18,
+    1378 tospit_19,
+    1379 tospit_85,
+    1380 tospit_u_1628_36_tospit_1,
+    1381 tospit_u_235_36_tospit_1,
+    1382 tosplit_0ascertainment,
+    1383 tosplit_4,
+    1384 tosplit_5,
+    1385 tosplit_7,
+    1386 tosplit_u_11_80_tosplit_1,
+    1387 tosplit_u_1214_80_tosplit_1,
+    1388 tosplit_u_258_80_tosplit_1,
+    1389 tosplit_u_38_80_tosplit_1,
+    1390 tosplit_u_512_80_tosplit_1,
+    1391 tosplit_u_653_80_tosplit_1,
+    1392 tosqueeze_0ascertainment,
+    1393 tosqueeze_10,
+    1394 tosqueeze_11,
+    1395 tosqueeze_13,
+    1396 tosqueeze_14,
+    1397 tosqueeze_47,
+    1398 tosqueeze_8,
+    1399 tosqueeze_9,
+    1400 tosqueeze_u_1030_88_tosqueeze_1,
+    1401 tosqueeze_u_1055_88_tosqueeze_1,
+    1402 tosqueeze_u_1163_88_tosqueeze_1,
+    1403 tosqueeze_u_1636_88_tosqueeze_1,
+    1404 tosqueeze_u_217_88_tosqueeze_1,
+    1405 tosqueeze_u_246_88_tosqueeze_1,
+    1406 tosqueeze_u_512_88_tosqueeze_1,
+    1407 tosqueeze_u_52_88_tosqueeze_1,
+    1408 tosqueeze_u_653_88_tosqueeze_1,
+    1409 tosqueeze_u_654_88_tosqueeze_1,
+    1410 tostabpierce_0ascertainment,
+    1411 tostabpierce_1,
+    1412 tostabpierce_10,
+    1413 tostabpierce_100,
+    1414 tostabpierce_11,
+    1415 tostabpierce_15,
+    1416 tostabpierce_52,
+    1417 tostabpierce_67,
+    1418 tostabpierce_77,
+    1419 tostabpierce_9,
+    1420 tostabpierce_u_1004_71_tostabpierce_1,
+    1421 tostabpierce_u_1213_71_tostabpierce_1,
+    1422 tostabpierce_u_512_71_tostabpierce_1,
+    1423 tostabpierce_u_52_71_tostabpierce_1,
+    1424 tostabpierce_u_559_71_tostabpierce_1,
+    1425 tostand_0ascertainment,
+    1426 tostand_2,
+    1427 tostand_79,
+    1428 tostand_u_654_52_tostand_1,
+    1429 tosteal_0ascertainment,
+    1430 tosteal_1,
+    1431 tosteal_5,
+    1432 tosteal_6,
+    1433 tosteal_66,
+    1434 tosteal_7,
+    1435 tosteal_u_156_73_tosteal_1,
+    1436 tosteal_u_512_73_tosteal_1,
+    1437 tosteal_u_675_73_tosteal_1,
+    1438 tosuck_0ascertainment,
+    1439 tosuck_10,
+    1440 tosuck_12,
+    1441 tosuck_25,
+    1442 tosuck_7,
+    1443 tosuck_71,
+    1444 tosuck_8,
+    1445 tosuck_9,
+    1446 tosuck_u_116_42_tosuck_1,
+    1447 toswell_0ascertainment,
+    1448 toswell_10,
+    1449 toswell_24,
+    1450 toswell_30,
+    1451 toswell_5,
+    1452 toswell_6,
+    1453 toswell_7,
+    1454 toswell_u_1214_87_toswell_1,
+    1455 toswell_u_217_87_toswell_3,
+    1456 toswell_u_239_87_toswell_1,
+    1457 toswell_u_653_87_toswell_1,
+    1458 toswim_0ascertainment,
+    1459 toswim_5,
+    1460 toswim_u_116_9_toswim_1,
+    1461 tothink_0ascertainment,
+    1462 tothink_107,
+    1463 tothink_28,
+    1464 tothink_42,
+    1465 tothink_7,
+    1466 tothink_8,
+    1467 tothink_9,
+    1468 tothink_u_1030_21_tothink_1,
+    1469 tothink_u_116_21_tothink_1,
+    1470 tothink_u_136_21_tothink_1,
+    1471 tothink_u_217_21_tothink_1,
+    1472 tothink_u_229_21_tothink_1,
+    1473 tothink_u_238_21_tothink_1,
+    1474 tothink_u_239_21_tothink_1,
+    1475 tothink_u_243_21_tothink_1,
+    1476 tothink_u_559_21_tothink_1,
+    1477 tothink_u_675_21_tothink_1,
+    1478 tothink_u_85_21_tothink_1,
+    1479 tothrow_0ascertainment,
+    1480 tothrow_10,
+    1481 tothrow_11,
+    1482 tothrow_113,
+    1483 tothrow_12,
+    1484 tothrow_128,
+    1485 tothrow_13,
+    1486 tothrow_30,
+    1487 tothrow_38,
+    1488 tothrow_66,
+    1489 tothrow_79,
+    1490 tothrow_9,
+    1491 tothrow_u_1055_94_tothrow_1,
+    1492 tothrow_u_118_94_tothrow_1,
+    1493 tothrow_u_1627_94_tothrow_1,
+    1494 tothrow_u_1628_94_tothrow_1,
+    1495 tothrow_u_52_94_tothrow_2,
+    1496 tothrow_u_654_94_tothrow_1,
+    1497 tothrow_u_763_94_tothrow_1,
+    1498 tothrow_u_85_94_tothrow_1,
+    1499 totieupfasten_0ascertainment,
+    1500 totieupfasten_11,
+    1501 totieupfasten_13,
+    1502 totieupfasten_14,
+    1503 totieupfasten_148,
+    1504 totieupfasten_149,
+    1505 totieupfasten_15,
+    1506 totieupfasten_17,
+    1507 totieupfasten_41,
+    1508 totieupfasten_43,
+    1509 totieupfasten_u_116_66_totieupfasten_1,
+    1510 totieupfasten_u_1214_66_totieupfasten_1,
+    1511 totieupfasten_u_128_66_totieupfasten_1,
+    1512 totieupfasten_u_1627_66_totieupfasten_1,
+    1513 totieupfasten_u_1628_66_totieupfasten_1,
+    1514 totieupfasten_u_375_66_totieupfasten_1,
+    1515 totieupfasten_u_676_66_totieupfasten_1,
+    1516 tovomit_0ascertainment,
+    1517 tovomit_1,
+    1518 tovomit_30,
+    1519 tovomit_8,
+    1520 tovomit_u_1654_35_tovomit_1,
+    1521 towalk_0ascertainment,
+    1522 towalk_1,
+    1523 towalk_2,
+    1524 towalk_34,
+    1525 towalk_4,
+    1526 towalk_6,
+    1527 towalk_7,
+    1528 towalk_u_375_5_towalk_2,
+    1529 towalk_u_664_5_towalk_2,
+    1530 towork_0ascertainment,
+    1531 towork_10,
+    1532 towork_11,
+    1533 towork_26,
+    1534 towork_33,
+    1535 towork_54,
+    1536 towork_92,
+    1537 towork_u_1004_83_towork_1,
+    1538 towork_u_116_83_towork_2,
+    1539 towork_u_128_83_towork_1,
+    1540 toyawn_0ascertainment,
+    1541 toyawn_19,
+    1542 toyawn_u_1214_47_toyawn_1,
+    1543 two_0ascertainment,
+    1544 two_1,
+    1545 two_4,
+    1546 warm_0ascertainment,
+    1547 warm_1,
+    1548 warm_36,
+    1549 warm_8,
+    1550 warm_u_116_138_warm_1,
+    1551 warm_u_1214_138_warm_1,
+    1552 water_0ascertainment,
+    1553 water_1,
+    1554 water_2,
+    1555 water_47,
+    1556 water_u_1214_122_water_1,
+    1557 wet_0ascertainment,
+    1558 wet_10,
+    1559 wet_11,
+    1560 wet_123,
+    1561 wet_37,
+    1562 wet_38,
+    1563 wet_9,
+    1564 wet_u_654_141_wet_1,
+    1565 what_0ascertainment,
+    1566 what_1,
+    1567 what_83,
+    1568 what_84,
+    1569 what_u_116_188_what_1,
+    1570 what_u_559_188_what_2,
+    1571 when_0ascertainment,
+    1572 when_1,
+    1573 when_5,
+    1574 when_u_1004_170_when_1,
+    1575 when_u_116_170_when_1,
+    1576 when_u_1212_170_when_1,
+    1577 when_u_253_170_when_1,
+    1578 when_u_589_170_when_1,
+    1579 when_u_659_170_when_1,
+    1580 where_0ascertainment,
+    1581 where_3,
+    1582 white_0ascertainment,
+    1583 white_10,
+    1584 white_108,
+    1585 white_3,
+    1586 white_47,
+    1587 white_66,
+    1588 white_8,
+    1589 white_9,
+    1590 white_u_1004_148_white_1,
+    1591 white_u_116_148_white_1,
+    1592 white_u_1654_148_white_1,
+    1593 white_u_238_148_white_1,
+    1594 white_u_512_148_white_1,
+    1595 white_u_559_148_white_1,
+    1596 white_u_676_148_white_1,
+    1597 white_u_763_148_white_1,
+    1598 white_u_85_148_white_1,
+    1599 who_0ascertainment,
+    1600 who_1,
+    1601 wide_0ascertainment,
+    1602 wide_21,
+    1603 wide_48,
+    1604 wide_7,
+    1605 wide_71,
+    1606 wide_73,
+    1607 wide_9,
+    1608 wide_u_1628_159_wide_1,
+    1609 wide_u_239_159_wide_1,
+    1610 wide_u_264_159_wide_1,
+    1611 wide_u_85_159_wide_1,
+    1612 wife_0ascertainment,
+    1613 wife_110,
+    1614 wife_30,
+    1615 wife_5,
+    1616 wife_8,
+    1617 wife_9,
+    1618 wife_u_116_58_wife_1,
+    1619 wife_u_136_58_wife_1,
+    1620 wife_u_246_58_wife_1,
+    1621 wife_u_512_58_wife_1,
+    1622 wife_u_763_58_wife_1,
+    1623 wind_0ascertainment,
+    1624 wind_1,
+    1625 wind_10,
+    1626 wind_11,
+    1627 wind_6,
+    1628 wind_u_559_136_wind_1,
+    1629 wing_0ascertainment,
+    1630 wing_1,
+    1631 wing_35,
+    1632 wing_9,
+    1633 wing_u_1628_100_wing_1,
+    1634 wing_u_264_100_wing_1,
+    1635 woman_female_0ascertainment,
+    1636 woman_female_1,
+    1637 woman_female_35,
+    1638 woman_female_55,
+    1639 woman_female_98,
+    1640 woman_female_u_116_55_womanfemale_1,
+    1641 woman_female_u_1214_55_womanfemale_1,
+    1642 woman_female_u_653_55_womanfemale_1,
+    1643 woods_forest_0ascertainment,
+    1644 woods_forest_13,
+    1645 woods_forest_14,
+    1646 woods_forest_15,
+    1647 woods_forest_16,
+    1648 woods_forest_66,
+    1649 woods_forest_u_654_127_woodsforest_1,
+    1650 wormearthworm_0ascertainment,
+    1651 wormearthworm_1,
+    1652 wormearthworm_13,
+    1653 wormearthworm_16,
+    1654 wormearthworm_45,
+    1655 wormearthworm_7,
+    1656 wormearthworm_80,
+    1657 wormearthworm_9,
+    1658 wormearthworm_u_152_107_wormearthworm_1,
+    1659 wormearthworm_u_217_107_wormearthworm_1,
+    1660 wormearthworm_u_375_107_wormearthworm_1,
+    1661 wormearthworm_u_64_107_wormearthworm_1,
+    1662 wormearthworm_u_676_107_wormearthworm_1,
+    1663 year_0ascertainment,
+    1664 year_1,
+    1665 year_27,
+    1666 year_28,
+    1667 year_7,
+    1668 year_u_375_169_year_1,
+    1669 year_u_559_169_year_1,
+    1670 yellow_0ascertainment,
+    1671 yellow_10,
+    1672 yellow_11,
+    1673 yellow_12,
+    1674 yellow_46,
+    1675 yellow_59,
+    1676 yellow_9,
+    1677 yellow_u_1055_150_yellow_1,
+    1678 yellow_u_1163_150_yellow_1,
+    1679 yellow_u_1212_150_yellow_1,
+    1680 yellow_u_152_150_yellow_1,
+    1681 yellow_u_217_150_yellow_1,
+    1682 yellow_u_253_150_yellow_1,
+    1683 yellow_u_259_150_yellow_1,
+    1684 yellow_u_38_150_yellow_2,
+    1685 yellow_u_64_150_yellow_2,
+    1686 yellow_u_654_150_yellow_1,
+    1687 yellow_u_85_150_yellow_1,
+    1688 you_0ascertainment,
+    1689 you_1,
+    1690 you_16,
+    1691 you_u_1004_186_you_1,
+    1692 you_u_1055_186_you_1,
+    1693 you_u_116_186_you_1,
+    1694 you_u_11_186_you_1,
+    1695 you_u_136_186_you_1,
+    1696 you_u_512_186_you_1
+;
+MATRIX
+Anuta_253                         000100001000000100100000001000???????????0010000100000001000001000000000000010000001000000100000010100001000000??????????00100000000001000000000000001000000100000000001000000000010000000000001000000010000000000000000100010000100000000100000000101001000000000000010000000000100000001000000001000000100???010000000000000001000000101000000010000000000000000100010000001000000000010000010010011000000010000100001000000010000000100010000000000010000000000100????????0100010000010000100000001000100000010000110000010000000000010000010001000100000001000010??????????????????????????001000000000000010000???????01001100100000000000101010000000000000010010000110000000100000001000000100000010000001000000000100001000000000001000010000000011000000000??????????001000001100101000000001000????????????0100000001001001000000000010000001000???????0100000000000000010000001000001000000010000000000100010000000100000000??????00100000000010000000000010000000110001000010001000000000000100001000000000001000101000000001000100000000?????????00100000010000010000000000101000001000000010000010100010001001000000000001000001000000100000000010000001000100100000000010000010000000010000000000000000010001000000000000000000100000000000001010000000000000100000100000010010010000100000000000000001000001000001000000000010000000000000100000000000000001000000000000100??????00100000100001000000000000010000000001000000000001100000000000000000000010000000100000001000000000100000000100000100000001000000000000000100000000000000001000010000000000000100000010000010000000???0100100000010000000100000100000000100010100001000000000001???????????00010000000010000010000010000000010000?????????????0100000000000000000100000001000000
+Bellona_559                       ??????011000000100100000100000000010000000001000000000001000000100000000000010000001000000100000010100000000001001000000000100000000000100000000100000000000100000001000000000000000000010010000000000000010000000100000000010000100000000100000000101001000000000000010000000000100000001000000001000000100010000010000000000000100000101000000000100000000100000000000010000000000000010000010010010000000010000100001000???????????01001000000000??????00000100000????????0100010000010010000000001000100000010000010000010000000000010000010001000000000001000010??????????????????????????000010000000000010000???????01001000101000000000001010010000000000010010000100000001000000000000100100000010100000100000010000001000000000100000000100000100000000000??????????010000011000101000000010000????????????????????01001001000000001000000001000010000000000000000001000100000??????01000000010000001000000?????01000000000000100000010000000001000000000001000000010000100100000000100000000000100100000000000100000000??????????????????????????????????00010000?????????00000100000100000001000001000?????010010000001000000000010000000000000010100000????010??????????0100100000000000000000001000000001000000000000000000000000001000000000000000000000100001000010000000100000100??????????????????01000????????????000000000001000000000010000000000100000000000000000001??????0010000010000000100000000000001000000010000000000100000000000000000000000000001010000000100000100000000000010000010000000000000000100????????????????????00010010000000000000100010000000001000000???0100100000010000100000000001001000000010000000000000100001??????????????????????000001010000010000000000010?????????????0000001001000000000000000001000000
+Emae_229                          00010000100000010??????????????????????????????????????????00010000000000000100000010000001000000101000????????0010000000????????????010000000?????????????0100000???????????????010000000000010000??????????????01000000000100001000000001000000001010010000000000000000100000001000000?????????0100000010001000000000100000?????????0101000000100000000000001000000?????????????????0010000010???010000000010000100001000???????????01????????????0001000001000000000010000010001000001001000000000100???????010000010000010000000000010000010001000100000001000010????????????????????????????????????????0010000???????010010001????????????01000001000000000010????001000000010000000010000001000000001000????????000100001000000000100000010000000011000000000??????????01000001100010100000???????????????????01000000???0100100100000001000000100001000000100000000000000???????01000000001000010000000000100????????????????????????0010000000001000000000001000000001000100100000100001000000000100100000000000100000000????????00001000000?????????001000????????01000000000000100000100000001000001000001000100100000010000000000100000000100000001000000110010010000000001010111000000000001000000000000???????????????????????????????????0000100000000000000010??????????0100000100??????????????????01000001000001000???????????????????00000000100000100000000000001000000010000???????010000000100000000001000000000001000000010000100000000000010000000000000010000000100000000010000000010000010000000000001000000000000100000000000000000001000000000000010000001000010000000001001001000000100001000000001000010000000100000010000000000?????????????0001000000001100001000001000000001000000000001000000100000001000000000000000011000000
+Emae_Makatea_1030                 ??????00100000010?????00100000???????????0000000010000?????000100000000000001000000100000010000001?????????????001000000000000000100001000000000010000000000100000000000001000000010000000000010000??????????????0100000000010000100000000100000000101000000100000000000010000000100000000100000001000000100010000000001000000001000000101000000100000000000001000000010000000000000000010000010010010000000010000100001000000010000000101000000000000010001000000000????????010001000001001000000000100000000101000001000001000000000001000001000100010000000100001000000100000000000000000000000000010000000010000???????01001000100000100000001000001000000000010?????????????010000000010000001000000001000????????000100001000000000100000000010000001000000000010000000001000001000010100000???????000010000000????????010010010000001000000000010000100000????????????????01000000100000000100001000000000010000100?????????????0100000010000000001000000000001000000010000100100000000001000000100000100000000000100000000??????????????????????????????????0100000000000100000000100000100000001000001000?????010010000001000000000010000001000000000100000????010??????????0000010000000000000001000000000000000000010000000000000001000000000000010000000000000001000010000000100000100??????????????????01000????????????000000000000000100000000000100000100000000000001000000??????00100000110000000100000000010000000001000000000000000010000000000100000000000000100?????????????????????????????0100000000100000000000000100000000000000000010000000000000000100000010000100000000???0100100000010000010000001000001000000010000001000000000001???????????00010000000010000010000010000000010000?????????????0100000001000000000000000001000000
+Fijian_Bau_11                     0010000100000001001000000100000100000000000000100000000100001000000000000000100100000000010000000100100010000000100000000001000000000000100000000001010000000100000001000000000000100000000010000000010000000000001000000000100001000000100000000001010000100000000000000010000001000000000010000001000001000100000000010000001000000001010000000010000000010000000000001000000000000000001000100100100000010000001000001000000001000001010000000000010000001000000000100000001001000000100010000000010000100000100010000001000000000010000000100010000000000010001000000000100000000000000000000010000000000000010001100000100100010000001000000100000010000000010001000100000000000010000100000010000010000000000001000010000100000000010000010000000000000001000000100000000001000001001000100000000100000000010000001000001001001000000010000000000100010000001000000000000000000100010000010000000010000000001000100000000000100000100000001000000000100000000000100000010000100010000100000000011000000000001000000000000010010000000110000000000010000001000001000000001000000000000001001000000010000010000100001001000000001000000000000100000100000000100001000100100000000000000000010000000000010000000000000000100000000000000000100000000000000000010000000001000010000000001000001000010000000000000000100000010001000000000100000000000000001010000000000010000000000001000010000000010001000000000010000000000001000000010000000000010000000000000000001000000001000100000000001100000000001000001000100000000000000000000001000000000000010000001000000000001001000000000001000000100100010000010000100000010000010000000010001000000000000001001000000000010000000001000000100000010000010000000010000000000010000000010000000000000000000100
+Fijian_Suva_Dialect_653           001000???????0001?????0000100001000000000000001000000000001010000000000000001001000000000100000001001000100000001000000000010000000000001000000000000100000001000000010000000000001000000000100000001000000000000010000000001000????????????????????01000010000000000000001000000100000000000001000100000100010000000001000000000000010101000000001000000?????????????????????????????000010001001001000000100000?????00100???????????01????????????010000???????????????????010010000001000100000000001001000000010000010000000000100100000001000100000000000100010000000000000100000000000000000100000000000000100???????0100100??00000010000001000000000010000100??????????????????????0100000010000????????00000010000100001000000000100000100000000010000000000000000001000010000010??00010000000010???????????????????????01001000000010000000000100???????????????????????0000001??????010000000010000????????01000?????????????0100000001000000000100000000000100000010000100010000100000000001000000000001000000001000000??????????????????????????????????01000000?????????01000000000100000001000001000?????010010000000010000000000000100001000000001000????010??????????00000001000000000000001000000000???????????????????????001000000000000000000000000010010000100000000010000010??????????????????00100???????????????????????????????00001000000000000010000000000001000??????00001000100000010000000000000000100000000000010000000000000000100000000100000000100?????????0000100000000000000101000010000000000000000000001000000000000?????????????????00010010000000?????????????0100010000010000100000010000?????????01000100000000000000100100000000???????????01000000100000000001010000000010000000000010000000010000000000000?????????
+Fila_1163                         ?????????????0010?????00000100010000000000001000000000?????000000010000000001000001000000010000001?????010000000010000000????????????01000000000010000000000000010000010000000000010000000000000100??????????????000100000001000010000010000000000010100100000000000000000000100????????00000100001000000100010000000100000000001000000101000000100000000000000100000?????????????????000010001001000000100001000010000100000010000000010000000100000001000100000000000000100010010000001001000000000100000001001000100000000001000000010000001000000000100000100001000000000000001000000000000000000100000000000010???????01001000101000000000001000001000000000010?????????????01000000001000000100000000100001000000000100001000000000100000010010000001000000000000000100001000001000010100000???????000010000000????????010010010000010000000000000100100000????????????????00100000100000100000010000000000010000100?????????????0100000010000000001000000000001000000010000100100000100000000100000000000100000000100000000??????????????????????????????????0100000000010000000000100000001000001000001000?????010010000000000001000010000000000100000100000????010??????????0100000000000???????????????????00100000000000000000000001000000000000000000001000000001000010000000100000010??????????????????01000????????????000000000100000000000000000010000001000000000001000000??????00100000100000000010000000000000010001000000000000000000100000000100000000000000010?????????000010000???????????0100000001000000000000000100000000000000000010000000000000000100000010000100000000???0100001000010000010000010000001000000010000001000000000001???????????0001000000001000001000001000000????????????????????0100000000000001000000000001000000
+Futuna-Aniwa_156                  000100001000001100100000000100010000000000011000100000001000000100000000000010000001000000100000010100001000000001000000000010001000001000000000000001000000100000000010000000000010000000001000100??????????????010000000001000010000000000010000010100000100000000000001000000010000000100000000100000010001000000000100000010000000010100000000000010001000000000001000000000000000001010001001001000000001000010000100000010000000010001000000000010000110000000000010000010010000001000000000100100000010001000100000001000000000000010001000100000000001000001001000000000000000000000000000000100000000010000000001001001000101000000000001000000000100000010?????????????01100000001000000100000000100001000000000100000000010000100000000011000011100000000??????????01000001000010100000010000100100000000001000000???010010000001000000000010000100000001000000000000001000000100000100000001000000000010001000???????????????????00100000000010000000000010000000100001001000000000010001001000001000000000001000000000001000001010000000000000010000100010000000110100000000010000010000000100000100000100010010000000000000010010000001010000000100000011001001000000000000010100000010000000000000000000000000000000100000000001000000000000010000000000000001000010000000100000100000000000000100000010000000010010000000000001000000000010000000000000000000001000010100000100000010000010000100100000000000000100000100000000000010000000000000010000000000000010000000010000100000000000010000010000000100000000000000000000001000000000101000000000000000010?????????00010000000100100100000010000100000010000001000000010100001000000000001001000000000001000000001100001000001000000???????00000001000000100000001000000000000000?????????
+Futuna-Aniwa_Aniwa_1004           ??????00100000100?????00000100010000000000001000000000?????000000001000000001000000100000010000001?????????????0010000000????????????01000000000010000000000100000000010000000000010000000000000100??????????????010000000001000010000000000010000010100000100000000000000001000001000000100000000100000010001000000000100000?????????0101000000000000100010000000000?????????????????00100000100100100000000100001000000100000010000001000100000000001000000000100000010000001001000000100000010000010000001000100010000000100000000000001000100???????????00100001000000100000000000000000000000000100000000010000???????01001000100000001000001000001000000000010?????????????01000000001000000100000000100000100000000100000001000000100000000010000001000000000000001000001000001000010100000???????000010000000????????010010010000001000000000010000010000????????????????01000000100000100000001000000000010001000?????????????0010000010000000001000000000001000000010000100100000000001000000100000000000001000100000000??????????????????????????????????0100000000000010000000100000100000001000001000????????010000001000000000010000001000000000100000????010??????????0100000000000000000000000100000000000000100000000000000000001000000000000000000100000001000010000000100000100??????????????????01000????????????000000000100000000001000000000000000000100000000010000??????00100000010001000000000000000001000001000000000000100000000000000000000000100000100?????????010000000???????????0100000001000000000000000000000010000000000000010000000000000100100000000000000100???0100100000010000010000010000000100000010000000010000000001???????????00010000000010000010000010000000100000?????????????0100000001000000000000000000100000
+Futuna_East_210                   000100000001000100100000100000000001000000001001100000001000001000000000000010000001000000100000010100001000000001000000000101000000001100000000000001000000100000010001000000000010000000001010000000000100000000100000000010000100000000100000000101001000000000000001010000000100000001000000001000000110010000000011000000100000000101000000100000000000100000000010000000000000000010100010010011000000010000110001000010000000000101010000000000010001100000000000100000100010000010010000000001000100000011000010000010000000000010000010001000000000001000010010000000100000000000000000010010000000000100000000010010010001010001000000010100000000000000100100000100000011000000010000001000000001000011000000000100010000000001000000100010000110000000000100000000010000011000101000000000010010000000000010010000100100100000000001000000100001000000100000000000000010000001000001001000010000000000100?????01010000000000100000010000000001000000000001000000011000100001000100101001000010100110000000000110000000001000100000100000001000000000100000010000011000000000100000001000000010000000100000101001000010110000000001010000101000000010000000100100100000000011001100000000010001000000000000001000000000000000000000100000000000001110100000000000100001000000010000010000000000010000000001000001000000001000000000000000001000000000100000100101000000001000000000010001000001000000010000000000100000000010000000001001001000000000001000001000000001000000010000010111000000001000001000000110000000000000001010000100000000000100100000000000001000100100000100000000100100100000010001010000000100001000000010000001000000000001000001000000001000000001010001000001000000001100000000001000000100000001000000000000000001000000
+Hawaiian_52                       000100001000000100100000100000000001000000000100000000001000010000000000000010001000000000100000010100001000000000000001000100000000000000010000000000001000000010000000010000000010000000000010000001000000000000100000000000010010000000100000000101001000000000000010000000000000100001000000001000000100010010000000000000100000000101000001000000000000001000000000000000000010000000100010010001000000010000100001000001000000000100000000001000010000010000000001000000100010000010010000000001000100000010001000000100000000000010000????0001000000001000001000000000001000000000000000000000000000010001000000010001001000100100000000001001000000000000010?????????????0100000000100000010000001000000010000000010000100000000010000000000100000010000000001000000000100000110001010000000000010000010000000010000001001001001000000010000001000???????00000000000010000100000010000010000010000000001001000110001000000000000100000010000000000000100000001010000010000100100000001000000000011000001000000000100010000000000010100000000000100000000010001000000000000001000000000101100000010000010000000101001000000000000000101000000100000000010000001000100100000000001000010000000000000000000010000000100000000000000000000100000000000100000000000000000100001000000000010010000000000000000010001000010000001000010000000000000000000000000000010100000000000000000010010000001000001000000010000000001010000000010000000000000000000000010000000000000001001000010000000000100000100000000001000001000000000000000000000000000001000000010000000000000001000000100001000000000100100101000010000001000010000001000000010000001100000000001010000000000001000000001000001000001000000000100000000100000000000100010000000000000000001000000
+Ifira-Mele_Mele-Fila_242          0001000010000001001000????????01000000000?????????????00100????????????????010000010000000100000010001001000000001000000000100000000001000000000000001000000100000000010000000000010000000000000100??????????????00000010000100001000001000000000001010?????????????????????????????????00000100001000000100010???????????????????????0101000000100000000????????????010000000000000000000100010010010000000010000100001000???????????01??????????????????01100000000????????010010000001001000000000100000001001000100000???????????000100000100????????????????0010??????????????????????????000000100000000010000???????010010001????????????010000010000000000100100001000000011000000???????010000000010000100000000010000100000000??????0010000000001000000000??????????010000001000101000000000001????????????????????010???01000001000010000?????????????0100000000000000???????0100000100000001000000000010001000???????????????????001000000000100000000000100000001100010010000010000000010000000????????????0100000000???????????????????010000000001000????????010000000??????????01000000010000?????00001010010???????????????0100000??????????0100000011001001000000000010010100000??????????????????????????????????????????000001000000?????????????????000100001000000??????0100??????????????????01000???????01000???????????????????0000000010000??????????????01000000??????00100000100?????????????????????????0100000000??????????????????011000000000000010000000100000001000000000010000010000000100000000000????????????????????0100000000000000000010000001000?????????????010??????0010000100000010000001000000010000001000000000001???????????0001000000001000001000001100000???????01000000000000100000??????????????????001000000
+Kapingamarangi_217                000001001000000100100000100000000000001000000001000000001000000000000001000010000001000000100000010100001000000001000000000000100000001000000000000001000000000100000000000000100000010000010000000000000000000100000010000010000100000001000000000101000000000010000???????????010000000100000000100000010001000010000000000?????????0101000000100000000?????????????????????????????0010000010010001000000010000100001000???????????01????????????000100010000000000010000001001000000100100000000010001000000100010000000100000000000100000100010000000000110000100000000000000000000100000000000000000100001000000000100100100010000010000000100000100000000001001000010000000010000000100000010000????????01000000000100001000000000100000010001000001000000000??????????010000011000101000000000001????????????00100000???01001000100000000000001000???????010000000000000001000000100000100000001000000000010000100?????????????00001000100000000000001000000010000000100001001000001000000000000001001000000000001000000000000010000001100000010000000000100000001000100000000000010000010000000100000100000100010010000000100000000010000000010000000000100????010??????????01000111000000000000010000000000???????????????????????000000000010000010000000000000001000010000000000100100??????????????????01000010000001000000000000000000000101000000100000000001000000001000000??????0010000000100010100000000000100000000010000000000000000000100000011000000000000010000000100000010000000000000100010000000000010000000001000000001000000000100000000000000000010000011100?????????????0100100000010000100000010000?????????010100000000000000001001000000000000100000001000001000001000000001000000000000010000100000000000000001000000?????????
+Luangiua_238                      000100001000000100100000100000000001000000000000100000001000001000000000000010000001000000100000010100001000000001000000000000010000001000000000000001000000100000000000100000000000001000000001000000010000000000100000000010000100000000100000000101001000000000000001000000000100000000100000001000000100010010000000000000100000000101000010000000000000010000000000000100000000000010100010010001000000010000100001000???????????0100100000000000010000100000000????????0100000100010010000000001000100000010001000000010000000000000100010001000000000000100010??????????????????????????001000000000000010000000001001001000100000100000001010001000000000010010000000010000110000001000000100000010000001000000000001001000000000100000010000000011000000000??????????001000001000101000000000001????????????????????01001001000000000010000010000010000001000000000000000100000??????01000000010000000000100?????010100000000001000000100000000010000000000010000000100001001000001001010010000000001000000000001000000000000010000000001000010000000001000010000000100000000000100000010000000100000100000100010010000000100000000010000001000000000100000011001001000000000101001100000000000001000000000000000000000000000100000000001000000000010000000000000001000001000000000100100??????????????????01000???????0100000000000100001000000000000010000010000000000000100000000100000100000100000001000000000000001000001000000000100000000000000000010000000000000100000001000000000100000000100000100000000000001000000000100000000000000001010010000000000000100000010000001000000???010010000001000010001000110000100000001000000000001000000100100000000???????????010000010000010000000010000?????????????0100000001000000000000000?????????
+Mangaia_1626                      000100???????0010?????00100000000001000000000100000000001000010010000000000010001000000000100000010001001000000001000000000100000000000000011000000000100000100000000000010000000010000000000010000000010000000000100000000010000000100000100000000101001000000000000001000000000000100001000000001000000100010??????????????01000000001010000010000000000000010000000100000000000000000001000100100100000000010001000?????0000010000001????????????00010000010000000001000000100100000010??????????0100010000001000100000010000000000000010001000001000000001000001000000000001000000000000000000000000010000001000???????010010001000001000000010010000000000000100100000001000011000000010000001000000100000001000000001000010000000001000000000010000000100000000000100000010000010000100001000000001000101000000010000000100100100100000000000000100000001000000000010000000010000001000001000000010000000000100?????000000100000001000000100000000000001000000????????010000101000000100000000000010000000000100000000010000????????000010000000100000000010000001000000001000000100100000100000001000000100000010100100000101000000000100000010000000001000000100010010000000000010000000000000000000100000000000000000000000100000000000010000000010000000000000000010??????????000010010001000000000000000001000010000001000???????????????????0000000010000010000000000000100000000100000100000100010000000000000100000000000100000000000100000000000000000000001000000100000001000000000010001000000000100000100000000000000000000000010000000000100001000000000000100000010000100000000???0100001000010000100000?????????????????00000010000000000??010000000000100000000001000000010001000000010000000000010000000000100010000000000000000001000000
+Mangareva_239                     0001000000100011001000001000000000010000000001011000000010000100000000000000100010010000001000000101000000000100001000000001000000000010000100010000001000001000000000000000000100100000000000100000010000000000001000000000100000100000000100000001010010000000000000010000000001000000010000000010000001000100100010000000001000000001010001101000000000001000000000100000000000000000001000100100010000000100001000010000100000000001????????????0001000000000100001000000010001000001001000000000100010000001000001000010000000000001000000010100000000001000001000100000001000000000000000000000100000000001000???????0100100010010000000000100100000000000001001000010000000010000000100000010000001000000010000000000010100000000010000000000100001100000000000001000000100000110001010000000000010000010000000100000001001001000000000010000001000???????0100000000000000010000001000001000001010000000000100?????010001000000001000000100000000000000000100010000000100001001000000010010000000100000000001000001000101000000100001000000000?????????00010000010000000010000000001000000000001010000010000000101001000011100000000001000000100000000010000001000100100000000010001100000000000000001000000000000010000000000000000000000010000000100000000000000000100000000010000010010000000000000001000001000010000001000000000000010000000000000000100000010000000000001000000??????001000001000000010000000000100000000001000000001001000000000000001010000000000001000001000000000101000000000001001000000000000001000000000000000100000000001100000000000000001000000100001000000000100100100000010001000010010000001000000010000001000000000001000000001000000100000001100001010001000000001100000000100000000100000010000000000000000001000000
+Manihiki_589                      00010000001000010010000010100000000100000000010010000000100001100000000000001000100100000010000001010000100110000100000000010000100000100000100000000110000000101000000101000000001000000000001000000100000000000010000000001000????????????????????01101000000000000???????????0000100001000000001000000100010000001000000000100000000101000001000000000?????????????????????????????000010001001001100000001000010000100000100100000010000000000010001000001000000000100000???01000000100100000000010001000000100000100001000000000000001000100000100000000110000100000001000000000000000000000000010000000000100001000100100100??00100000000001001100000000000010??????????????????????0100000010000????????00100000000100001000000000100000000001000010000000000??????????01000001000??0100000???????000001000000????????01001001001000000000000001000???????????????????????0100000000001010000000100000????????0100001000000000000100000010000000000010100000001000000010000100100000100000000000010000100000100000100010000????????00001000000?????????000100010000000100100000010010000010000000100000100000001010010000010000000000010000000000010000100000????01001000000000000001100000000000000010000000000000000000000000000010001011010000001000000000000000001000001100000000100100??????????????????01000????????????000000000010000000000000000100000000000000001001000000011000001000001000100010000000000001010000010000000001010010000000000000000100010000001000000010000000001100001000000001000001100000000000000010000000000000000001100110000000000001000000100001000000000100100100000010000100000010000000000010010000001000000000001010000000000001000000001000001000001000000000100000000100000000000100010000000000000000001000000
+Maori_85                          000100001000000100110000100000000001000000000000000001001000010000000000000010000000000100100000010001001000000001000000000000001000001000000000000000100000100010000001000000000010000000000010000000001000000000100000000010000110100000100000000101000000000000001000010000000000100001000000001000000100010010000000000000100000000101000000000001000????????????00000000000000001000000101001000100000001000010000100000100000000010000100000000001000001000000000100000010010000001001000000000100010000001000100000010000000000000010000100000100000001000001000000000010000000000000000000000100000000010000???????01001000100100000000001000000000001000010010000100000001000000001000000100000010000000001000000100001000000000100000000001000000100000000??????????0100000110001010000001000010000010000000100000001001001001000000000000001000???????01000000000000000100000010000010000010000000000101000110000000010000000100000010000000000000100000001000000010000100100000001000000000010000000000000010000000100000010000000000000101000000000010001000000010000000000001000001000000010000010000000101001001000000000000001000000100000000010000001000100100000000000000100000000000000000000000010000100000000000000000000000001000000000000001000000000100000100000000010010000000010000000000001000001000001000010000000000000000000000000100000100000000000001000000010000001000001000000010000000001000000000010000000000000100000000000000000001000000001000010000000000000100010000000001000000000000000000100000000000000000001000000000100000000001000000100000000100000100100100000010001000000010000001000000010000000000000000101000000000010001000000000100000010001000000000010000000100000000100000000000000000000001001000000
+Marquesan_38                      00010000100000010010000010000000010100000000010000000000100001000100000000001000110000000010000001010000100000000100000000010000000000100001000000001000000010100000000110000000001000000000011000000100100000000??????????00100001000000001000000010110100000000000000100000000000010000100000000100000010001001000000000000010000000010100001100001000000010000000000000000000010000001010001001001100000010000011000100001000000000010000100000000001000000100000000100000010000001001001000000000100010000001000100000010000000000001010001000010000000001100001000000000010000000000000000000000100000000001000???????010010001010100000000010010000100000000100100?????????0010000000100000010000001100000010010000101000010000000010000000000100001001000000001000000000100000110001010000000000010000010000000000001001001001001100000110000001000000000101000000000000000100000010000011000110100000000001000110001000000000000100000010000000000010100000001000000010000100100000001000000000010000101000000000100100000000010000000100000000100000000010001000000010010000000001000001100000010000010000000101001001101010010000001000000100000000000000101000100100000000010001110000000000000001000000000000000000000000000100000111000000000000000000000100000100001000000000100010000000000000000100001000010000001000001010000000000000000000100000000100000000000001000000001000001000001000000010000000001000000000000000010001000011000000000001000000000000001000011000000000100000100100000001000001000000000000001000000000100000000001010000000000000001000000100001000000000100100100000010001000000010000001000000010000101100000000001010000000000001000000001000001000001000000001000000000100000000101000000000000000001000001000000
+Marquesan_Nukuhiva_dialect_654    000100???????0010?????001000000001000000000001000000000010000000000000000010100010000000001000000100010????????000100000000001000000001000000000000010000000000010000000010000000?????????00001000000100000000000010000000000100????????????????????01001000000000000???????????0000100001000000001000000100010010000000000000100000000101000000000010000?????????????????????????????000010001001000100000010000?????01000???????????01????????????00010000001000000????????0100000001???010000000001000100000010000000010001000000000000001????0010000000001000001000000000000000000000000010000000100000000001000???????0100100??00100000000001001000000000000010??????????????????????0100000010000????????00000100001000000100000000100000000001000000000000001010000000001000000100??01000000000001???????????????????????01001000000000100000001000???????????????????????0100000??????001000000100000????????00100?????????????0100000000000000100000000000101000000010000100100000001000000000010000100000000000000100000??????????????????????????????????01000000?????????00000100000100000001000001000?????01001000001000000000001000000100000000???????????010??????????00000001000000000000000000000100???????????????????????000100000000001000000000000000001000010000000001000100??????????????????01000????????????001000000000000000000000100000000000100000000001000000??????00100000100000000000000100100000000001000000000000000000000000010000000100000000001?????????0000100000100000000001000001000000000000000000000000000000100?????????????????00010000000100?????????????0100100000010000000001010000?????????01000010000000000000100001000000???????????01000001000001000000000000100000100000000001000000000000000000010001000000
+Mele_1055                         ?????????????0010?????00000100010000000000000000001000?????????????????????01000001000000010000001?????01000000001000000000100000000001000000000010000000000000010000000000100000010000000000000100????????????????????????010000100000100000000000101000000010000000???????????????????0000010000100000010001000100010000000?????????0101000000100000000000000100000?????????????????000010001001000001000001000010000100000010000000010000001000000001000100000000000001000010010000001001000000000100000001001000001000000010000000010000001000000001000000100001000000000000010000000000000000000100000000010000???????01001000101000000000001000001000000000010?????????????01000000001000000100000000110001000000000100001000000000100000000010000000000001000??????????01000001000010100000???????000010000000????????010010???000010000000000000100100000????????????????00100000001000100000010000000000010001000?????????????0100000000010000000000001000001000000010000100100000100000000100000000000100000000000001000??????????????????????????????????0100000000010000000000100000001000001000001000?????010010000000000001000010000000010000000100000????010??????????010000000000001000000000000000000000000000100000000000000100000000000000000000100000000100000000100??????0010??????????????????01000????????????000000000100000000001000000000000001000000000001000000??????00100000100010000000000000000000010001000000000000000001000000000010000000000000010?????????000010000???????????0100000001000000000000000000000001000000000010000000000000000100010000000100000000???0100001000010000010000010000001000000010000001000000000001???????????0001000000001000001000001000000????????????????????0100000000000010000000000000010000
+Mooriori_676                      ??????00100000010?????00100000???????????0000000000100?????0001000000000000???00001000000010000001?????010001000010000000001000000000??????????????????????0000010????????????????????????000010000????????????????????????0100000001000001000000001001??????????????001010100000000100000000000101000000100010010000000000000100000000101000000100000000000000000001?????????????????0010000010???0110000000100001000?????0010000000001????????????00010000010000000???????????0100000010010000000001000100000????01000000100000000000000100010000100000000010000010????????????????????????????????????????0001000???????010010001001000000000010010000000000000100100?????????0010000000100000??????00100000????????000100001000000000000100000001000000010000000??????????010000001000101000000000001????????????????????010010???01000000000000001000???????00000000000000010100000??????01000??????????00000100?????0000010000000??????00100000000????????????00000001010000100100000001000000000010000100000000000100010100????????00001000000???????????????00100000010010000??????????010000000100000100000001010010000010100000000????????????????????????01000100100000000???????????????????????????????????????????????????????000000010000?????????????????000100000100000000010010000000000100000000001000????????????0000000000100000000?????????????01000000000000?????????????????????0100?????????????????????????0100000000??????????????????000001000000000010000000100000000100000100000000010??????????????????????????????????????0000000000000000100010001000000?????????????010010000????????????????????????????0100000000000000100????????????????????????0100000100000100000000001000000000000001?????????????????????????001000000
+Nanumea_753                       000100???????01100100000100000000010000000001000000000001000001000000000000010000001000000110000010100001000000001000000000000000000101000100000000001000000100000010001000000000010000000000000010??????????????010000000001000010000000010000000010100100000000000000101000000????????01000000001000000100010000000000000010000010000101000000010000000000001000000001000000000000000010000010010011000000010000100001000???????????0101001000000000010000010000000000000100100111000010010000000001000100000????01000000010000000000010100???????????????00100001000000000010000000000000000010000000000000010000???????01001000101000000000001010000000000000010010000110000000000001001000000110000010100000100000000110001000000000100000010010000011000000000001000000001000001100010100000000010001000000000001000000???01001000000000010000001000???????0101000000000000010000001000001000000010000001001100011000100001000000??????011000000000000100000000100000001100010000100????????0000001010001001000000010000010000010010011011000000100000000010000101000000001000000010100000100000001000001010000010100100000010000000000100100010000000001100000100010010000000001000000000000000011000000000000???????????????????????00100000000000001000000000000000100001000000??????010000100000000000000001000???????010000001000001000000000010000000000000000000000001????????01000000100000100000001000000000011000000000010000000101100000000000000000011000000000100000001000000000100000010100000100100001000000000000000000001000000000000010010000000000000100000010000100000000???010010100001000011010000010000100000001000000100000000000100100000000?????????????????01000001000000001000000000001000000100000001101000000000000001000000
+Niuafoou_659                      ??????????????????????00100000????????????????????????????????????????????????00000100000010000????????????????0010000000001000000000?????????0000000100000???????010000000000000010000000000001000????????????????????????01000????????????????????01001000000000000????????????????????????????01000000100????????????????????????????01000000010000000????????????010000000000000000010000??????0100000000100001000??????????????????????????????000100???????????????????0100010000010??????????0100010000001000001000???????????????????01000000100000000100??????????????????????????????????????????????????????????0100100?????????????????????????????????????????????????????????????????????????????????????0001000??????????0100000010000000001000000000????????????????01100010000001??????????????????????????????010010???????????????????????????????????????????0100000??????000010000100000????????????????????????????????00100000000010000000000??????????????????????????????????????????????????????????????????????00100000000??????????????????????????????????????????????????010000??????????01001000000100000000000001000100000000???????????010??????????00000001000000000010000000000000???????????????????????????????????0000100000000000000010????????????????0100??????????????????01000????????????0000000000000010000?????????????????????????????????????????00100000100??????????????00100000000???????????????????????????????????????????0100??????????????????00000010000010??????????????????00000100000000000000?????????????????00010?????????????????????????01000000100????????000100000000001???????????????????????????????????????????01000001000001000000???????????????????????????010000000000000000?????????
+Niue_247                          000100001001001000100000100000???????????0010000100000001000001000000000000010000001000000100000010100001000000001000000000100000000001000000000001001000000100000000001000000000010000000001000000??????????????010000000001000010000????????????010100100000000000000101000000000010000010000000100000010001000000001000000?????????0101000000100000000????????????0010000000000000000101000100100100000000100001100010000010000000001????????????0001000001000000000110000010001000001001000000000100010000001100100000011000000000001000001000001000000000100001000000000000000000000010000000000100000000011000000001001001000100010000000001000001000000000010010000010000001000000001000000100000001000000100000000100001000000000100000000001000011000000000001000000001000001110010010000001000000000000000101000000010010???0101000001000000100001000000000000000010000010000001000001001000010000000000100010000100000000000??????00100000000000000000010????????0100001000000101000010010001101001000000000001000001000000001000001000000010000000??????0001000001000000000000100000100000001000001000001000100100010000000000000100000010000000001000000100010??????????01110101000000001000100000000000???????????????????????000001000000000010000000000000001000001000000000100100000000000100000000010000010000010000000000000001000000010000001000000000010000000010000000100000010000010000000100000000001000000000001000000010100100000000000010000010000000010000000100000000010000000010000010000000100000000000000000001000000000000101000000000000000010000001000001000000001001001000000100????????000100001000000010000001000000000001000001000000000100000001010001000001000000001100000000001000000100000000000100000000000?????????
+Nuguria_675                       ??????00100000010?????00100000?????????????????????????????000000010000000001000000100000010000???01000000001000010000000?????????????????????00000000000010100000010000000000000?????????010001000????????????????????????010000100000000100000000101000000000000100???????????010000000100000000100000010001000000010000000?????????010100?????????????000001000000000000000000001000000100010???0010000???????01000????????????????01??????????????????00010000000????????0100100000010010000000001000100000????0010000001000000000001010001000100000000000110001000000000000000000000000001??????????????0010000???????010010001????????????01????????????0000100100000000001010000000???????01000000001000010000000001000??????????010000001000000???????????????????????010000?????0101000000010000001100000000????????01001001000000000010000010000???????00000000000000100100000??????01000000010000000000100?????0000001000000??????????????????????????????????????????010010000??????????????????????????????00000010000000001000000000010?????????001000001000000000100000000100000010000000100000100000100010010000001000000000?????????????????01001000100010???????????????????????0000000010000000000???????????????????????0000001000000000100000000000000010????????????????010000100000000000000001000????????????0000000000000100000?????????????00000010000000??????????????001000001000000000000000100100000000???????????????????????????????????????????0100000000001????????????????????010000000000000000010000000000001000000000000010000000000000010?????????0010000000???01000010000100??????????????001000000??00000110000000000????????????????????????01000000010001000000001000000001000000000100000001001000000000000?????????
+Nukeria_1212                      000100001000000100100000100000000000100000000000100000001000000001000000000010000000100000100000010100001010000001000000000000000010001000000000000001000000100010010000000000000000100000000001000000000100000000100000000010000100000000100000000101001000000000000010000000000100000000100000001000000100010000000000010000001000000101000010000000000000001000000000000000010000000000100010010001000000010000100001000010000000000100001000000000010000010000000????????010010000001001000000000100010000001000001000001000000000000010001000100000000000010001000000000010000000000000000010000000000000000001000010001001000100010000000001010000000000000010010000001000001010000001000000100000000100001000000000100000000100000100000010110000011001000000??????????001000011000101000000000001000000000100000001000100100010000000001000001100001000000100000000000000010000001000001000000010000000000100011000000000100000010000001000000000000110000000100000001000010010000000001000100000010010000000000010000000000000010010010000000000010000010000100000001100000000001000000100000001000001000000010100100000000000001000100000010000000001000000110010010000000000000000000100000000010000000000000000000000100000000000000001000000000100000000000000001000010000000001001000110000000000000000100000100000100000010000000000000000100000010000010000000000000100000001000000100000100000000000100000000001000000110000000001000000000000000100010000000000100001000000000100000000100100000100000001000000000000000000000110000000001000100000000000000100000010000001000000010010010000001000000010000100000000100001000000100000000000100100000000000010000000100000100000100000000100000000000100000???????000000000100000000001000000
+Nukumanu_1654                     000100???????00100000100001000010000000000000000100000001000001000000000000???00000001000010000001?????????????001000000000000000001001000000000100000000000100000010000000000000?????????000001000??????????????01000000000100000010000001000000001010?????????????????????????01000000?????????0100000010001000000000000010?????????01????00100000000000000000010000000001000000000000001000100100100000???????01000010000100000000001????????????000100???????????????????0100100000010??????????0100???????01000001000???????????00010000010001000000000000100010????????????????????????????????????????0010000??????????010001000001000000010100000000000000100100?????????0100000000100000010000001000000100000000010000100000000??????000000010???????????????????????0010000100001??????????????0000010000000000010001001001000000000000010000001???????0100000000000000?????????????01000??????????0000010001000?????????????010000001000000000100000000000100000001000010010100??????????????????????????????0100000000????????00000010000?????????00000101000000000100000??????????00000010010000?????????????001???????????????0100000??????????0100000???????010000000001000000000000000000010000000000???????????????????????00100000000000001000000000000?????0001000000000001000101000000000000000000001???????010000000000010000000000?????????????01000000000000????????0010000010000010001000000000000?????????????????????0000100000000000000000000010000000100000001000????????????????????0100000001000000000000000000000010000000000000100000000000000010000001000001000000010010??????0010000100000001000?????????010000000000100000001???????????00001000000??????01000001000000????????????????????0100000001000000000000000001000000
+Nukuoro_64                        0001000010000001001000001000000100000000000010010000000010000000000000000100100000010000001000000101000001000000010000000????????????01000000000000000000100100100010000000000000000000001???????????????????????00000000010100001000000010000000001010010000000000000010000000001000000?????????0100000010001001000000000000?????????0101000000100000000????????????000010000000000000110000010???0110000000100001000010000010000000001000010000000000100???????????00100000010010000001001001000000100010000001000100000001000000000001000001000100000000000100001000000000000000000000000100??????????????00100000100010010010001????????????0100000100000000001001000010000000010000000100000010000????????0100000000010000000000010010000001000000001100000000001000000000100000110001010000000000010010000000000000000101001001000001000010000001000???????0100000000000000010000001000001000??????????0000010001000?????????????01000000100000000????????????01000000010000100100000100000000100010100100000000000100000000????????00001100000010000000001000010000000100000000000010000010000000100000100000100010010???????????????010000000010000000100000001001001000000000100011100000??????????????????????????????????????????00000100000000001000000000000000100000000001??????010000000000000000000101000001000001000???????????????????010000001000001000000000000010000000000010010000010000010100000000?????????????????????0000100000000000000110000000000000100000001000000000100??????????????00000010000000000000100000000000000000010000100000000000001000001110000010000000100100100000010000100000010000001000000010000001000000000001???????????000100000000110000100000100000000100000000000000010???????000000000000000100?????????
+Old_Rapa_Rapa_1214                000100000010000100100001000000000001000000000100000000001000000000000100000010001000000000000100010001000000100001000000001000000000001000000000010000000000100000000000010000000010000000000100000??????????????0010000000010000010000000000010000101000100000000000000000000010000001001000000000010000100010??????????????00000010001????0001000000000000100000000?????????????????00001000100110010000000010001000010000010000000001????????????00010000010000000????????00101000000100000000100????0001000010000100000100000000000001000010000000000010001000010??????????????????????????000000000100000001000???????0100100010010000000000100000000100000001001000010000000100000000100000000100001000000010000000010000001000000001000000000100000000000001000001000000100000100001010000000000010000001000000100000001001001000000000001000000100???????0000010000000000000001000100000010000000010000000100?????000000000010001000000000010000000000001000????????010000100000100100000000000010000000000100000000010000????????00001000000?????????00100001000000000010000??????????010000000100000010000001010010000010000000000010000001000000000100000000101001000000000100000000000000000000010000000000000100000000000000000000000000100001000000000000000001000000100000000100100000001000000000000010000100000010000000100000000000000000000001000000000000010000??????????????0010000010000000100000000???????????000001000000000100000000000000010000000000001000000010000000000100000000100001000001000000000000001000000000000000000000000000001000000001001000000001000000000010100000010000101000000010000001000000010000001000000000001???????????00010000000010000??????00000010???????0000010000000???????010000000000000000001000000
+Penrhyn_235                       000100001000000100100000000010000001000000000101100000?????001100000000000001000100100000010000001010000100000000100000000010000000000100001000000000010000010000000000110000000001000000000100000000100000000000010000000001000001000000010000000010100100000000000000101000000????????010000000010000001000100100000000000001000000001010000111000000000000010000000100000000000000000100000100100010000000100001100010000010000000001??????????????????00010000000????????0100100000010010000000001000100000010001000000100000000000000100010001000000000010000010000000000000000000001000000000001000000000010000000100010010001001000000000010010000000000000100100?????????01100000001000000100000010000000100000000100001000000000100000000001000011000000000??????????010000001000101001000100001????????????0100000001001001001100000000000001000???????????????????????010000001000001000000010000000000100?????0100000000000?????????????????????????????0001000001000010010000010000000000000010????????????0000000100????????00001000000010000000001000????????01000000000000100000100000001000001000000010100100000001000000000100000010000000001000000100010000000010000100011000000001001000000000000???????????????????????00000100000000100000000000000000100000100000000010010000000000100000000001000010000001000???????????????????0000000010000??????????????0100000001000000100000100000001000000000000000000100100000000100000000000000000000000001000000100000001000000000010001000000000100000100000000000000000100000000000000000101000000000000000100000010000100000000010010010000001000000001001000000100000001000000100000000000100100000000???????????01100000010001000000001000000000100000000000100010000000000000000?????????
+Penrhyn_Tongareva_1628            000100???????0010?????0010000000000100000000010000000000100????????????????01000000100000010000001011100000010000100000000010000000000000001000000000010000000001000000100000000001000000000001000000100000000000000010000001000001010000010000000010100000000010000000100000000000010000100000000100000010001001000000000000?????????01010000010000000000000010000000100000000000000000100000100100010000000100001000?????0010000000001????????????00010000010000000001000000100100000010??????????0100010000001000100000010000000000000010001000001000000001100001000000000000000000100000000??????????????0001000???????0100100010010000000000100010000000000001000100010000000010000000100000010000001000000010000000001000100000000010000000000100000011000000000001000000100000100001000010000000010000000000100100000001001001000000000000100001000???????0000000001000000010000001000001000000010000000000100?????010000000000001000000000001000000100000000????????010000101000000100000000000000010000000100000000000100000010000100000000001000000000100001000000000010000001000000000001000010000010000000101001000001000000000001000000100000000010000001000100000010000000000010000000000010000000000000000000000000000100000000000001000000100000000000000000100000100000000010010000000010000000000001000010000001000000000010000000000000000000100000100000000000001000000001000001000001000100000000000000000000010010000000000011000000000000000000000010000001000000010000000000100010000000001000001000000000000000000000000000010000000000000000001000001000000100001000000000100100100000010000000010?????????????????00000100000000000??000000010000001000000001000000001001000000001000000000100000000000100010000000000000000001000000
+Pukapuka_152                      00010000100000010010000010100000000100000000000010000000100000000000001000001000000100000010000001010000100110000100000000010000000000100001000000100100000010000000001101000000001000000000010000000101000000000010000000001000010100000010000000010100100000000000000001010000000010000100000000100000010001001000100000000?????????010100001001000000000000001000000000000000100000001010001001101000000000010010000100000100000000010001100000000001000001000000000100000010010000001001000000000100010000001000100000010000000000001000001000001000000000100001000000000010000000000000000010000100000000011000???????0100100010110010000000101000000000000001001000010000000100000000100000010000001000000110000000010000100000000010000000001100001000110000000001000000110000110001000001000000010000010000000100000001001001000000000010000001000???????00010000000000000101000010000010000000100000000001000110001000000000000100000010000000000000100000001000000010000100100000100000000000010100000000100000100000000000010000000100000001000000000110001010000010010000000101000001000000010100010000010101001000100110100000001000000000001000010000001000100010000000010000100000000000010000000000000000000000000100000000000000001000000011000000000000000100001100000000010010001000001000000000001000011000001000000000000000000010000000000100000100000000000001000000010000001000001000000010000000000001010000010000000000001000000000000000011000000000001000000010000000001100001000000001000001110000000000000000000000100000000000100000000000000001000000100001000000000100100101000010000100000001000001000000010100000000000000001001000000000001000000001000001000001000000001000000000000100000000100000000000010000000001000000
+Raivavae_1213                     00010000001000010010000010000000000100000000010000000000100000100000000000001000100000000010000001010000000010000100000000100000000000000010000100000000000???????00000001000000001000000000001000000000000001000??????????0100000100000000000100001010?????????????????????????0000100001000000001000000100???01000000000000???????????????0001000000000????????????0100000000000000000100000100110010000000100001000010000010000000001????????????00010000010000000????????01001000000100100000000????010000001000100000010000000000000100001000001000000001000001000001000000000000000000000???????????????????????????????010001????????????01001000000000??????0100001000000010000000010000001000000100000????????00010000100000000010000?????????000000000010000010000000100000100001010000000000010000010000000100000001001001001000000000000001000???????0010000000000000????????????????????????????00000100?????000000000100001000000001000000000001000000????????01000010010000????????00000010000000000010000100000000????????00001000000000000100000100010000000000100000000001000000010000100000010000001010???000010000000000???????01000000000100000010001001000000000000010000000???????????????????00000100000000000000000????????????00100000000000000000100000001000000010010000000100000000000001000010000000010???????????????????000000000001001000000000000??????????????0010000010001000000000000010000000000010000000010000000000000000000000000001000010000000100000000001000010000000010??????????????????01000000000000000000??????????????????????000001000??????????010???000100?????01000000010000001000000010010000000000000001000000100000001000000001000000010001000000???????00000100000000000100010000000000000000001000000
+Rapa_664                          000100????????????????0100000000000100000?????????????001000010000000000000???00100100000010000001?????????????0010000000010000000000?????????0000000100000??????????????????????010000000000000010????????????????????????01000000110????????????01?????????????????????????????????????????????01000000100010???????????????????????01????0001000000000?????????????????????????????0000100010???0010000000100001000?????00100000000????????????????????00010000000??????????????????010??????????????0001000??????????????????????00010100???????????????01000????????????????????????????????????????????00010000000001010010001001010000000??????????????000010???????????????????????????????????????????00100000???????????????????????000000100???????????????????????01000001000010100000???????000000100000????????01001001000000000010000??????????????????????????????????????????01000??????????00000100?????0100000000000?????????????????????????????????????0100001???????00010000??????????0000000100000000011000?????????????????????????????????????????????????????????????010000000100000100000001010010???????????????0100000??????????0100000????010?????????????????????????????????????????????????????????????????000000000001??????????????????????0000010000??????0100??????????????????01000???????01000???????????????????0000000010000????????????????????????????0010000010000000100000000????????????????????????????????????????????????????????????????????????????????????????????????????????????00000000000100000000??????????????????????0000000010100000000???010??????00100????????010000???????????00000010000000000???????????????????????????????????????????????????????????????????????010000000000000000001000000
+Rapanui_Easter_Island_264         00010000111000100010000010000000000100000000010010000000100001100000000000001000100100000010000001010100100000000000100000000110000000000001100000000010000000001000000010000000001000000000011000000001000000000011000000001000001010000001100000010100000000000100000001000000000110000100000000100000010001001000010000000010000000010001001000000000000000100000001000000000000000001110001001000100000001000010000100000000000010010000010000000001000100100000001000000010011000001001000000000100010000001000010000010000000000001100001000011000000001100001000000000010000000000000000000000000000100001000000101001001000101000000000001000001010000000010010000100000001100000001000000100000010000001001000000100001000000000100000000001000011000000000000110000001000001100010100000???????000001000000????????01001001001101000000000001000???????0010000000000000010000000001001001001010000000110100001000100000000000??????0010000000000000100000001000000010000100100000001000000000010100101000000000100000000000010000100000000000101000000100000000010000010000000001000001000000010000010000000101001000001010000000001000000100000000010000001000100000000010000000010000000010000001000000000000000000000000001000000000110000000100000000000000000100001000000000010010000000010010000000001000010000001000000010000010000000000000000100000100000000000001000000??????001000001000000010000000000100000000001100000001000000000000000001000001000000001000001000000000101000000001000001000001000000000000000000000100100000000010000000000000000001000000100001000000000100100100000010000000010010000001000000010000001000000000001000000000100001000000001100000000101001000???????00100000000000100100010000000000000000?????????
+Rarotongan_58                     0001000010000001001100001000000000010000000001011000000010000000111000000000100011010000001000000101000010000000010000000001001000000000000100000000001000001000000000001100000000100000000000100000001000000000001000000000100001100000001000000001011010000000000000010100000000001000010000000010000001000100100000000000001100000001010000110000000000001010000000100000000000000000001000100100010000000100001000010000010000000001000010000000000100000100000000010000001001000000100100100000010001000000100010000001000000000000001000100???????????01000001000001010001000000000000000000000100000000001000010000001001000100101000000001001000000000000010????0010000000110000000100000010000001000000010000000010000100000000010000000000100001100000000000001000000100000110001010000000000010001010000000100000001001001001100000010000001000???????0010000000000000010000001000001000000010000000000100?????01000000000000100000010000000000010100000000010000010000101000000100001000000010110010000000000100000100000010000000100000001000000000100000000001010000000001001000001000000011000010000000101001000111010000000001010000100000000010000001000100100000000010001110000000010110000000000000000000000000000000000100100101000001100000000000000000100101100000010010010000000000000000001001000010000001000010000010000010000000000000100000100000000000001000000010000001000001000000010000000001001000000011000000001010000000000000000000100010000001000000010000000001100001000000001000000100000000000000101000000100000000001110010000000000101000000100001000000000100100100000010000100010010000001000000010000001000000000001010100000000001000000001000001000001000000001110000000100000000100100010000000000000000001000000
+Rennellese_206                    0001000010000001001000001000000000100000000000001000000010000001000000000000100000010000001000000101000010000000010000000001000000000010000000000000010000001000000000010000000000100000000100100000000000100000001000000000100001000000001000000001010010000000000000010100000001000000001000000010000001000100000100000000001000000001010000000001000000001000000000100000000000000000100000100100110000000100001000010000000100000001001000000000000100000001000000110000001000100000100000100000010001000000100000100000100000000000100000100010000000000110000100000000000000000001000000000001000000000001000001000100100100010100000000000101001000000000001001000011000000110000000100000010000001000000110000001000000100000000010000000000100001100000000001000000000100000110001010000000100110100000000000100000001001001001000000010000011000010000001000000000000000100000010000010000000100000000001000100001000000000000100000010000000001000000000000000100010000100101000000100000000010100110000000000100000000000000100000100000001000000000100000010000010000000000001000001000000010000010000010001001000000100000000001000000100000000011000001100100100000000011101010000000000000000100000000100000000000000000000000000100000000001000100000000000100001000000010000010001000000000000000001000???????01000000000000001000000000010000000000100001000000001000000010000001000001000000000000100000000100000001000000001001000000000000001000001000000001000000010000010001000000001000001000000010000000000000000000010000000000011000100000000000001000000100000010000000100100100000010000100000000100001000000010000001000000000001???????????0001010000001000001000001000000001100001000000000000100000001100000000000000001000000
+Rotuman_116                       0000100010000001001000001000000100000000000000100000000001000000000010000000100010000000???????001010000100000000001000000010000000000100000000000000001000000010000000100000000000100000000100000000000000010000??????????01000000100000000000100010100000000100000000000000010000001000000001000100000010001000000000010000?????????010100?????????????00000100000000000000010000000000001000101000000010001000000100000101000000000010100000000000000100100000000001000000010001000000100000010000100???????0100000010001000000000010000000100000000001000010001000000000000000010000000000000000000100000???????0000010???01000100000000100001010000000000010000????0001000000000100000010000010000000000100100000000001000100000000010000000000001?????????????01000000000000100100001???????0000010010000000000010000000100100100000000100000000100000010000000100000000000010000001000001000000000100000000100010000100000000000000100001000000000100000000000000100000010010000100010000000000100000000000000010??????????????????010000000000100000000000100000100000001000000000001000000010000001000001?????010???0000000001000000000100000000010001000000100001000100000000000000010000000000100000000000000000000001000000000000000000010000000000000000100000010??????????0100000100000000000010000000000100001000????????????????????????00000000001000000000010000000010000010000000000101000100000000000000100000000??????????000000100000000000000100000000000010001000000000000000100000010000001000000001000000000000000000010000000000000000000100000001000010000000000000001001001000001001000????????000010000010000010000000001000000001???????????00000010000010000??????000001000010000?????????????0100000001000000000000000000001000
+Rurutuan_128                      000100000010000100100000100000000001000000000100000000001000001000000000000010001000000000100000010001000000100001000000001000000000000000001001000001000000100000000000010000000010000000000010000001100000000000010000000010000010000000100000000101000100000000000000100000000000100001000000001000000100???00000100000000000000010010010000100000000000010000000001000000000000000000010001001100110000000100010000100000100000000010000000010000001000001000000000100000010010000001001000000000010010000001000100000010100000000000100001000001000000001000001000011000000000000000000000000000100000000001000???????00101000100100000000001000100000000000010?????????????0100000000100000010000001000000010000000010000100000000010000000000100001000000000000001000000100000110001010000000000010000010000000100000001001001001000000000000001000???????0000001000000000???????010000010000010000000000001000010000100000000000100000100000000000000100000000010000010000100100000110000000000010000000000010000000010000000010000000100000000001000000010001000000010010000000000100000001000010000010000000101001000001000000000001000000100000000010000001000100100000000000000001000000100000000000000000000010000000000000000000100100000000100000000000000000100100001000000010010000000110000000000001000010000001100001000000000000000000000000100000010000000000000100000000100001100001000100000000000001000000000011000000000101000000000000000000000010000001000000010000000000100000010000001000001000000000000001000000000000000000000000000000100000001000100100000000000010100100101000010001000010010000001000000010000001000000000001000100000000001000000001000000010001000000000100000000100000000000100010000000000000000001000000
+Samoan_118                        0001000010000001001000001000000000010000000000001000000010000110000000000000100000010000001000000101000010000000010000000001000000000010001000000010010000001000100100000000000000100000000101010000000001000000001000000000100000000100001000000001010010000000000000110100000001000000010100000010000001000100000001000000001011000001010000001100000000001000000000100100000000000000001000100100100000000100001000010000010000000001010001000000000100000100000000110000001000010000100100000000010001010000100010000001100000000000101000100010000000000010000100000000000000001000000000000000010000000001000001000000100100010100000000000101000100000000001001000011000000100000000100000011000001010000110000000010000100000000010000001000000001000000000000101000000100000111001011000001100010000000100000110000001001001001000000000000001000010000001000000000000000100000010000010010000100000000001000110001010000000000100000110000000001000000000001000000010000100100000100101000100000100100000000000010000100001000100110000000001000000000110001010000010000000000001000001000000010000010000010001001000000100100000001001000100000000010000001000100010000000010000010000000010000000000000000000001000000000000000000100000000000001000000000000000100000100000010010010000000001000000000001000001000001000000000000000010000000000000100000100001000000000010000010000001000001000000010000000000100000000000100000000001000000000000000000010000000001000000110000001000000000101000001001000010000000000000000000000001000000000000100000000000101000000100000100000000100100001000010000100000000100001000000010000011000000000001010001000000000100000001010001000001000000001000000001101000000100000010001000000000000001000000
+Sikaiana_243                      ??????001000000100100000100000000001000000000000100000001000010000000000000001000001000000000010010100001000000001000000000000010000001000000000000001000000100000000001100000000010000000001000000000000100000000100000000010000100000000000000100101001000000000000001000000000100000000100000001000000110010000000001000000100000000101000010000000000000010000000010000000000000000000100010010001000000010000100001000???????????0100010000000000010000010000000????????010000100001001000000000100010000001000101000010000000000000010001000100000000000010000100000000100000000000000000010000000000000010000000001001001000101000000000001010000000000000010010000100000000100000001000000100000010000001000000000110001000000000100000010000000011000000000??????????010000001100101000000000001????????????????????01001001000000000010000001000???????0100000000000000010000001000001000000010000000000010?????0101000000000010000001000000000000100000000100000001000010000100000001000000000010010000000000010000000000000100010000000000100000000010000100000001000000000001000000100000001000001000?????0100100000001000000000100000001000000001000000110010??????????010000000000000000000100000000000000000100000000000000000000100000000001000000000000000100001000000000010010000100000010000000001000001000001000000000000000010000000000000100000100000000000001000000??????00100000100010000000000000000001000001100000000000100000000000000100000100000000100000001000001000100000000100000100000000000000010000000100000000000000001000000000000000000100000010000001000000???010010000001000010000000010000100000001010000100000000000100100000000???????????010000010000010000000010000?????????????0100000001000000000000000001000000
+South_Island_Maori_763            ?????????????0010?????00100000000001000000000000000010?????0010000000000000???00000000100010000001?????010000000000000001001000000000010000000010000000000001010000000000000000010100000000000100000000010000000001000000000100000001000001000000001001000000000000100010000000000010000?????????01000000100010??????????????01000000001010000000000010000000010000000000000000000001000100000100100010000000100001000?????0000010000001??????????????????00000000001000000010100100000010??????????01000100000010000010000000000000100000100001000100000000010000010??????????????????????????0000001000000000010000000100???0100010110000000000100100000000000001001000010000000000000010000001010000????????00001000???????000000000100000100000010000010000000000000000001010000010000101000000000001000001000000????????01001001001000000000000001000???????????????????????010000001000001000001010000000000100010000000010100000010000001000000000000010000000100000001000010010000000100000000001000000100000000000000110000001000??????????????????????????0100000001000000000000100000100000000000101000000100100100000001000000000100000??????????01000000100010010000000000000011000000000000000000000010???????????????????????00000001000001000000001000000000100000100000??????010000000010000000000001000????????????000000000010000000000000000100000100000000000001000000001000001000001000000010000000001000010000??????????0001000000000000000000010000000000100001000000????????????????????01000000100000000000000000000000000000010000000000100000000001000000100000000100000100100100000010001000000010000?????????010000000000000001001???????????00000000001001000??????010000000000100?????????????0100000??????????????????001000000
+Tahitian_1636                     00010000001000010010000010000000000100000000010000000000100001000000000000001000100000000010000001000100100000000100000000100000000000100001000100000000000010000100000001000000001000000000001000000010000000000001000000001000001000000000001000010100010000000000000001000000000010000100000000100000010001101000000000000001000000010100000100000000000010000000001000000000000000000010001001000100000001000010000100000100000000010100000000000001000001000000000100000010010000001001000000000100010000001000100000010000000000001100001000001000000001000001000001000000000000000000000000000100000000101000010000000101010100000000001001000100000000001010????0010000000100000000100000010000001000000011000000010000100000000010000000100100000001000000000001000000100000100001010000000000010000010000000100000001101001001000000000000001000???????00100000000000000100010010000010000010000000000001000100001000000000000100000000100000000000100000001000000010000100100000100000000000001000000000010000100000000000010000100100000000001000000100001000000000010000000000100001000000011000010000000101001000001000000000001100000100000000010000001000100100000000010000000000000001000001000000000000010000000000000000000100000000000100000000000000000100000100000000010010000001000000000000001000010000001000000000000010000000000000000100000100100000000000100000010000001100001000100000000000001000000000010000000000000000000100000001000000010000001000000010000000000100010010000001000001000000000000001000000000000000000000011000000000000011000000100001000010000100110101000011000000010010000001000000010010001000000000001000100000000001000000001001000010001000000000100000000010000000000100010000000000000000001000000
+Takuu_244                         0001000010000????01000???????????????????00001001000000010000110000000000000100000010000001000000101000010000000010000000001000000000?????????00000001000000100000010000000000000?????????001000000????????????????????????01000010000??????????????010010000000000000010000000001000000001000000010000001000100001000000000000010000001?????????????????000011000000010000000000000000000100010010???????000100001000010000100000000001??????????????????00100000000000100000100100000???01000000000100010000001000100000???????????0001000001000100000000000110001001000000000000000000000000??????????????00100000000010010010001????????????010000010000000000100100?????????0010000000100000010000????????01000000???????01000000000100000010000000001000000000????????????????01100010100000000000101000000000000000100??????01000000000010000011000???????0100000000000000010000001000001000000010000001000000?????0001000000000??????00100000000010000100000????????010000100101000000100000000000100100000000000100000000000001000000100000001000000000100000010000010000000000001000001000000010000010000010001001000000100000000001000000100000000???????0010?????????????01000101000000000000000000100000???????????????????????????????????00001001000000000000100000100000000010010000100000000000000001000001000001000???????????????????0100000000000??????????????01000000??????00100000100?????????????????????????00100000000100101000000000000100000000000000100?????????????????????????????010000000100000000000????????????????????0100001000000000000010000001000?????????????010??????00100????????000100?????????010100001000000000001???????????00001000000010000010000010000000010000?????????????0100000001100000000000000001000000
+Tikopia_155                       000100001001000100100000100000000000010000010001100000001000001000000000000010000001000000100000010100001000000001000000000100000000001000000000000001000000100000010000000000000010000000001010000000000001000000100000000010000100000000100000000101001000000000000001000000000100000001000000001000000100010000000001000000001000000101000010000000000000001000000010000001000000000010100010010001000000010000100001000???????????010100000000000001000001000000000100000010001000001001000000000100010000001000100000001000000000000010001000100010000000100001000100000000000000000000000010000000000000010000010001001001000101000000000001010000000000000010010000100000000100000001000000100000011000001000000000100001000000000100000010000000010000100000??????????01000001110010100000001000000100000000001000000010010010010100000100000110000100000????????????????0100000010000010000000100000000001000100000000010000000100000010000000001000000000001000000011000100101000101001000000000100100000000000100000100????????00001000000010000000001000000100000100000000001010000010000000100000100000100010010000000100000000010000000000000100100000010001001000000000111000100000000101010000000000000100010000000000000000000001000000000010100000000000001000010000000000100100000000000100000000010000010000010000000010000000000000000000010000001000010000000010000000100000010000010000000100000000001000000000010000000000010000000000000010000010000000010000000100000000010000000010000010000000100000000000????????????????????0101001000000000000010000001100011000000001001001000000100001000000100000010000000101000010000000000010010000000000010000000010000010000010000000010000?????????????0100000001100000000000000011000000
+Tokelau_245                       0001000010000001001000????????000001000000000101100000?????0000100000000000010000001000000011000010100001000000001000000000100000000000000100000000001000000100000000001100000000?????????010000000??????????????010000000001000010000??????????????????????????????????????????0100000001000000001000000100???00000010000000?????????010100?????????????000100000000?????????????????0010100???0100100000???????01000010000100000000001010000000000?????????????????00010000??????????01001001000000100???????????00110000010000000000010000????00010000000?????001000000000100000000000000000??????????????00100000100010???01000100000100000001????????????000010????000100000?????????01000000100000000100000100000???????0100000000010000?????????0011000000000??????????010000001000101000000010000???????????????????????010???00000000010000001000???????0100000000000000010000001000001000000010000000000100?????0101000000000?????????????????????????????????????00100??00100000100000000000010100100000000000100000100????????00100000000010000000001000????????000010000??????????01000000??????0100000101010010000000100000000????????????????????????0110010??????????01000100000000000011000000000000???????????????????????????????????0010100000000000000010??????????0000100100??????????????????????????????010000000000000000010000010000000000001000000000000??????????????0010000????0000010000000000001000000??????????0100000000000000000100000000000000100??????????????????0000001000001000000010000000000000000000001000000000010010000000000000001000000110000100000000100100100000010000100000000100?????????010000001000000000001000001000000100000000001010001000001000000????????????????????0100000??????????????????011000000
+Tokelau_Fijian_1627               ??????010000000100100000010000010000000000000010000000?????010000000000000001001000000000100000001?????????????01000000000010000000000000100000000000100000001000000010000000000001000000000100000000000000000100010000000001000010000001000000000??0100001000000000000000100000010000000000100000000100010001000000000100000010000000010100000000100000000100000000000000100000000000000010001001001000000100000?????01000000000001000101000000000001000000100000000010000000100100000010??????????010000100000100010000000000010000????????????0100000000000001010000000000000100000000000000000100000000000000100???????0100100??00000000010001000000100000000100??????????????????????0100000000010????????00000010000100000000001000100000100000000001000000000001000000000010000001??00010000000010???????????????????????010010000000100000000001000100000????????????????000010001000001000??????????????????01000?????????????01000000010000000001000000000001000000100001???????0100000000001000000000001000000001000000??????????????????????????????????01000000?????????0100000000????????01000001000?????010010???????????????000001000001000000001000????010??????????0000000100000000000000100000000000000001000000000000000001000000000000000000100000000010000001000000010000010??????????????????00100????????????000000100000000000000001000000000000010000000000001000??????010000001000000100000000000100000000????????????????????????????000000010000000?????????????00001000000000010000010001000000000000000000000000000001000000000000000000100000010010000000?????????????010001000001000010000001000001000000001000100000000000000100100000000???????????01000000100000010000000001000010000000000010000000010000000000000010000000
+Tongan_136                        0001000001010010000010001000000010000000000000100000000010000011000000000000100000010000001000000100001010000000010000000001000000000001000000000000010000001000000000000000100000100000000000000010000000010000001000000000100001000000001000000001010010000000000000000100000001000000010000000010000001000100000000000010001000000001010000000100000000000010000000100000000000000000001000100100100000000100001000010000000000100001010000000000000100000100000000100000001000100000100100000000010001000000110000100000100000000000100000100000010000000010000100000000000000000100000000000000100000000000100000001000100100010100000000000101000000000000001001000001000000100000000100000010000000100000010000000010000100000000010000001000000001000000000000100000000100000100001001000000010000100000000000100000001001001000000100000000001000010000000000001000000000100000010000000010000100000000001000100001000000000000100000010000000001000000000001000000010000100001000000100000000100100100000000000100000000000000100110000000001000000000100001010000000010000000100000001000000010000010000010001001000000100000000000001000100000000000001001000100000100000010000000000000010000000000000000000001000000000000000000100000000000001000000000000000100000100000010000010000000000000100000001000001000001000000000000000100000000000000100000000100000000001000000010000001000001000010000000000000100000000010000000000010000000000000000000011000000001000000010000001000000000001000001000000000010000000000000100001000000000000000100000000000001000010000000100000000100100100000010001000000000100001000000010000010000000000001000001000000000000100001000001000001000000001000000000001000000100000010000000000000000000000010
+Tuamotu_246                       000100???????001001100001000000000010000001001011000000010000100000000000000100011010000001000000101000000001000010000000001100000000010000110000000001000001000000000001000000000100000000000100000010000000000001000000000100000100000000010000001010010000000000000010000000000001000010000000010000000010100100000000000001100000001010000110000000000000010000000100000000000000000101000100100110000000000101000?????0010000000001????????????00010000010000000011000000100010000010010010000001000100000010001000000100000000000010000010000010000000011000010001000000000000000000000000000001000000000110000100000010010101000010000000010000000100000000100100001000000011000000010000001000000100000011000000001000010000000001000000000010000110000000000000100000010000011000101000000000001000001000000????????00101001001000000010000001000???????0010000000000000010000001000001000001010000000000100?????0100000000000??????0100000000000000100000000010000010000100100000100000000000011110111000000000100000100000010000000100000000000000100100001000000010000000??????????01000000011000010000000101001001011010000000001000000100000000010000001000100100000000010001110000000000010000000000000000010000000000000000001000001000001100000000000000000100000100000000010010000001000000000000001000010000001000001000000000000000000000000100000100000000000001000000010000001000001000000010000000001100000000011000000000000000000001000001000001000000001000000010000000111000001000000001000000100000000000000100000000100000000010110000000000000001000000100001000000000100100100000010000000010010000?????????010000001000000000001001000000000000000010001000000010001000000001110000000100000000100000010000000000000000001000000
+Tuvalu_163                        00010000000100010?????????????0000100000000110001000000010000010001000000000100000010000001000000101010010000000010000000????????????01100000000001001000000100000000000000001000010000000000010000??????????????0100000000010000100000000100000000101001000000000000000010000000100000001000000001000000100010???????????????????????01010000000000000100000010000000010000000000000000001000100100100000000100001000010000100000000001010000000000??????0001000000000100000???0100000010010000000001000100000010000010000010000000000010000010000010000000?????001000000000010000000000000000010000000000000010000???????01001000101000100000001010000000000000010010000010000001000000000010000100000010100000100000???????010000000001000000100000000100000000000000000100010000011100101000000000100????????????01000000010???01000000000010000001000???????0000000000100000010000001000001000001000000000000100?????0000001000000??????00100000000000000100000????????01000010010000????????00000010100100000000000010010000????????00100000000010000000??????????????0000100000001010000????????01000001000000010100100000010010000000100000??????????01100000100???00000010000001000000000000001000000000000000000010000000000000000????????????0000100000000000000010??????????000010010000100000000000000001000???????01000???????????????????0100000000000??????????????01000000010000001000001000000010000000000001000000000100000000001000000000000001000000000000001000000010000000001000000100000001000000010000000000000001000000000000000000001000000000000001000000100000100000000100100100000010000100000000100001000000010100000000000000001001000000000000100000001000001000001000000011000000001011000000100000000100000000000000001000000
+Uvea_East_258                     000100000001000100110000100000???????????001000110000000100000100000000000001000000100000010000????????????????00100000000010000000000100001000000000100000???????010001000000000010000000001010000??????????????010000000001000010000????????????0101001000000000000???????????????????00100000001000000100???000000010000000100000000101000000110000000000101000000010000000000000000010100???010010000000010000100001000???????????01??????????????????00010000000010100000100010000010??????????0100010000001100100000000000010000001000001000000100000000100????0000000000000000000000100000000010000000001000000000100100100??00000100000001010000000000000010????0001000000100000000100000010000000100000010000000010000100000000010000001000100001100000000001000000000100000001001???????00100000100000000000100100001001001000010100000000?????????????01000000000000000100000010000000010000100000????????000100100000000000??????0010000000001000010000001000000011000100101000000100001000110100110000000000100000000????????011000000000100000000010000001000001100000000010000000100000001000001000001000100100001001000000000100000010100000001000000110010010000000001110101000000001011100000000000???????????????????????00100000000000001110000000000000100000100000010010010000000000010000000001000001000001000??????????????????????????????????????????????0100000001000000100000100000001000000000010100000000000010000100001000000000000100000100000000100?????????0000011000000001000001000000110000000000000001010000000000000000100000000000000101000000100000100000000100100100000010000000100000100001000000010000001000000000001000001000000001000000001010001000001000000001100000000001000000100000010000000000000000001000000
+Uvea_West_259                     000100???????????0100000100000???????????0001000000000?????????????????????01000000100000010000???0100001000000??????????????????????01000000000000001000000100000????????????????????????001010000?????????????????????????????010000??????????????01001000000000000???????????010000000100000000100000010001000000000100000?????????0101000000100000000????????????????????????????????????0100100100000000100001000????????????????01????????????000100???????????????????0100010000010010000000001000100000010000010000100000000000010000????0100000000000100001000000000010000000000000000?????????????????????01000100100100??????????????01???????????????????????????????00100000001000000100000000100001000000000100001000000000100000010000000001000000000??????????01000001000??0100000???????????????????01000000??????010000001000000000010000000010?????????????????????????????01000?????????????????????????????????????????????????????0100000000000100000001100010010000000010000000000010????????????00000001000000001000001000000?????????00100001000000010000000??????????0100000001000001000001000100100000001000000000100000??????????01000000010010??????????????????????????????????????????????????????????????????????????????????????????????00010??????????0100000100000000000100000000?????0010000????????????????????????010000000000001000000000000010000000100000010000010000000100000000???????????00100000000100000000000000000100000000000000100000001000????????????????????010??????????????????????????????????????0001000000000000000010??????????????????????01001000000100??????????????001000000010000010000000000001???????????00010000000010000010000010000000011000?????????????0100000000000000000010000011000000
+Vaeakau-Taumako_375               00010000100000010010000010000000000000010000000010000000100000000000000010001000000100000010000001010000001000000000010000010000000000100000000010000100000000010000001100000000001000000001000010000001000000000010000000001000000110000000000001010100100000000000000000100000????????010000000000001001000100010000000000000010000001010000000000000010000000000100000000100000000000001000100110010000000100001000010000000100000001000000000100??????00010000000????????010000100001000010000000100010000001000001000010000000000000001001000000000000100100001000000000010000000000000000000010000000000010000???????01001000101000000000001010000000000000010000100000001001000000001000000100000000000101000000???????01000000000100000000000100010000000000??????????010000001000101100000000001001000000000010000000100100100000000001000001000001000000010000000000000010000001000001000000000001001000000010000000000000010010000000000001000100000000000100000001000010010000000000100000000010010000000000000001000000000010001100000000100000000010000001000000001000000001000000100000001000001000001000100100000000000110000100000010000000001000000100010010000000001000000000000000000000010000000???????????????????????001001000000000010000000000000001000001000000100000100010000000100000000010000010000?????00000000010000000000000000100000010000000000000100000001000000100000100001000000000000001001000000100000000001000000000000000100000000000000100000001000000000100001000000000100000001000000000000000000000010000000000000000000000010000100000000100100000000???0100100000010000100000000100001000000010000001000000000001000000100000001000000001000001000001000000001001000000000001000000010001000000000000000001000000
+Western_Fijian_Navosa_512         0100000000001001001000000000010000000000100000100000000100001000000000000000100100000000010000001001000010000000000000100001000000000000000001000001000000000100000001000000000000000001000010000000000000000000100000000100001001000000100000000001010000100000000000000010000000000001000100000000000101000100000000010000001000000001010000000010000000000010000000000010000000000000001000100100100000010000000001001000000000000101010000000000000001000000000100100000001001000000010000000001010000100000100010000000000000100010000000100010000000000010001000000000100000000000000000000010000000000000010000100000100100010100000000000100000010000000000101000100000000000001000000100000001000001000000000100010000100000000010000010000000001000000000000100000000000010100001000100000000100010000000000001000001000101000000000000001010000010000001000000000000000000100010000010000000000001000000010000100000000000010000010000000001000100000000000000010000010100010000000000100011000000000001000000000000001010000000000000010000010000001000001000000000000010010000000001000000010000010000100000101000000001000000001000000000100000000100001000100000000001000000000000100000000000000100000000000000000000000010000100000000001000000000000000010000010000000000010001000010000000000000000100000000101000000000100000000000000001000000000000000000010000001000010000000001001000000000000010000000001000000000001000000000000000100000000000000010001000000000100000100000000001000001000010000000000000000000001000000000000000000001000000000001001000000000001000000100100010000010000010000010000010000000010000000000001000001001000000000000000001001000001000000010000010000000010000000000010000010000000000000000000000001
+;
+END;
+
+
+
+begin assumptions;
+	charset above = 1-4;
+	charset above_u_116_175_above = 5;
+	charset above_u_217_175_above = 6;
+	charset and = 7-12;
+	charset and_u_512_192_and = 13;
+	charset ashes = 14-16;
+	charset ashes_u_653_146_ashes = 17;
+	charset at = 18-20;
+	charset at_u_136_173_at = 21;
+	charset at_u_1654_173_at = 22;
+	charset back = 23-28;
+	charset back_u_235_13_back = 29;
+	charset back_u_512_13_back = 30;
+	charset badevil = 31-36;
+	charset badevil_u_1212_165_badevil = 37;
+	charset badevil_u_155_165_badevil = 38;
+	charset badevil_u_217_165_badevil = 39;
+	charset badevil_u_375_165_badevil = 40;
+	charset badevil_u_512_165_badevil = 41;
+	charset belly = 42-49;
+	charset belly_u_1030_14_belly = 50;
+	charset belly_u_1055_14_belly = 51;
+	charset belly_u_676_14_belly = 52;
+	charset belly_u_763_14_belly = 53;
+	charset belly_u_85_14_belly = 54;
+	charset below = 55-57;
+	charset below_u_116_176_below = 58;
+	charset below_u_653_176_below = 59;
+	charset big = 60-67;
+	charset big_u_1004_153_big = 68;
+	charset big_u_116_153_big = 69;
+	charset big_u_1214_153_big = 70;
+	charset big_u_152_153_big = 71;
+	charset big_u_217_153_big = 72;
+	charset big_u_375_153_big = 73;
+	charset big_u_64_153_big = 74;
+	charset big_u_654_153_big = 75;
+	charset bird = 76-77;
+	charset bird_u_243_97_bird = 78;
+	charset black = 79-84;
+	charset black_u_1212_147_black = 85;
+	charset black_u_1654_147_black = 86;
+	charset black_u_763_147_black = 87;
+	charset black_u_85_147_black = 88;
+	charset blood = 89-93;
+	charset blood_u_1214_23_blood = 94;
+	charset blood_u_243_23_blood = 95;
+	charset bone = 96-98;
+	charset branch = 99-103;
+	charset breast = 104-109;
+	charset breast_u_239_18_breast = 110;
+	charset breast_u_559_18_breast = 111;
+	charset child = 112-115;
+	charset child_u_116_56_child = 116;
+	charset child_u_264_56_child = 117;
+	charset child_u_375_56_child = 118;
+	charset child_u_512_56_child = 119;
+	charset child_u_52_56_child = 120;
+	charset child_u_763_56_child = 121;
+	charset cloud = 122-129;
+	charset cloud_u_1030_131_cloud = 130;
+	charset cloud_u_1212_131_cloud = 131;
+	charset cloud_u_1654_131_cloud = 132;
+	charset cloud_u_753_131_cloud = 133;
+	charset cold = 134-141;
+	charset cold_u_512_139_cold = 142;
+	charset correcttrue = 143-151;
+	charset correcttrue_u_116_166_correcttrue = 152;
+	charset correcttrue_u_52_166_correcttrue = 153;
+	charset correcttrue_u_64_166_correcttrue = 154;
+	charset correcttrue_u_675_166_correcttrue = 155;
+	charset day = 156-162;
+	charset dirty = 163-170;
+	charset dirty_u_1030_10_dirty = 171;
+	charset dirty_u_1055_10_dirty = 172;
+	charset dirty_u_136_10_dirty = 173;
+	charset dirty_u_163_10_dirty = 174;
+	charset dirty_u_217_10_dirty = 175;
+	charset dirty_u_239_10_dirty = 176;
+	charset dirty_u_763_10_dirty = 177;
+	charset dog = 178-179;
+	charset dog_u_116_96_dog = 180;
+	charset dog_u_1212_96_dog = 181;
+	charset dog_u_217_96_dog = 182;
+	charset dog_u_238_96_dog = 183;
+	charset dog_u_512_96_dog = 184;
+	charset dog_u_559_96_dog = 185;
+	charset dog_u_64_96_dog = 186;
+	charset dry = 187-194;
+	charset dry_u_136_140_dry = 195;
+	charset dullblunt = 196-204;
+	charset dullblunt_u_116_82_dullblunt = 205;
+	charset dullblunt_u_1213_82_dullblunt = 206;
+	charset dullblunt_u_1627_82_dullblunt = 207;
+	charset dullblunt_u_217_82_dullblunt = 208;
+	charset dullblunt_u_512_82_dullblunt = 209;
+	charset dust = 210-212;
+	charset dust_u_1163_11_dust = 213;
+	charset dust_u_1628_11_dust = 214;
+	charset dust_u_217_11_dust = 215;
+	charset dust_u_242_11_dust = 216;
+	charset dust_u_253_11_dust = 217;
+	charset dust_u_512_11_dust = 218;
+	charset dust_u_64_11_dust = 219;
+	charset ear = 220-222;
+	charset ear_u_512_43_ear = 223;
+	charset ear_u_52_43_ear = 224;
+	charset earth_soil = 225-229;
+	charset earth_soil_u_118_119_earthsoil = 230;
+	charset egg = 231-239;
+	charset egg_u_116_98_egg = 240;
+	charset egg_u_243_98_egg = 241;
+	charset egg_u_375_98_egg = 242;
+	charset eight = 243-244;
+	charset eye = 245-247;
+	charset far = 248-252;
+	charset far_u_1030_180_far = 253;
+	charset far_u_1055_180_far = 254;
+	charset far_u_116_180_far = 255;
+	charset far_u_1628_180_far = 256;
+	charset far_u_217_180_far = 257;
+	charset far_u_264_180_far = 258;
+	charset far_u_675_180_far = 259;
+	charset far_u_763_180_far = 260;
+	charset far_u_85_180_far = 261;
+	charset fat_grease = 262-268;
+	charset fat_grease_u_1004_104_fatgrease = 269;
+	charset fat_grease_u_1163_104_fatgrease = 270;
+	charset fat_grease_u_116_104_fatgrease = 271;
+	charset fat_grease_u_1214_104_fatgrease = 272;
+	charset father = 273-277;
+	charset father_u_116_60_father = 278;
+	charset father_u_1214_60_father = 279;
+	charset father_u_512_60_father = 280;
+	charset feather = 281-286;
+	charset feather_u_116_99_feather = 287;
+	charset feather_u_653_99_feather = 288;
+	charset feather_u_676_99_feather = 289;
+	charset fire = 290-292;
+	charset fire_u_1214_143_fire = 293;
+	charset fire_u_1627_143_fire = 294;
+	charset fire_u_375_143_fire = 295;
+	charset fire_u_512_143_fire = 296;
+	charset fish = 297-299;
+	charset fish_u_246_111_fish = 300;
+	charset five = 301-303;
+	charset flower = 304-312;
+	charset flower_u_116_116_flower = 313;
+	charset flower_u_1212_116_flower = 314;
+	charset flower_u_136_116_flower = 315;
+	charset flower_u_1654_116_flower = 316;
+	charset flower_u_753_116_flower = 317;
+	charset fog = 318-324;
+	charset fog_u_128_132_fog = 325;
+	charset fog_u_653_132_fog = 326;
+	charset four = 327-328;
+	charset fruit = 329-330;
+	charset fruit_u_128_117_fruit = 331;
+	charset fruit_u_264_117_fruit = 332;
+	charset good = 333-343;
+	charset good_u_163_164_good = 344;
+	charset good_u_375_164_good = 345;
+	charset grass = 346-352;
+	charset grass_u_152_118_grass = 353;
+	charset grass_u_1654_118_grass = 354;
+	charset grass_u_253_118_grass = 355;
+	charset grass_u_375_118_grass = 356;
+	charset grass_u_676_118_grass = 357;
+	charset green = 358-366;
+	charset green_u_116_151_green = 367;
+	charset green_u_1212_151_green = 368;
+	charset green_u_152_151_green = 369;
+	charset green_u_38_151_green = 370;
+	charset green_u_52_151_green = 371;
+	charset green_u_675_151_green = 372;
+	charset green_u_763_151_green = 373;
+	charset green_u_85_151_green = 374;
+	charset hair = 375-379;
+	charset hair_u_116_26_hair = 380;
+	charset hair_u_85_26_hair = 381;
+	charset hand = 382-383;
+	charset hand_u_116_1_hand = 384;
+	charset he_she = 385-387;
+	charset head = 388-391;
+	charset head_u_1055_24_head = 392;
+	charset head_u_1163_24_head = 393;
+	charset head_u_116_24_head = 394;
+	charset heavy = 395-399;
+	charset heavy_u_152_142_heavy = 400;
+	charset heavy_u_246_142_heavy = 401;
+	charset house = 402-404;
+	charset house_u_116_61_house = 405;
+	charset house_u_512_61_house = 406;
+	charset how = 407-409;
+	charset how_u_1004_194_how = 410;
+	charset how_u_116_194_how = 411;
+	charset husband = 412-417;
+	charset husband_u_11_57_husband = 418;
+	charset husband_u_136_57_husband = 419;
+	charset husband_u_1627_57_husband = 420;
+	charset husband_u_264_57_husband = 421;
+	charset husband_u_512_57_husband = 422;
+	charset i = 423-424;
+	charset if = 425-430;
+	charset if_u_1055_193_if = 431;
+	charset if_u_1163_193_if = 432;
+	charset if_u_128_193_if = 433;
+	charset if_u_375_193_if = 434;
+	charset if_u_52_193_if = 435;
+	charset if_u_589_193_if = 436;
+	charset ininside = 437-440;
+	charset ininside_u_116_174_ininside = 441;
+	charset ininside_u_512_174_ininside = 442;
+	charset intestines = 443-448;
+	charset intestines_u_1004_16_intestines = 449;
+	charset intestines_u_239_16_intestines = 450;
+	charset intestines_u_253_16_intestines = 451;
+	charset intestines_u_512_16_intestines = 452;
+	charset intestines_u_763_16_intestines = 453;
+	charset lake = 454-457;
+	charset lake_u_1055_126_lake = 458;
+	charset lake_u_1163_126_lake = 459;
+	charset lake_u_753_126_lake = 460;
+	charset lake_u_763_126_lake = 461;
+	charset leaf = 462-463;
+	charset leaf_u_1214_114_leaf = 464;
+	charset left = 465-468;
+	charset left_u_238_2_left = 469;
+	charset left_u_38_2_left = 470;
+	charset left_u_654_2_left = 471;
+	charset leg_foot = 472-474;
+	charset lightning = 475-479;
+	charset lightning_u_1004_135_lightning = 480;
+	charset lightning_u_116_135_lightning = 481;
+	charset lightning_u_1214_135_lightning = 482;
+	charset lightning_u_156_135_lightning = 483;
+	charset lightning_u_512_135_lightning = 484;
+	charset liver = 485-487;
+	charset liver_u_653_17_liver = 488;
+	charset long = 489-494;
+	charset long_u_1030_155_long = 495;
+	charset louse = 496-498;
+	charset louse_u_653_108_louse = 499;
+	charset man_male = 500-503;
+	charset man_male_u_116_54_manmale = 504;
+	charset man_male_u_653_54_manmale = 505;
+	charset man_male_u_654_54_manmale = 506;
+	charset meat_flesh = 507-510;
+	charset meat_flesh_u_1055_103_meatflesh = 511;
+	charset meat_flesh_u_1163_103_meatflesh = 512;
+	charset meat_flesh_u_1627_103_meatflesh = 513;
+	charset meat_flesh_u_258_103_meatflesh = 514;
+	charset meat_flesh_u_512_103_meatflesh = 515;
+	charset meat_flesh_u_653_103_meatflesh = 516;
+	charset meat_flesh_u_763_103_meatflesh = 517;
+	charset moon = 518-523;
+	charset moon_u_375_129_moon = 524;
+	charset moon_u_654_129_moon = 525;
+	charset mosquito = 526-528;
+	charset mosquito_u_239_109_mosquito = 529;
+	charset mother = 530-535;
+	charset mother_u_1055_59_mother = 536;
+	charset mother_u_1163_59_mother = 537;
+	charset mother_u_116_59_mother = 538;
+	charset mother_u_1214_59_mother = 539;
+	charset mother_u_375_59_mother = 540;
+	charset mouth = 541-544;
+	charset mouth_u_1627_30_mouth = 545;
+	charset name = 546-548;
+	charset name_u_243_63_name = 549;
+	charset narrow = 550-561;
+	charset narrow_u_1055_158_narrow = 562;
+	charset narrow_u_1163_158_narrow = 563;
+	charset narrow_u_116_158_narrow = 564;
+	charset narrow_u_118_158_narrow = 565;
+	charset narrow_u_136_158_narrow = 566;
+	charset narrow_u_1628_158_narrow = 567;
+	charset narrow_u_206_158_narrow = 568;
+	charset narrow_u_217_158_narrow = 569;
+	charset narrow_u_235_158_narrow = 570;
+	charset narrow_u_247_158_narrow = 571;
+	charset narrow_u_258_158_narrow = 572;
+	charset narrow_u_64_158_narrow = 573;
+	charset narrow_u_654_158_narrow = 574;
+	charset narrow_u_675_158_narrow = 575;
+	charset near = 576-582;
+	charset near_u_1030_179_near = 583;
+	charset near_u_116_179_near = 584;
+	charset near_u_1214_179_near = 585;
+	charset near_u_1626_179_near = 586;
+	charset near_u_217_179_near = 587;
+	charset near_u_264_179_near = 588;
+	charset near_u_52_179_near = 589;
+	charset neck = 590-594;
+	charset neck_u_1163_25_neck = 595;
+	charset neck_u_1212_25_neck = 596;
+	charset needle = 597-602;
+	charset needle_u_664_68_needle = 603;
+	charset new = 604-606;
+	charset night = 607-610;
+	charset nine = 611-612;
+	charset nonot = 613-619;
+	charset nonot_u_1004_195_nonot = 620;
+	charset nonot_u_116_195_nonot = 621;
+	charset nonot_u_1627_195_nonot = 622;
+	charset nonot_u_1636_195_nonot = 623;
+	charset nonot_u_253_195_nonot = 624;
+	charset nose = 625-626;
+	charset old = 627-634;
+	charset old_u_1214_162_old = 635;
+	charset old_u_156_162_old = 636;
+	charset old_u_653_162_old = 637;
+	charset old_u_85_162_old = 638;
+	charset one = 639-643;
+	charset one_u_512_197_one = 644;
+	charset onehundred = 645-646;
+	charset onehundred_u_1628_209_onehundred = 647;
+	charset onehundred_u_375_209_onehundred = 648;
+	charset onethousand = 649-652;
+	charset onethousand_u_1212_210_onethousand = 653;
+	charset onethousand_u_1626_210_onethousand = 654;
+	charset onethousand_u_238_210_onethousand = 655;
+	charset onethousand_u_375_210_onethousand = 656;
+	charset onethousand_u_675_210_onethousand = 657;
+	charset painfulsick = 658-661;
+	charset painfulsick_u_116_160_painfulsick = 662;
+	charset painfulsick_u_11_160_painfulsick = 663;
+	charset painfulsick_u_512_160_painfulsick = 664;
+	charset painfulsick_u_753_160_painfulsick = 665;
+	charset painfulsick_u_763_160_painfulsick = 666;
+	charset person_humanbeing = 667-669;
+	charset person_humanbeing_u_163_53_personhumanbeing = 670;
+	charset person_humanbeing_u_512_53_personhumanbeing = 671;
+	charset person_humanbeing_u_559_53_personhumanbeing = 672;
+	charset person_humanbeing_u_763_53_personhumanbeing = 673;
+	charset rain = 674-676;
+	charset rain_u_1214_133_rain = 677;
+	charset rain_u_1627_133_rain = 678;
+	charset rain_u_512_133_rain = 679;
+	charset rat = 680-685;
+	charset rat_u_116_102_rat = 686;
+	charset rat_u_375_102_rat = 687;
+	charset red = 688-694;
+	charset red_u_512_149_red = 695;
+	charset right = 696-700;
+	charset right_u_238_3_right = 701;
+	charset right_u_239_3_right = 702;
+	charset road_path = 703-706;
+	charset road_path_u_1004_6_roadpath = 707;
+	charset road_path_u_1212_6_roadpath = 708;
+	charset road_path_u_156_6_roadpath = 709;
+	charset road_path_u_1627_6_roadpath = 710;
+	charset road_path_u_64_6_roadpath = 711;
+	charset road_path_u_763_6_roadpath = 712;
+	charset root = 713-714;
+	charset root_u_1214_115_root = 715;
+	charset root_u_253_115_root = 716;
+	charset root_u_676_115_root = 717;
+	charset root_u_763_115_root = 718;
+	charset rope = 719-726;
+	charset rope_u_116_65_rope = 727;
+	charset rotten = 728-736;
+	charset rotten_u_1055_112_rotten = 737;
+	charset rotten_u_1213_112_rotten = 738;
+	charset rotten_u_1214_112_rotten = 739;
+	charset rotten_u_654_112_rotten = 740;
+	charset salt = 741-745;
+	charset salt_u_1004_125_salt = 746;
+	charset salt_u_1163_125_salt = 747;
+	charset salt_u_163_125_salt = 748;
+	charset salt_u_653_125_salt = 749;
+	charset salt_u_763_125_salt = 750;
+	charset sand = 751-754;
+	charset sand_u_116_121_sand = 755;
+	charset sand_u_512_121_sand = 756;
+	charset sea = 757-760;
+	charset sea_u_1627_124_sea = 761;
+	charset seven = 762-763;
+	charset sharp = 764-768;
+	charset sharp_u_152_81_sharp = 769;
+	charset sharp_u_659_81_sharp = 770;
+	charset short = 771-777;
+	charset shoulder = 778-784;
+	charset shoulder_u_118_19_shoulder = 785;
+	charset shoulder_u_11_19_shoulder = 786;
+	charset shoulder_u_1212_19_shoulder = 787;
+	charset shoulder_u_1628_19_shoulder = 788;
+	charset shoulder_u_247_19_shoulder = 789;
+	charset shyashamed = 790-795;
+	charset shyashamed_u_38_161_shyashamed = 796;
+	charset shyashamed_u_64_161_shyashamed = 797;
+	charset six = 798-800;
+	charset skin = 801-802;
+	charset skin_u_512_12_skin = 803;
+	charset sky = 804-805;
+	charset sky_u_1212_128_sky = 806;
+	charset small = 807-816;
+	charset small_u_1214_152_small = 817;
+	charset small_u_1628_152_small = 818;
+	charset small_u_1654_152_small = 819;
+	charset small_u_512_152_small = 820;
+	charset smoke = 821-825;
+	charset smoke_u_1654_145_smoke = 826;
+	charset snake = 827-828;
+	charset snake_u_1004_106_snake = 829;
+	charset snake_u_116_106_snake = 830;
+	charset snake_u_1626_106_snake = 831;
+	charset snake_u_259_106_snake = 832;
+	charset snake_u_38_106_snake = 833;
+	charset spider = 834-837;
+	charset spider_u_116_110_spider = 838;
+	charset spider_u_1214_110_spider = 839;
+	charset spider_u_128_110_spider = 840;
+	charset spider_u_136_110_spider = 841;
+	charset spider_u_1626_110_spider = 842;
+	charset spider_u_1628_110_spider = 843;
+	charset spider_u_163_110_spider = 844;
+	charset spider_u_247_110_spider = 845;
+	charset spider_u_52_110_spider = 846;
+	charset spider_u_559_110_spider = 847;
+	charset spider_u_675_110_spider = 848;
+	charset spider_u_676_110_spider = 849;
+	charset star = 850-855;
+	charset star_u_653_130_star = 856;
+	charset stick_wood = 857-859;
+	charset stick_wood_u_1055_79_stickwood = 860;
+	charset stick_wood_u_264_79_stickwood = 861;
+	charset stick_wood_u_589_79_stickwood = 862;
+	charset stone = 863-867;
+	charset tail = 868-873;
+	charset tail_u_116_105_tail = 874;
+	charset tail_u_1214_105_tail = 875;
+	charset tail_u_375_105_tail = 876;
+	charset tail_u_512_105_tail = 877;
+	charset ten = 878-883;
+	charset ten_u_243_206_ten = 884;
+	charset ten_u_512_206_ten = 885;
+	charset that = 886-888;
+	charset that_u_258_178_that = 889;
+	charset that_u_512_178_that = 890;
+	charset thatch_roof = 891-898;
+	charset thatch_roof_u_11_62_thatchroof = 899;
+	charset thatch_roof_u_1213_62_thatchroof = 900;
+	charset thatch_roof_u_1214_62_thatchroof = 901;
+	charset thatch_roof_u_375_62_thatchroof = 902;
+	charset thatch_roof_u_512_62_thatchroof = 903;
+	charset they = 904-905;
+	charset they_u_1004_187_they = 906;
+	charset they_u_116_187_they = 907;
+	charset they_u_217_187_they = 908;
+	charset they_u_512_187_they = 909;
+	charset thick = 910-914;
+	charset thick_u_1055_157_thick = 915;
+	charset thick_u_1214_157_thick = 916;
+	charset thick_u_1628_157_thick = 917;
+	charset thick_u_375_157_thick = 918;
+	charset thick_u_512_157_thick = 919;
+	charset thick_u_654_157_thick = 920;
+	charset thin = 921-927;
+	charset thin_u_1055_156_thin = 928;
+	charset thin_u_1214_156_thin = 929;
+	charset thin_u_239_156_thin = 930;
+	charset thin_u_247_156_thin = 931;
+	charset thin_u_654_156_thin = 932;
+	charset this = 933-936;
+	charset this_u_116_177_this = 937;
+	charset this_u_206_177_this = 938;
+	charset this_u_512_177_this = 939;
+	charset this_u_676_177_this = 940;
+	charset thou = 941-943;
+	charset thou_u_116_183_thou = 944;
+	charset thou_u_512_183_thou = 945;
+	charset three = 946-947;
+	charset thunder = 948-952;
+	charset thunder_u_1214_134_thunder = 953;
+	charset thunder_u_247_134_thunder = 954;
+	charset tobite = 955-961;
+	charset tobite_u_512_41_tobite = 962;
+	charset toblow = 963-972;
+	charset tobreathe = 973-981;
+	charset tobreathe_u_1004_28_tobreathe = 982;
+	charset tobreathe_u_116_28_tobreathe = 983;
+	charset tobreathe_u_85_28_tobreathe = 984;
+	charset toburn = 985-992;
+	charset toburn_u_11_144_toburn = 993;
+	charset toburn_u_512_144_toburn = 994;
+	charset tobuy = 995-1001;
+	charset tobuy_u_52_91_tobuy = 1002;
+	charset tochew = 1003-1008;
+	charset tochew_u_1654_38_tochew = 1009;
+	charset tochew_u_238_38_tochew = 1010;
+	charset tochew_u_512_38_tochew = 1011;
+	charset tochew_u_675_38_tochew = 1012;
+	charset tochew_u_85_38_tochew = 1013;
+	charset tochoose = 1014-1018;
+	charset tochoose_u_1212_85_tochoose = 1019;
+	charset tochoose_u_1213_85_tochoose = 1020;
+	charset tochoose_u_156_85_tochoose = 1021;
+	charset tochoose_u_246_85_tochoose = 1022;
+	charset toclimb = 1023-1026;
+	charset toclimb_u_116_172_toclimb = 1027;
+	charset toclimb_u_1654_172_toclimb = 1028;
+	charset tocome = 1029-1032;
+	charset tocome_u_116_7_tocome = 1033;
+	charset tocome_u_217_7_tocome = 1034;
+	charset tocome_u_264_7_tocome = 1035;
+	charset tocome_u_58_7_tocome = 1036;
+	charset tocook = 1037-1042;
+	charset tocook_u_1004_39_tocook = 1043;
+	charset tocook_u_512_39_tocook = 1044;
+	charset tocook_u_52_39_tocook = 1045;
+	charset tocount = 1046-1052;
+	charset tocount_u_116_196_tocount = 1053;
+	charset tocount_u_11_196_tocount = 1054;
+	charset tocount_u_52_196_tocount = 1055;
+	charset tocry = 1056-1060;
+	charset tocry_u_116_34_tocry = 1061;
+	charset tocry_u_1654_34_tocry = 1062;
+	charset tocry_u_239_34_tocry = 1063;
+	charset todiebedead = 1064-1067;
+	charset todiebedead_u_116_75_todiebedead = 1068;
+	charset todiebedead_u_763_75_todiebedead = 1069;
+	charset todig = 1070-1073;
+	charset todig_u_116_90_todig = 1074;
+	charset todream = 1075-1079;
+	charset todrink = 1080-1081;
+	charset todrink_u_512_40_todrink = 1082;
+	charset toeat = 1083-1084;
+	charset toeat_u_1654_37_toeat = 1085;
+	charset tofall = 1086-1097;
+	charset tofall_u_1212_95_tofall = 1098;
+	charset tofall_u_156_95_tofall = 1099;
+	charset tofall_u_52_95_tofall = 1100;
+	charset tofear = 1101-1106;
+	charset tofear_u_653_22_tofear = 1107;
+	charset toflow = 1108-1114;
+	charset toflow_u_116_123_toflow = 1115;
+	charset toflow_u_155_123_toflow = 1116;
+	charset toflow_u_559_123_toflow = 1117;
+	charset tofly = 1118-1122;
+	charset tofly_u_136_101_tofly = 1123;
+	charset tofly_u_38_101_tofly = 1124;
+	charset togrow = 1125-1127;
+	charset togrow_u_1214_86_togrow = 1128;
+	charset tohear = 1129-1130;
+	charset tohear_u_116_44_tohear = 1131;
+	charset tohide = 1132-1134;
+	charset tohide_u_116_171_tohide = 1135;
+	charset tohide_u_136_171_tohide = 1136;
+	charset tohide_u_1628_171_tohide = 1137;
+	charset tohide_u_163_171_tohide = 1138;
+	charset tohide_u_235_171_tohide = 1139;
+	charset tohide_u_264_171_tohide = 1140;
+	charset tohide_u_512_171_tohide = 1141;
+	charset tohit = 1142-1150;
+	charset tohit_u_116_72_tohit = 1151;
+	charset tohit_u_11_72_tohit = 1152;
+	charset tohit_u_1212_72_tohit = 1153;
+	charset tohit_u_512_72_tohit = 1154;
+	charset tohold = 1155-1166;
+	charset tohold_u_1004_89_tohold = 1167;
+	charset tohold_u_244_89_tohold = 1168;
+	charset tohold_u_512_89_tohold = 1169;
+	charset tohold_u_52_89_tohold = 1170;
+	charset tohold_u_654_89_tohold = 1171;
+	charset tohold_u_763_89_tohold = 1172;
+	charset tohold_u_85_89_tohold = 1173;
+	charset tohunt = 1174-1181;
+	charset tohunt_u_1004_69_tohunt = 1182;
+	charset tohunt_u_1030_69_tohunt = 1183;
+	charset tohunt_u_1055_69_tohunt = 1184;
+	charset tohunt_u_116_69_tohunt = 1185;
+	charset tohunt_u_1212_69_tohunt = 1186;
+	charset tohunt_u_152_69_tohunt = 1187;
+	charset tohunt_u_156_69_tohunt = 1188;
+	charset tohunt_u_1626_69_tohunt = 1189;
+	charset tohunt_u_1628_69_tohunt = 1190;
+	charset tohunt_u_238_69_tohunt = 1191;
+	charset tohunt_u_264_69_tohunt = 1192;
+	charset tohunt_u_38_69_tohunt = 1193;
+	charset tohunt_u_512_69_tohunt = 1194;
+	charset tohunt_u_589_69_tohunt = 1195;
+	charset tohunt_u_58_69_tohunt = 1196;
+	charset tokill = 1197-1204;
+	charset tokill_u_116_74_tokill = 1205;
+	charset tokill_u_1214_74_tokill = 1206;
+	charset tokill_u_217_74_tokill = 1207;
+	charset tokill_u_664_74_tokill = 1208;
+	charset toknowbeknowledgeable = 1209-1220;
+	charset toknowbeknowledgeable_u_1004_20_toknowbeknowledgeable = 1221;
+	charset toknowbeknowledgeable_u_116_20_toknowbeknowledgeable = 1222;
+	charset toknowbeknowledgeable_u_38_20_toknowbeknowledgeable = 1223;
+	charset toknowbeknowledgeable_u_559_20_toknowbeknowledgeable = 1224;
+	charset toknowbeknowledgeable_u_653_20_toknowbeknowledgeable = 1225;
+	charset tolaugh = 1226-1229;
+	charset tolaugh_u_1212_33_tolaugh = 1230;
+	charset toliedown = 1231-1237;
+	charset toliedown_u_1055_49_toliedown = 1238;
+	charset toliedown_u_239_49_toliedown = 1239;
+	charset toliedown_u_64_49_toliedown = 1240;
+	charset tolivebealive = 1241-1245;
+	charset tolivebealive_u_1654_76_tolivebealive = 1246;
+	charset tongue = 1247-1249;
+	charset tongue_u_1654_32_tongue = 1250;
+	charset toopenuncover = 1251-1260;
+	charset toopenuncover_u_116_92_toopenuncover = 1261;
+	charset toopenuncover_u_136_92_toopenuncover = 1262;
+	charset toopenuncover_u_156_92_toopenuncover = 1263;
+	charset toopenuncover_u_239_92_toopenuncover = 1264;
+	charset toopenuncover_u_38_92_toopenuncover = 1265;
+	charset toopenuncover_u_52_92_toopenuncover = 1266;
+	charset toopenuncover_u_58_92_toopenuncover = 1267;
+	charset toopenuncover_u_64_92_toopenuncover = 1268;
+	charset tooth = 1269-1271;
+	charset tooth_u_116_31_tooth = 1272;
+	charset tooth_u_1654_31_tooth = 1273;
+	charset toplant = 1274-1276;
+	charset toplant_u_116_84_toplant = 1277;
+	charset toplant_u_11_84_toplant = 1278;
+	charset toplant_u_156_84_toplant = 1279;
+	charset toplant_u_512_84_toplant = 1280;
+	charset topoundbeat = 1281-1283;
+	charset topoundbeat_u_1213_93_topoundbeat = 1284;
+	charset topoundbeat_u_210_93_topoundbeat = 1285;
+	charset tosay = 1286-1300;
+	charset tosay_u_1030_64_tosay = 1301;
+	charset tosay_u_152_64_tosay = 1302;
+	charset tosay_u_210_64_tosay = 1303;
+	charset tosay_u_217_64_tosay = 1304;
+	charset toscratch = 1305-1313;
+	charset toscratch_u_1163_77_toscratch = 1314;
+	charset toscratch_u_116_77_toscratch = 1315;
+	charset toscratch_u_1213_77_toscratch = 1316;
+	charset toscratch_u_52_77_toscratch = 1317;
+	charset tosee = 1318-1324;
+	charset tosee_u_1004_46_tosee = 1325;
+	charset tosee_u_116_46_tosee = 1326;
+	charset tosee_u_1214_46_tosee = 1327;
+	charset tosee_u_156_46_tosee = 1328;
+	charset tosee_u_512_46_tosee = 1329;
+	charset tosee_u_589_46_tosee = 1330;
+	charset tosee_u_753_46_tosee = 1331;
+	charset tosew = 1332-1336;
+	charset tosew_u_253_67_tosew = 1337;
+	charset tosew_u_52_67_tosew = 1338;
+	charset tosew_u_559_67_tosew = 1339;
+	charset toshoot = 1340-1343;
+	charset toshoot_u_210_70_toshoot = 1344;
+	charset toshoot_u_64_70_toshoot = 1345;
+	charset tosit = 1346-1351;
+	charset tosit_u_116_51_tosit = 1352;
+	charset tosleep = 1353-1355;
+	charset tosleep_u_217_48_tosleep = 1356;
+	charset tosniffsmell = 1357-1362;
+	charset tosniffsmell_u_1030_29_tosniffsmell = 1363;
+	charset tosniffsmell_u_1163_29_tosniffsmell = 1364;
+	charset tosniffsmell_u_11_29_tosniffsmell = 1365;
+	charset tosniffsmell_u_1212_29_tosniffsmell = 1366;
+	charset tosniffsmell_u_206_29_tosniffsmell = 1367;
+	charset tosniffsmell_u_512_29_tosniffsmell = 1368;
+	charset tosniffsmell_u_654_29_tosniffsmell = 1369;
+	charset tosniffsmell_u_675_29_tosniffsmell = 1370;
+	charset tospit = 1371-1379;
+	charset tospit_u_1628_36_tospit = 1380;
+	charset tospit_u_235_36_tospit = 1381;
+	charset tosplit = 1382-1385;
+	charset tosplit_u_11_80_tosplit = 1386;
+	charset tosplit_u_1214_80_tosplit = 1387;
+	charset tosplit_u_258_80_tosplit = 1388;
+	charset tosplit_u_38_80_tosplit = 1389;
+	charset tosplit_u_512_80_tosplit = 1390;
+	charset tosplit_u_653_80_tosplit = 1391;
+	charset tosqueeze = 1392-1399;
+	charset tosqueeze_u_1030_88_tosqueeze = 1400;
+	charset tosqueeze_u_1055_88_tosqueeze = 1401;
+	charset tosqueeze_u_1163_88_tosqueeze = 1402;
+	charset tosqueeze_u_1636_88_tosqueeze = 1403;
+	charset tosqueeze_u_217_88_tosqueeze = 1404;
+	charset tosqueeze_u_246_88_tosqueeze = 1405;
+	charset tosqueeze_u_512_88_tosqueeze = 1406;
+	charset tosqueeze_u_52_88_tosqueeze = 1407;
+	charset tosqueeze_u_653_88_tosqueeze = 1408;
+	charset tosqueeze_u_654_88_tosqueeze = 1409;
+	charset tostabpierce = 1410-1419;
+	charset tostabpierce_u_1004_71_tostabpierce = 1420;
+	charset tostabpierce_u_1213_71_tostabpierce = 1421;
+	charset tostabpierce_u_512_71_tostabpierce = 1422;
+	charset tostabpierce_u_52_71_tostabpierce = 1423;
+	charset tostabpierce_u_559_71_tostabpierce = 1424;
+	charset tostand = 1425-1427;
+	charset tostand_u_654_52_tostand = 1428;
+	charset tosteal = 1429-1434;
+	charset tosteal_u_156_73_tosteal = 1435;
+	charset tosteal_u_512_73_tosteal = 1436;
+	charset tosteal_u_675_73_tosteal = 1437;
+	charset tosuck = 1438-1445;
+	charset tosuck_u_116_42_tosuck = 1446;
+	charset toswell = 1447-1453;
+	charset toswell_u_1214_87_toswell = 1454;
+	charset toswell_u_217_87_toswell = 1455;
+	charset toswell_u_239_87_toswell = 1456;
+	charset toswell_u_653_87_toswell = 1457;
+	charset toswim = 1458-1459;
+	charset toswim_u_116_9_toswim = 1460;
+	charset tothink = 1461-1467;
+	charset tothink_u_1030_21_tothink = 1468;
+	charset tothink_u_116_21_tothink = 1469;
+	charset tothink_u_136_21_tothink = 1470;
+	charset tothink_u_217_21_tothink = 1471;
+	charset tothink_u_229_21_tothink = 1472;
+	charset tothink_u_238_21_tothink = 1473;
+	charset tothink_u_239_21_tothink = 1474;
+	charset tothink_u_243_21_tothink = 1475;
+	charset tothink_u_559_21_tothink = 1476;
+	charset tothink_u_675_21_tothink = 1477;
+	charset tothink_u_85_21_tothink = 1478;
+	charset tothrow = 1479-1490;
+	charset tothrow_u_1055_94_tothrow = 1491;
+	charset tothrow_u_118_94_tothrow = 1492;
+	charset tothrow_u_1627_94_tothrow = 1493;
+	charset tothrow_u_1628_94_tothrow = 1494;
+	charset tothrow_u_52_94_tothrow = 1495;
+	charset tothrow_u_654_94_tothrow = 1496;
+	charset tothrow_u_763_94_tothrow = 1497;
+	charset tothrow_u_85_94_tothrow = 1498;
+	charset totieupfasten = 1499-1508;
+	charset totieupfasten_u_116_66_totieupfasten = 1509;
+	charset totieupfasten_u_1214_66_totieupfasten = 1510;
+	charset totieupfasten_u_128_66_totieupfasten = 1511;
+	charset totieupfasten_u_1627_66_totieupfasten = 1512;
+	charset totieupfasten_u_1628_66_totieupfasten = 1513;
+	charset totieupfasten_u_375_66_totieupfasten = 1514;
+	charset totieupfasten_u_676_66_totieupfasten = 1515;
+	charset tovomit = 1516-1519;
+	charset tovomit_u_1654_35_tovomit = 1520;
+	charset towalk = 1521-1527;
+	charset towalk_u_375_5_towalk = 1528;
+	charset towalk_u_664_5_towalk = 1529;
+	charset towork = 1530-1536;
+	charset towork_u_1004_83_towork = 1537;
+	charset towork_u_116_83_towork = 1538;
+	charset towork_u_128_83_towork = 1539;
+	charset toyawn = 1540-1541;
+	charset toyawn_u_1214_47_toyawn = 1542;
+	charset two = 1543-1545;
+	charset warm = 1546-1549;
+	charset warm_u_116_138_warm = 1550;
+	charset warm_u_1214_138_warm = 1551;
+	charset water = 1552-1555;
+	charset water_u_1214_122_water = 1556;
+	charset wet = 1557-1563;
+	charset wet_u_654_141_wet = 1564;
+	charset what = 1565-1568;
+	charset what_u_116_188_what = 1569;
+	charset what_u_559_188_what = 1570;
+	charset when = 1571-1573;
+	charset when_u_1004_170_when = 1574;
+	charset when_u_116_170_when = 1575;
+	charset when_u_1212_170_when = 1576;
+	charset when_u_253_170_when = 1577;
+	charset when_u_589_170_when = 1578;
+	charset when_u_659_170_when = 1579;
+	charset where = 1580-1581;
+	charset white = 1582-1589;
+	charset white_u_1004_148_white = 1590;
+	charset white_u_116_148_white = 1591;
+	charset white_u_1654_148_white = 1592;
+	charset white_u_238_148_white = 1593;
+	charset white_u_512_148_white = 1594;
+	charset white_u_559_148_white = 1595;
+	charset white_u_676_148_white = 1596;
+	charset white_u_763_148_white = 1597;
+	charset white_u_85_148_white = 1598;
+	charset who = 1599-1600;
+	charset wide = 1601-1607;
+	charset wide_u_1628_159_wide = 1608;
+	charset wide_u_239_159_wide = 1609;
+	charset wide_u_264_159_wide = 1610;
+	charset wide_u_85_159_wide = 1611;
+	charset wife = 1612-1617;
+	charset wife_u_116_58_wife = 1618;
+	charset wife_u_136_58_wife = 1619;
+	charset wife_u_246_58_wife = 1620;
+	charset wife_u_512_58_wife = 1621;
+	charset wife_u_763_58_wife = 1622;
+	charset wind = 1623-1627;
+	charset wind_u_559_136_wind = 1628;
+	charset wing = 1629-1632;
+	charset wing_u_1628_100_wing = 1633;
+	charset wing_u_264_100_wing = 1634;
+	charset woman_female = 1635-1639;
+	charset woman_female_u_116_55_womanfemale = 1640;
+	charset woman_female_u_1214_55_womanfemale = 1641;
+	charset woman_female_u_653_55_womanfemale = 1642;
+	charset woods_forest = 1643-1648;
+	charset woods_forest_u_654_127_woodsforest = 1649;
+	charset wormearthworm = 1650-1657;
+	charset wormearthworm_u_152_107_wormearthworm = 1658;
+	charset wormearthworm_u_217_107_wormearthworm = 1659;
+	charset wormearthworm_u_375_107_wormearthworm = 1660;
+	charset wormearthworm_u_64_107_wormearthworm = 1661;
+	charset wormearthworm_u_676_107_wormearthworm = 1662;
+	charset year = 1663-1667;
+	charset year_u_375_169_year = 1668;
+	charset year_u_559_169_year = 1669;
+	charset yellow = 1670-1676;
+	charset yellow_u_1055_150_yellow = 1677;
+	charset yellow_u_1163_150_yellow = 1678;
+	charset yellow_u_1212_150_yellow = 1679;
+	charset yellow_u_152_150_yellow = 1680;
+	charset yellow_u_217_150_yellow = 1681;
+	charset yellow_u_253_150_yellow = 1682;
+	charset yellow_u_259_150_yellow = 1683;
+	charset yellow_u_38_150_yellow = 1684;
+	charset yellow_u_64_150_yellow = 1685;
+	charset yellow_u_654_150_yellow = 1686;
+	charset yellow_u_85_150_yellow = 1687;
+	charset you = 1688-1690;
+	charset you_u_1004_186_you = 1691;
+	charset you_u_1055_186_you = 1692;
+	charset you_u_116_186_you = 1693;
+	charset you_u_11_186_you = 1694;
+	charset you_u_136_186_you = 1695;
+	charset you_u_512_186_you = 1696;
+end;
+

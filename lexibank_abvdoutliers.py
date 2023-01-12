@@ -9,28 +9,6 @@ from pylexibank.util import progressbar
 from pylexibank import FormSpec
 
 
-def normalize_contributors(l):
-    for key in ['checkedby', 'typedby']:
-        l[key] = normalize_names(l[key])
-    return l
-
-
-def normalize_names(names):
-    res = []
-    if names:
-        for name in re.split('\s+and\s+|\s*&\s*|,\s+|\s*\+\s*', names):
-            name = {
-                'Simon': 'Simon Greenhill',
-                'D. Mead': 'David Mead',
-                'Alex François': 'Alexandre François',
-                'Dr Alex François': 'Alexandre François',
-                'R. Blust': 'Robert Blust',
-            }.get(name, name)
-            name = HumanName(name.title())
-            res.append('{0} {1}'.format(name.first or name.title, name.last).strip())
-    return ' and '.join(res)
-
-
 class Dataset(abvd.BVD):
     dir = Path(__file__).parent
     id = 'abvdoutliers'
@@ -55,5 +33,3 @@ class Dataset(abvd.BVD):
         )
         for wl in progressbar(self.iter_wordlists(args.log), desc="cldfify"):
             wl.to_cldf(args.writer, concepts)
-            # Now normalize the typedby and checkedby values:
-            args.writer.objects['LanguageTable'][-1] = normalize_contributors(args.writer.objects['LanguageTable'][-1])
