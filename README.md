@@ -1,5 +1,7 @@
 # CLDF dataset derived from Greenhill et al.'s "Austronesian Basic Vocabulary Database" from 2022 focusing on Oceanic languages
 
+[![CLDF validation](https://github.com/SimonGreenhill/abvdoutliers/workflows/CLDF-validation/badge.svg)](https://github.com/SimonGreenhill/abvdoutliers/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
@@ -20,29 +22,30 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
+[![CLDF validation](https://github.com/SimonGreenhill/abvdoutliers/workflows/CLDF-validation/badge.svg)](https://github.com/SimonGreenhill/abvdoutliers/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
-![Source: 99%](https://img.shields.io/badge/Source-99%25-green.svg "Source: 99%")
+![Source: 98%](https://img.shields.io/badge/Source-98%25-green.svg "Source: 98%")
 ![BIPA: 98%](https://img.shields.io/badge/BIPA-98%25-green.svg "BIPA: 98%")
 ![CLTS SoundClass: 98%](https://img.shields.io/badge/CLTS%20SoundClass-98%25-green.svg "CLTS SoundClass: 98%")
 
 - **Varieties:** 55
 - **Concepts:** 210
-- **Lexemes:** 13,432
-- **Sources:** 28
+- **Lexemes:** 13,471
+- **Sources:** 29
 - **Synonymy:** 1.32
-- **Cognacy:** 14,150 cognates in 1,118 cognate sets (82 singletons)
+- **Cognacy:** 14,198 cognates in 1,120 cognate sets (83 singletons)
 - **Cognate Diversity:** 0.07
 - **Invalid lexemes:** 0
-- **Tokens:** 61,102
-- **Segments:** 109 (2 BIPA errors, 2 CTLS sound class errors, 107 CLTS modified)
-- **Inventory size (avg):** 25.56
+- **Tokens:** 61,404
+- **Segments:** 109 (2 BIPA errors, 2 CLTS sound class errors, 107 CLTS modified)
+- **Inventory size (avg):** 25.67
 
 ## Possible Improvements:
 
 
 
-- Entries missing sources: 161/13432 (1.20%)
+- Entries missing sources: 219/13471 (1.63%)
 
 # Contributors
 

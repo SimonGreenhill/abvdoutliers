@@ -379,7 +379,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 38-85_tochoose-1,30026,38,85_tochoose,vae,vae,v a e,,POLLEX,10,false,^v a e$,default
 38-86_togrow-1,30383,38,86_togrow,tupu,tupu,t u p u,"Pousser, croitre, germer",POLLEX,1,false,^t u p u$,default
 38-87_toswell-1,92564,38,87_toswell,hete,hete,h e t e,"Gonfle, fermente, engle (Dln)",POLLEX,5,false,^h e t e$,default
-38-87_toswell-2,92565,38,87_toswell,huhu'a,huhu'a,h u h u ʔ a,Swollen,POLLEX,10,false,^h u h u 'a$,default
+38-87_toswell-2,92565,38,87_toswell,huhu'a,huhu'a,h u h u ʔ a,Swollen,POLLEX,7,false,^h u h u 'a$,default
 38-88_tosqueeze-1,92588,38,88_tosqueeze,hota,hota,h o t a,Clarifier le kava,POLLEX,"8, 2, 93",false,^h o t a$,default
 38-88_tosqueeze-2,92589,38,88_tosqueeze,koko,koko,k o k o,"Squeeze, press",POLLEX,9,false,^k o k o$,default
 38-88_tosqueeze-3,92590,38,88_tosqueeze,'omi,'omi,ʔ o m i,"Squeeze, press upon",POLLEX,10,false,^'o m i$,default
@@ -714,7 +714,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 52-86_togrow-1,76209,52,86_togrow,ulu,ulu,u l u,,71458,,false,^u l u$,default
 52-86_togrow-2,76210,52,86_togrow,kupu,kupu,k u p u,,71458,1,false,^k u p u$,default
 52-87_toswell-1,76272,52,87_toswell,pehu,pehu,p e h u,,71458,10,false,^p e h u$,default
-52-87_toswell-2,76273,52,87_toswell,hū,hū,h ū,,71458,10,false,^h ū$,default
+52-87_toswell-2,76273,52,87_toswell,hū,hū,h ū,,71458,7,false,^h ū$,default
 52-88_tosqueeze-1,31111,52,88_tosqueeze,'uwī,'uwī,ʔ u w ī/i,,71458,,false,^'u w ī$,default
 52-89_tohold-1,31468,52,89_tohold,ho'o'pa'a,ho'o'pa'a,h o ʔ o ˀp a ʔ a,,71458,,false,^h o 'o 'p a 'a$,default
 52-89_tohold-2,247021,52,89_tohold,(hoʻo)paʻa,paʻa,p a ʔ a,,71458,,false,^p aʻ a$,default
@@ -2024,7 +2024,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 118-78_tocuthack-2,153137,118,78_tocuthack,sele,sele,s e l e,,Blust-118-2005,16,false,^s e l e$,default
 118-79_stickwood-1,27964,118,79_stickwood,lāʔau,lāʔau,l ā/a ʔ a u,,Blust-118-2005,"1,26",false,^l ā ʔ a u$,default
 118-80_tosplit-1,28321,118,80_tosplit,isi,isi,i s i,,Blust-118-2005,7,false,^i s i$,default
-118-80_tosplit-2,153208,118,80_tosplit,matofi,matofi,m a t o f i,,Blust-118-2005,7,false,^m a t o f i$,default
+118-80_tosplit-2,153208,118,80_tosplit,matofi,matofi,m a t o f i,,Blust-118-2005,106,false,^m a t o f i$,default
 118-81_sharp-1,28678,118,81_sharp,maʔai,maʔai,m a ʔ a i,,Blust-118-2005,"14,16",false,^m a ʔ a i$,default
 118-81_sharp-2,216798,118,81_sharp,masele,masele,m a s e l e,,Blust-118-2005,2,false,^m a s e l e$,default
 118-82_dullblunt-1,29035,118,82_dullblunt,matatupa,matatupa,m a t a t u p a,,Blust-118-2005,49,false,^m a t a t u p a$,default
@@ -2956,7 +2956,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 152-121_sand-1,78133,152,121_sand,kelekele,kelekele,k e l e k e l e,,Salisbury-152-2005,"30,74",false,^k e l e k e l e$,default
 152-121_sand-2,78134,152,121_sand,tini,tini,t i n i,,Salisbury-152-2005,,false,^t i n i$,default
 152-121_sand-3,78135,152,121_sand,one,one,o n e,,Salisbury-152-2005,1,false,^o n e$,default
-152-122_water-1,43349,152,122_water,yua,yua,y/j u a,,Salisbury-152-2005,2,false,^y u a$,default
+152-122_water-1,43349,152,122_water,yua,yua,y/j u a,,Salisbury-152-2005,,false,^y u a$,default
 152-123_toflow-1,43706,152,123_toflow,yeke,yeke,y/j e k e,,Salisbury-152-2005,36,false,^y e k e$,default
 152-124_sea-1,107776,152,124_sea,tai,tai,t a i,,Salisbury-152-2005,1,false,^t a i$,default
 152-124_sea-2,107777,152,124_sea,moana,moana,m o a n a,,Salisbury-152-2005,10,false,^m o a n a$,default
@@ -3475,7 +3475,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 156-42_tosuck-3,14898,156,42_tosuck,umi/a,a,a,"Suck,  to nurse (Dty)",POLLEX,12,false,^a$,default
 156-43_ear-1,15150,156,43_ear,taringa,taringa,t a r i n g a,,POLLEX,1,false,^t a r i n g a$,default
 156-44_tohear-1,15507,156,44_tohear,rangona,rangona,r a n g o n a,,POLLEX,"1, 83",false,^r a n g o n a$,default
-156-45_eye-1,15864,156,45_eye,feimata,feimata,f e i m a t a,,POLLEX,1,false,^f e i m a t a$,default
+156-45_eye-1,15864,156,45_eye,feimata,feimata,f e i m a t a,,POLLEX,"1,39",false,^f e i m a t a$,default
 156-45_eye-2,15969,156,45_eye,mata,mata,m a t a,Eye,POLLEX,1,false,^m a t a$,default
 156-46_tosee-1,16221,156,46_tosee,safea,safea,s a f e a,,POLLEX,,false,^s a f e a$,default
 156-47_toyawn-1,16683,156,47_toyawn,(h)mava,mava,m a v a,"Yawn,  pull in breath (Dty)",POLLEX,"19, 39",false,^m a v a$,default
@@ -3554,7 +3554,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 156-87_toswell-1,30858,156,87_toswell,hfura[fʰura],hfura,h f u r a,,POLLEX,7,false,^h f u r a$,default
 156-87_toswell-2,30963,156,87_toswell,fura,fura,f u r a,Swell (of a sore),POLLEX,7,false,^f u r a$,default
 156-88_tosqueeze-1,31215,156,88_tosqueeze,kumkumia,kumkumia,k u m k u m i a,,POLLEX,14,false,^k u m k u m i a$,default
-156-89_tohold-1,31572,156,89_tohold,kumia,kumia,k u m i a,,POLLEX,"1,85",false,^k u m i a$,default
+156-89_tohold-1,31572,156,89_tohold,kumia,kumia,k u m i a,,POLLEX,1,false,^k u m i a$,default
 156-90_todig-1,31929,156,90_todig,keria,keria,k e r i a,,POLLEX,1,false,^k e r i a$,default
 156-90_todig-2,32034,156,90_todig,keri/a,keri,k e r i,Dig,POLLEX,1,false,^k e r i$,default
 156-90_todig-3,32034,156,90_todig,keri/a,a,a,Dig,POLLEX,1,false,^a$,default
@@ -3725,7 +3725,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 156-191_all-2,90949,156,191_all,otshi,otshi,o tsʰ i,Pollex 06: Otshi. :All.,POLLEX,60,false,^o tsh i$,default
 156-192_and-1,68343,156,192_and,ma,ma,m a,,POLLEX,2,false,^m a$,default
 156-193_if-1,68700,156,193_if,pe,pe,p e,,POLLEX,28,false,^p e$,default
-156-194_how-1,69057,156,194_how,pekua,pekua,p e k u a,,POLLEX,"11,52",false,^p e k u a$,default
+156-194_how-1,69057,156,194_how,pekua,pekua,p e k u a,,POLLEX,1,false,^p e k u a$,default
 156-195_nonot-1,69414,156,195_nonot,shikai,shikai,sʰ i k a i,,POLLEX,"10,83",false,^sh i k a i$,default
 156-196_tocount-1,69771,156,196_tocount,taua,taua,t a u a,,POLLEX,8,false,^t a u a$,default
 156-196_tocount-2,69876,156,196_tocount,tau/a,tau,t a u,"Count,  add,  read (Dty)",POLLEX,8,false,^t a u$,default
@@ -4998,7 +4998,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 229-78_tocuthack-5,92077,229,78_tocuthack,seere/a,a,a,To cut (Clk),POLLEX,16,false,^a$,default
 229-78_tocuthack-6,92078,229,78_tocuthack,tuu,tuu,t uː,Cut,POLLEX,17,false,^t uu$,default
 229-79_stickwood-1,28075,229,79_stickwood,raakau,raakau,r aː k a u,Tree (Cpl),POLLEX,"1,26",false,^r aa k a u$,default
-229-80_tosplit-1,28432,229,80_tosplit,matofi,matofi,m a t o f i,"Slip, collapse (ground) (Clk)",POLLEX,7,false,^m a t o f i$,default
+229-80_tosplit-1,28432,229,80_tosplit,matofi,matofi,m a t o f i,"Slip, collapse (ground) (Clk)",POLLEX,106,false,^m a t o f i$,default
 229-81_sharp-1,28789,229,81_sharp,ma/kakai/,ma,m a,Sharp,POLLEX,"14,16",false,^m a$,default
 229-81_sharp-2,28789,229,81_sharp,ma/kakai/,kakai,k a k a i,Sharp,POLLEX,"14,16",false,^k a k a i$,default
 229-83_towork-1,29503,229,83_towork,saŋa,saŋa,s a ŋ a,"Work, activity (Clk)",POLLEX,10,false,^s a ŋ a$,default
@@ -5480,7 +5480,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 238-93_topoundbeat-1,33082,238,93_topoundbeat,kuì,kuì,k u ì,Strike; pestle (Tpe),POLLEX,2,false,^k u ì$,default
 238-94_tothrow-1,90517,238,94_tothrow,pesi,pesi,p e s i,Pollex 06: Pesi. :Throw (Smd).,POLLEX,12,false,^p e s i$,default
 238-95_tofall-1,33796,238,95_tofall,siŋa,siŋa,s i ŋ a,Fall,POLLEX,44,false,^s i ŋ a$,default
-238-96_dog-1,146612,238,96_dog,poi,poi,p o i,dog,POLLEX,,false,^p o i$,default
+238-96_dog-1,146612,238,96_dog,poi,poi,p o i,dog,POLLEX,108,false,^p o i$,default
 238-97_bird-1,34510,238,97_bird,manu,manu,m a n u,"Bird, animal",POLLEX,1,false,^m a n u$,default
 238-98_egg-1,146613,238,98_egg,hua,hua,h u a,egg,POLLEX,5,false,^h u a$,default
 238-99_feather-1,35224,238,99_feather,palaa,palaa,p a l aː,Feather,POLLEX,5,false,^p a l aa$,default
@@ -6533,6 +6533,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 244-92_toopenuncover-1,32731,244,92_toopenuncover,taaraki,taaraki,t aː r a k i,To open (Hwd),POLLEX,"10,39",false,^t aa r a k i$,default
 244-93_topoundbeat-1,33088,244,93_topoundbeat,tuki,tuki,t u k i,To pound (taro etc.) (Hwd),POLLEX,2,false,^t u k i$,default
 244-95_tofall-1,33802,244,95_tofall,too,too,t oː,Fall (of rain); fall from a height (Hwd),POLLEX,14,false,^t oo$,default
+244-96_dog-1,3241501,244,96_dog,poi,poi,p o i,,POLLEX,108,false,^p o i$,default
 244-97_bird-1,34516,244,97_bird,manu,manu,m a n u,"Bird, animal, insect (Hwd)",POLLEX,1,false,^m a n u$,default
 244-99_feather-1,35230,244,99_feather,paraa,paraa,p a r aː,Wing feather (Hwd),POLLEX,5,false,^p a r aa$,default
 244-100_wing-1,35587,244,100_wing,kapakau,kapakau,k a p a k a u,Wing (Hwd),POLLEX,"1,59",false,^k a p a k a u$,default
@@ -7271,8 +7272,8 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 247-78_tocuthack-4,92258,247,78_tocuthack,hele,hele,h e l e,"Knife, cut (I), cut up (McE)",POLLEX,16,false,^h e l e$,default
 247-78_tocuthack-5,92259,247,78_tocuthack,talai,talai,t a l a i,"Hew, carve, chop, adze",POLLEX,1,false,^t a l a i$,default
 247-79_stickwood-1,92309,247,79_stickwood,akau,akau,a k a u,"Wood, tree",POLLEX,"1,26",false,^a k a u$,default
-247-80_tosplit-1,28450,247,80_tosplit,matofi/ua,matofi,m a t o f i,Split in two (McE),POLLEX,7,false,^m a t o f i$,default
-247-80_tosplit-2,28450,247,80_tosplit,matofi/ua,ua,u a,Split in two (McE),POLLEX,7,false,^u a$,default
+247-80_tosplit-1,28450,247,80_tosplit,matofi/ua,matofi,m a t o f i,Split in two (McE),POLLEX,106,false,^m a t o f i$,default
+247-80_tosplit-2,28450,247,80_tosplit,matofi/ua,ua,u a,Split in two (McE),POLLEX,106,false,^u a$,default
 247-81_sharp-1,90484,247,81_sharp,matila,matila,m a t i l a,Pollex 06: Matila. :Sharp.,POLLEX,2,false,^m a t i l a$,default
 247-83_towork-1,92469,247,83_towork,gahua,gahua,g a h u a,"To work; job, occupation (Sph)",POLLEX,,false,^g a h u a$,default
 247-83_towork-2,92470,247,83_towork,galue,galue,g a l u e,A feast (Sph) [<],POLLEX,11,false,^g a l u e$,default
@@ -8012,188 +8013,225 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 258-209_onehundred-1,83372,258,209_onehundred,te/au/,te,t e,L from Tongan,POLLEX,2,true,^t e$,default
 258-209_onehundred-2,83372,258,209_onehundred,te/au/,au,a u,L from Tongan,POLLEX,2,true,^a u$,default
 258-210_onethousand-1,83338,258,210_onethousand,afe,afe,a f e,Thousand.(Source: Pollex),POLLEX,3,false,^a f e$,default
-259-1_hand-1,259,259,1_hand,lima,lima,l i m a,Five; hand-arm,POLLEX,"1, 64",false,^l i m a$,default
-259-2_left-1,616,259,2_left,sema,sema,s e m a,Gauche (Hmn),POLLEX,11,false,^s e m a$,default
-259-3_right-1,973,259,3_right,matau,matau,m a t a u,"Right-handed, skilful (Hmn)",POLLEX,"5,13",false,^m a t a u$,default
-259-4_legfoot-1,1330,259,4_legfoot,vae,vae,v a e,"Foot, leg (Hmn)",POLLEX,"1, 100",false,^v a e$,default
-259-5_towalk-1,1687,259,5_towalk,haele,haele,h a e l e,L from EUvea or Tongan,POLLEX,6,true,^h a e l e$,default
-259-6_roadpath-1,2044,259,6_roadpath,ala,ala,a l a,Road,POLLEX,1,false,^a l a$,default
-259-7_tocome-1,167974,259,7_tocome,'au mai,'au mai,ʔ a u + m a i,,POLLEX,"1,44",false,^'a u + m a i$,default
-259-9_toswim-1,87921,259,9_toswim,kakau,kakau,k a k a u,Swim,POLLEX,5,false,^k a k a u$,default
-259-9_toswim-2,87922,259,9_toswim,kaua,kaua,k a u a,Swim (Hmn),POLLEX,5,false,^k a u a$,default
-259-11_dust-1,3229928,259,11_dust,sasa,sasa,s a s a,L from NC lgs - likely Iaai (Ozanne-Rivierre 1994),POLLEX,,true,^s a s a$,default
-259-13_back-1,90909,259,13_back,ivi/tua/,ivi,i v i,Pollex 06: Ivi/tua/. :Back (Hmn).,POLLEX,11,false,^i v i$,default
-259-13_back-2,90909,259,13_back,ivi/tua/,tua,t u a,Pollex 06: Ivi/tua/. :Back (Hmn).,POLLEX,11,false,^t u a$,default
-259-14_belly-1,5257,259,14_belly,tinae,tinae,t i n a e,Belly,POLLEX,"19, 34",false,^t i n a e$,default
-259-14_belly-2,90910,259,14_belly,tinae,tinae,t i n a e,Pollex 06: Tinae. :Belly.,POLLEX,"19, 34",false,^t i n a e$,default
-259-17_liver-1,5971,259,17_liver,ate,ate,a t e,Liver,POLLEX,1,false,^a t e$,default
-259-18_breast-1,6328,259,18_breast,uu,uu,uː,Sein (Hmn),POLLEX,1,false,^uu$,default
-259-22_tofear-1,7756,259,22_tofear,mataku,mataku,m a t a k u,"Afraid, fear",POLLEX,1,false,^m a t a k u$,default
-259-23_blood-1,8113,259,23_blood,toto,toto,t o t o,Blood,POLLEX,4,false,^t o t o$,default
-259-24_head-1,8470,259,24_head,ulu,ulu,u l u,Head,POLLEX,1,false,^u l u$,default
-259-27_nose-1,9541,259,27_nose,isu,isu,i s u,Nose,POLLEX,1,false,^i s u$,default
-259-29_tosniffsmell-1,90951,259,29_tosniffsmell,songi,songi,s o n g i,Pollex 06: Smell (sth.) (Hmn).,POLLEX,9,false,^s o n g i$,default
-259-29_tosniffsmell-2,90952,259,29_tosniffsmell,songia,songia,s o n g i a,Pollex 06: Smell (sth.) (Hmn).,POLLEX,9,false,^s o n g i a$,default
-259-30_mouth-1,90912,259,30_mouth,ngutu,ngutu,n g u t u,"Pollex 06: Ngutu. :Mouth, beak, muzzle (Hmn).",POLLEX,2,false,^n g u t u$,default
-259-32_tongue-1,11326,259,32_tongue,fag/alelo/,fag,f a g,Tongue,POLLEX,15,false,^f a g$,default
-259-32_tongue-2,11326,259,32_tongue,fag/alelo/,alelo,a l e l o,Tongue,POLLEX,15,false,^a l e l o$,default
-259-33_tolaugh-1,11683,259,33_tolaugh,kata,kata,k a t a,Laugh,POLLEX,7,false,^k a t a$,default
-259-34_tocry-1,12040,259,34_tocry,tangi,tangi,t a n g i,Cry,POLLEX,1,false,^t a n g i$,default
-259-35_tovomit-1,12397,259,35_tovomit,lu/lua/,lu,l u,Vomit,POLLEX,8,false,^l u$,default
-259-35_tovomit-2,12397,259,35_tovomit,lu/lua/,lua,l u a,Vomit,POLLEX,8,false,^l u a$,default
-259-37_toeat-1,13111,259,37_toeat,kai,kai,k a i,"Food, eat",POLLEX,"1,47",false,^k a i$,default
-259-38_tochew-1,13468,259,38_tochew,ngau-a,ngau-a,n g a u + a,"Chew (cane, purau etc.) (Hmn)",POLLEX,8,false,^n g a u - a$,default
-259-39_tocook-1,13825,259,39_tocook,tao/na,tao,t a o,Cook in earth oven,POLLEX,10,false,^t a o$,default
-259-39_tocook-2,13825,259,39_tocook,tao/na,na,n a,Cook in earth oven,POLLEX,10,false,^n a$,default
-259-40_todrink-1,14182,259,40_todrink,inu,inu,i n u,Drink,POLLEX,1,false,^i n u$,default
-259-41_tobite-1,90953,259,41_tobite,uu,uu,uː,Pollex 06: Bite (Hmn).,POLLEX,8,false,^uu$,default
-259-44_tohear-1,15610,259,44_tohear,longo/na,longo,l o n g o,"Hear, listen",POLLEX,1,false,^l o n g o$,default
-259-44_tohear-2,15610,259,44_tohear,longo/na,na,n a,"Hear, listen",POLLEX,1,false,^n a$,default
-259-45_eye-1,15967,259,45_eye,mata,mata,m a t a,Face,POLLEX,1,false,^m a t a$,default
-259-46_tosee-1,90914,259,46_tosee,kite-a,kite-a,k i t e + a,"Pollex 06: Kite-a. :Look at, see (Hmn).",POLLEX,1,false,^k i t e - a$,default
-259-47_toyawn-1,3229930,259,47_toyawn,ohaem,ohaem,o h a e m,L from NC lgs - likely Iaai (Ozanne-Rivierre 1994),POLLEX,,true,^o h a e m$,default
-259-48_tosleep-1,17038,259,48_tosleep,moe,moe,m o e,Sleep,POLLEX,"10, 109",false,^m o e$,default
-259-50_todream-1,17752,259,50_todream,miti,miti,m i t i,Dream,POLLEX,36,false,^m i t i$,default
-259-51_tosit-1,90915,259,51_tosit,hnoo,hnoo,h n oː,"Pollex 06: Hnoo. :Sit, stay, live (regarded as borrowig from Iai) (Hmn).",POLLEX,16,false,^h n oo$,default
-259-51_tosit-2,90916,259,51_tosit,noo,noo,n oː,"Pollex 06: Noo. :Sit, stay, live (Hmn).",POLLEX,16,false,^n oo$,default
-259-52_tostand-1,18466,259,52_tostand,tuu,tuu,t uː,Stand,POLLEX,2,false,^t uu$,default
-259-53_personhumanbeing-1,18823,259,53_personhumanbeing,tagata,tagata,t a g a t a,Man,POLLEX,"1,66, 97",false,^t a g a t a$,default
-259-54_manmale-1,19180,259,54_manmale,tagata,tagata,t a g a t a,Man,POLLEX,"12,14",false,^t a g a t a$,default
-259-55_womanfemale-1,91088,259,55_womanfemale,fafine,fafine,f a f i n e,Woman,POLLEX,"1,106",false,^f a f i n e$,default
-259-55_womanfemale-2,91089,259,55_womanfemale,fine,fine,f i n e,"Woman, girl, female, wife (Dty)",POLLEX,"1,41",false,^f i n e$,default
-259-58_wife-1,91232,259,58_wife,fafine,fafine,f a f i n e,Woman,POLLEX,"5,68",false,^f a f i n e$,default
-259-58_wife-2,91233,259,58_wife,fine,fine,f i n e,"Woman, girl, female, wife (Dty)",POLLEX,"5, 89",false,^f i n e$,default
-259-59_mother-1,20965,259,59_mother,tinana,tinana,t i n a n a,Mother,POLLEX,1,false,^t i n a n a$,default
-259-60_father-1,90917,259,60_father,tamana,tamana,t a m a n a,Pollex 06: Tamana. :Father (Hmn).,POLLEX,1,false,^t a m a n a$,default
-259-61_house-1,21679,259,61_house,fale,fale,f a l e,House,POLLEX,14,false,^f a l e$,default
-259-62_thatchroof-1,3229929,259,62_thatchroof,hagoe,hagoe,h a g o e,L from NC lgs - likely Iaai (Ozanne-Rivierre 1994),POLLEX,,true,^h a g o e$,default
-259-63_name-1,90918,259,63_name,ingoa,ingoa,i n g o a,Pollex 06: Ingoa. :Name.,POLLEX,6,false,^i n g o a$,default
-259-65_rope-1,90919,259,65_rope,u/maea,u,u,Pollex 06: U/maea/. :Rope (U 1888) (Hmn).,POLLEX,10,false,^u$,default
-259-65_rope-2,90919,259,65_rope,u/maea,maea,m a e a,Pollex 06: U/maea/. :Rope (U 1888) (Hmn).,POLLEX,10,false,^m a e a$,default
-259-65_rope-3,90920,259,65_rope,tuku/tuku,tuku,t u k u,Pollex 06: Tuku/tuku. :Rope (slack) (Hmn).,POLLEX,,false,^t u k u$,default
-259-65_rope-4,90920,259,65_rope,tuku/tuku,tuku,t u k u,Pollex 06: Tuku/tuku. :Rope (slack) (Hmn).,POLLEX,,false,^t u k u$,default
-259-66_totieupfasten-1,23464,259,66_totieupfasten,lii-tia,lii-tia,l iː + t i a,Tie up,POLLEX,14,false,^l ii - t i a$,default
-259-67_tosew-1,23821,259,67_tosew,tui/a,tui,t u i,Sew,POLLEX,"13, 16",false,^t u i$,default
-259-67_tosew-2,23821,259,67_tosew,tui/a,a,a,Sew,POLLEX,"13, 16",false,^a$,default
-259-68_needle-1,91572,259,68_needle,sau,sau,s a u,,POLLEX,1,false,^s a u$,default
-259-68_needle-2,91573,259,68_needle,sika,sika,s i k a,Netting needle,POLLEX,9,false,^s i k a$,default
-259-70_toshoot-1,24892,259,70_toshoot,fana,fana,f a n a,"Arc, tirer ... l'arc (Hmn)",POLLEX,1,false,^f a n a$,default
-259-71_tostabpierce-1,90921,259,71_tostabpierce,suki,suki,s u k i,"Pollex 06: Suki. :Spear, stab, pierce.",POLLEX,"1, 8",false,^s u k i$,default
-259-73_tosteal-1,25963,259,73_tosteal,kaia,kaia,k a i a,Steal,POLLEX,7,false,^k a i a$,default
-259-74_tokill-1,3229926,259,74_tokill,hlingeina,hlingeina,h l i n g e i n a,L from Iaai (Ozanne-Rivierre 1994),POLLEX,,true,^h l i n g e i n a$,default
-259-75_todiebedead-1,26677,259,75_todiebedead,mate,mate,m a t e,"Dead, ill",POLLEX,1,false,^m a t e$,default
-259-76_tolivebealive-1,90922,259,76_tolivebealive,maauli,maauli,m aː u l i,"Pollex 06: Maauli. :Life, living, to live (Hmn).",POLLEX,"1, 76",false,^m aa u l i$,default
-259-77_toscratch-1,27391,259,77_toscratch,alati/a,alati,a l a t i,Gratter (quelque partie du corps) (Hmn),POLLEX,10,false,^a l a t i$,default
-259-77_toscratch-2,27391,259,77_toscratch,alati/a,a,a,Gratter (quelque partie du corps) (Hmn),POLLEX,10,false,^a$,default
-259-78_tocuthack-1,92279,259,78_tocuthack,isi/a,isi,i s i,Split,POLLEX,10,false,^i s i$,default
-259-78_tocuthack-2,92279,259,78_tocuthack,isi/a,a,a,Split,POLLEX,10,false,^a$,default
-259-78_tocuthack-3,92280,259,78_tocuthack,tuu/tia,tuu,t uː,Couper,POLLEX,17,false,^t uu$,default
-259-78_tocuthack-4,92280,259,78_tocuthack,tuu/tia,tia,t i a,Couper,POLLEX,17,false,^t i a$,default
-259-80_tosplit-1,28462,259,80_tosplit,mafaa,mafaa,m a f aː,"Fendiller (le bois); fendille, crevasse",POLLEX,"5,72",false,^m a f aa$,default
-259-81_sharp-1,90923,259,81_sharp,mata/kakai,mata,m a t a,"Pollex 06: Mata/kakai. :Sharp, pointed (Hmn).",POLLEX,"14,16",false,^m a t a$,default
-259-81_sharp-2,90923,259,81_sharp,mata/kakai,kakai,k a k a i,"Pollex 06: Mata/kakai. :Sharp, pointed (Hmn).",POLLEX,"14,16",false,^k a k a i$,default
-259-84_toplant-1,29890,259,84_toplant,tokia,tokia,t o k i a,"Semer, planter (Hmn)",POLLEX,"4,5",false,^t o k i a$,default
-259-86_togrow-1,30604,259,86_togrow,somo,somo,s o m o,(Coco) germant; germer (Hmn),POLLEX,7,false,^s o m o$,default
-259-88_tosqueeze-1,31318,259,88_tosqueeze,lomi/a,lomi,l o m i,Press down with hand,POLLEX,10,false,^l o m i$,default
-259-88_tosqueeze-2,31318,259,88_tosqueeze,lomi/a,a,a,Press down with hand,POLLEX,10,false,^a$,default
-259-90_todig-1,32032,259,90_todig,keli/a,keli,k e l i,Dig (a hole),POLLEX,1,false,^k e l i$,default
-259-90_todig-2,32032,259,90_todig,keli/a,a,a,Dig (a hole),POLLEX,1,false,^a$,default
-259-91_tobuy-1,76590,259,91_tobuy,taui,taui,t a u i,Payment; pay (Hmn),POLLEX,"9,13",false,^t a u i$,default
-259-91_tobuy-2,76591,259,91_tobuy,tauia,tauia,t a u i a,Payment; pay (Hmn),POLLEX,"9,13",false,^t a u i a$,default
-259-92_toopenuncover-1,32746,259,92_toopenuncover,afagia,afagia,a f a g i a,"To open (hand, eyes, door, wound) (Hmn)",POLLEX,9,false,^a f a g i a$,default
-259-95_tofall-1,33817,259,95_tofall,singa,singa,s i n g a,Fall,POLLEX,44,false,^s i n g a$,default
-259-97_bird-1,34531,259,97_bird,manu,manu,m a n u,"Animal, bird. (WUH) insect (Hmn)",POLLEX,1,false,^m a n u$,default
-259-99_feather-1,90924,259,99_feather,fulu,fulu,f u l u,Pollex 06: Fulu. :Feathers.,POLLEX,1,false,^f u l u$,default
-259-100_wing-1,35602,259,100_wing,pakakau,pakakau,p a k a k a u,"Epaule, aile, nageoire de tortue (Hmn)",POLLEX,"1,59,88",false,^p a k a k a u$,default
-259-101_tofly-1,35959,259,101_tofly,lele,lele,l e l e,Fly,POLLEX,11,false,^l e l e$,default
-259-102_rat-1,90925,259,102_rat,kimoa,kimoa,k i m o a,"Pollex 06: Kimoa. :Rat, mouse (Hmn).",POLLEX,14,false,^k i m o a$,default
-259-103_meatflesh-1,90926,259,103_meatflesh,io,io,i o,Pollex 06: Io. :Flesh.,POLLEX,10,false,^i o$,default
-259-106_snake-1,90927,259,106_snake,fei,fei,f e i,Pollex 06: <Fei. :Snake (1888)>.; This may very well be a Greek loan?,POLLEX,,false,^f e i$,default
-259-107_wormearthworm-1,3229925,259,107_wormearthworm,biget,biget,b i g e t,L from Iaai (Ozanne-Rivierre 1994),POLLEX,,true,^b i g e t$,default
-259-108_louse-1,38458,259,108_louse,kutu popaale,kutu popaale,k u t u + p o p aː l e,Bed louse,POLLEX,"1,6",false,^k u t u + p o p aa l e$,default
-259-111_fish-1,39529,259,111_fish,ika,ika,i k a,Fish n,POLLEX,1,false,^i k a$,default
-259-112_rotten-1,39886,259,112_rotten,popo,popo,p o p o,Rotten,POLLEX,14,false,^p o p o$,default
-259-113_branch-1,40243,259,113_branch,laalaa,laalaa,l aː l aː,Branch,POLLEX,1,false,^l aa l aa$,default
-259-114_leaf-1,40600,259,114_leaf,lau,lau,l a u,Leaf,POLLEX,1,false,^l a u$,default
-259-115_root-1,40957,259,115_root,aka,aka,a k a,Root,POLLEX,2,false,^a k a$,default
-259-116_flower-1,90928,259,116_flower,sei,sei,s e i,Pollex 06: Sei. :Flower (Hmn).,POLLEX,9,false,^s e i$,default
-259-117_fruit-1,41671,259,117_fruit,fua,fua,f u a,Fruit,POLLEX,1,false,^f u a$,default
-259-119_earthsoil-1,42385,259,119_earthsoil,kele,kele,k e l e,Earth,POLLEX,10,false,^k e l e$,default
-259-120_stone-1,105423,259,120_stone,fatu,fatu,f a t u,"Pierre, caillou",POLLEX,1,false,^f a t u$,default
-259-120_stone-2,105424,259,120_stone,koofatu,koofatu,k oː f a t u,"Hard, light-brown stone [<]",POLLEX,"1,39",false,^k oo f a t u$,default
-259-121_sand-1,43099,259,121_sand,one,one,o n e,Sand,POLLEX,1,false,^o n e$,default
-259-122_water-1,90929,259,122_water,tai,tai,t a i,Pollex 06: Tai. :Water (kind of water is marked by adjectives) (Hmn).,POLLEX,2,false,^t a i$,default
-259-124_sea-1,167975,259,124_sea,tai,tai,t a i,,POLLEX,1,false,^t a i$,default
-259-127_woodsforest-1,107874,259,127_woodsforest,uu/lakau,uu,uː,Grove,POLLEX,"15, 13",false,^uu$,default
-259-127_woodsforest-2,107874,259,127_woodsforest,uu/lakau,lakau,l a k a u,Grove,POLLEX,"15, 13",false,^l a k a u$,default
-259-127_woodsforest-3,107875,259,127_woodsforest,vao,vao,v a o,Forest,POLLEX,14,false,^v a o$,default
-259-128_sky-1,45598,259,128_sky,langi,langi,l a n g i,Sky,POLLEX,1,false,^l a n g i$,default
-259-129_moon-1,45955,259,129_moon,masina,masina,m a s i n a,"Lune, mois (Hmn)",POLLEX,"37, 5",false,^m a s i n a$,default
-259-132_fog-1,3229927,259,132_fog,sahot,sahot,s a h o t,L from NC lgs -likely Iaai (Ozanne-Rivierre 1994),POLLEX,,true,^s a h o t$,default
-259-133_rain-1,47383,259,133_rain,ua,ua,u a,Rain,POLLEX,1,false,^u a$,default
-259-134_thunder-1,108007,259,134_thunder,fatutuli,fatutuli,f a t u t u l i,Thunder (Hmn). (1880-1916),POLLEX,14,false,^f a t u t u l i$,default
-259-134_thunder-2,108008,259,134_thunder,fatitili,fatitili,f a t i t i l i,(1850),POLLEX,14,false,^f a t i t i l i$,default
-259-134_thunder-3,108009,259,134_thunder,fatetili,fatetili,f a t e t i l i,(1860) (Balad),POLLEX,14,false,^f a t e t i l i$,default
-259-135_lightning-1,48097,259,135_lightning,wiila,wiila,w iː l a,Lightning,POLLEX,2,false,^w ii l a$,default
-259-136_wind-1,48454,259,136_wind,matagi,matagi,m a t a g i,Wind,POLLEX,"1,66",false,^m a t a g i$,default
-259-137_toblow-1,48811,259,137_toblow,angi/angi,angi,a n g i,Blow,POLLEX,8,false,^a n g i$,default
-259-137_toblow-2,48811,259,137_toblow,angi/angi,angi,a n g i,Blow,POLLEX,8,false,^a n g i$,default
-259-138_warm-1,49168,259,138_warm,mafana,mafana,m a f a n a,Lukewarm,POLLEX,"1, 72",false,^m a f a n a$,default
-259-139_cold-1,49525,259,139_cold,makalili,makalili,m a k a l i l i,Cold,POLLEX,"1,52",false,^m a k a l i l i$,default
-259-140_dry-1,120828,259,140_dry,masa,masa,m a s a,Dried up (of a well),POLLEX,11,false,^m a s a$,default
-259-140_dry-2,120829,259,140_dry,maloo,maloo,m a l oː,Sec (Hmn),POLLEX,13,false,^m a l oo$,default
-259-142_heavy-1,50596,259,142_heavy,momafa,momafa,m o m a f a,"Heavy, pregnancy",POLLEX,46,false,^m o m a f a$,default
-259-143_fire-1,50953,259,143_fire,afi,afi,a f i,Feu (Hmn),POLLEX,1,false,^a f i$,default
-259-144_toburn-1,51310,259,144_toburn,tafu/na,tafu,t a f u,Light a fire. (WUH) cook over fire (Hmn),POLLEX,8,false,^t a f u$,default
-259-144_toburn-2,51310,259,144_toburn,tafu/na,na,n a,Light a fire. (WUH) cook over fire (Hmn),POLLEX,8,false,^n a$,default
-259-145_smoke-1,51667,259,145_smoke,au,au,a u,Smoke,POLLEX,2,false,^a u$,default
-259-147_black-1,52381,259,147_black,uli,uli,u l i,Black,POLLEX,7,false,^u l i$,default
-259-148_white-1,90930,259,148_white,sina,sina,s i n a,Pollex 06: Sina. :White.,POLLEX,66,false,^s i n a$,default
-259-149_red-1,53095,259,149_red,melo,melo,m e l o,Red,POLLEX,"1, 16",false,^m e l o$,default
-259-150_yellow-1,53452,259,150_yellow,melo,melo,m e l o,Yellow,POLLEX,11?,false,^m e l o$,default
-259-152_small-1,90931,259,152_small,toko/isi,toko,t o k o,"Pollex 06: Toko/isi/ (WUH) (Hmn)., small.",POLLEX,141,false,^t o k o$,default
-259-152_small-2,90931,259,152_small,toko/isi,isi,i s i,"Pollex 06: Toko/isi/ (WUH) (Hmn)., small.",POLLEX,141,false,^i s i$,default
-259-155_long-1,55237,259,155_long,loa,loa,l o a,Long,POLLEX,"12,105",false,^l o a$,default
-259-156_thin-1,55594,259,156_thin,manifi,manifi,m a n i f i,Thin,POLLEX,1,false,^m a n i f i$,default
-259-158_narrow-1,90932,259,158_narrow,lau/liki,lau,l a u,Pollex 06: Lau/liki. :Narrow (Leverd).,POLLEX,84,false,^l a u$,default
-259-158_narrow-2,90932,259,158_narrow,lau/liki,liki,l i k i,Pollex 06: Lau/liki. :Narrow (Leverd).,POLLEX,84,false,^l i k i$,default
-259-158_narrow-3,90933,259,158_narrow,lauliki,lauliki,l a u l i k i,Pollex 06: Lauliki. :Narrow (Leverd).,POLLEX,84,false,^l a u l i k i$,default
-259-160_painfulsick-1,123030,259,160_painfulsick,momae,momae,m o m a e,Pain (1880 WUM) (Hmn),POLLEX,10,false,^m o m a e$,default
-259-160_painfulsick-2,123031,259,160_painfulsick,mumae,mumae,m u m a e,"Distress, pain, toil (Hmn)",POLLEX,10,false,^m u m a e$,default
-259-161_shyashamed-1,57379,259,161_shyashamed,maa,maa,m aː,Be ashamed (Hmn),POLLEX,1,false,^m aa$,default
-259-163_new-1,58093,259,163_new,foou,foou,f oː u,New,POLLEX,1,false,^f oo u$,default
-259-164_good-1,58450,259,164_good,maarie,maarie,m aː r i e,Good,POLLEX,16,false,^m aa r i e$,default
-259-166_correcttrue-1,59164,259,166_correcttrue,tonu,tonu,t o n u,Correct,POLLEX,8,false,^t o n u$,default
-259-167_night-1,59521,259,167_night,poo,poo,p oː,Night,POLLEX,1,false,^p oo$,default
-259-168_day-1,59878,259,168_day,ao,ao,a o,Day (not night),POLLEX,"1, 54",false,^a o$,default
-259-169_year-1,60235,259,169_year,tau,tau,t a u,Year,POLLEX,1,false,^t a u$,default
-259-170_when-1,60592,259,170_when,afea,afea,a f e a,Quand? (Hmn),POLLEX,5,false,^a f e a$,default
-259-172_toclimb-1,61306,259,172_toclimb,kake,kake,k a k e,Climb,POLLEX,32,false,^k a k e$,default
-259-173_at-1,61663,259,173_at,i,i,i,At,POLLEX,1,false,^i$,default
-259-174_ininside-1,62020,259,174_ininside,loto,loto,l o t o,"Interior, inside of anything; deep (Hmn)",POLLEX,5,false,^l o t o$,default
-259-175_above-1,62377,259,175_above,alunga,alunga,a l u n g a,Au-dessus; vers le haut; surface; partie sup√©rieure (Hmn),POLLEX,9,false,^a l u n g a$,default
-259-177_this-1,90934,259,177_this,denei,denei,d e n e i,Pollex 06: Denei. :This.,POLLEX,"7,1",false,^d e n e i$,default
-259-180_far-1,64162,259,180_far,mumao,mumao,m u m a o,"Far off, distant",POLLEX,13,false,^m u m a o$,default
-259-181_where-1,64519,259,181_where,i/fea,i,i,Where?,POLLEX,"3,35",false,^i$,default
-259-181_where-2,64519,259,181_where,i/fea,fea,f e a,Where?,POLLEX,"3,35",false,^f e a$,default
-259-182_i-1,64876,259,182_i,i/au/,i,i,"I, me",POLLEX,"1,21",false,^i$,default
-259-182_i-2,64876,259,182_i,i/au/,au,a u,"I, me",POLLEX,"1,21",false,^a u$,default
-259-183_thou-1,123558,259,183_thou,ge,ge,g e,(Ply),POLLEX,5,false,^g e$,default
-259-183_thou-2,123559,259,183_thou,goe,goe,g o e,You (Sing.),POLLEX,1,false,^g o e$,default
-259-183_thou-3,132676,259,183_thou,goe,goe,g o e,You (Sing.),POLLEX,1,false,^g o e$,default
-259-184_heshe-1,65590,259,184_heshe,ia,ia,i a,Third person singular personal pronoun,POLLEX,1,false,^i a$,default
-259-185_we-1,123509,259,185_we,kita,kita,k i t a,First person inclusive marker (Ply),POLLEX,1,false,^k i t a$,default
-259-185_we-2,123510,259,185_we,gima,gima,g i m a,L from Iaai,POLLEX,2,true,^g i m a$,default
-259-186_you-1,132675,259,186_you,ge,ge,g e,(Ply),POLLEX,1,false,^g e$,default
-259-186_you-2,132677,259,186_you,godou,godou,g o d o u,(Ply),POLLEX,16,false,^g o d o u$,default
-259-189_who-1,122643,259,189_who,ai,ai,a i,Pollex 06: Who? (Hmn).,POLLEX,1,false,^a i$,default
-259-189_who-2,122644,259,189_who,wai,wai,w a i,Pollex 06: Who? (Hmn).,POLLEX,"1,19",false,^w a i$,default
-259-195_nonot-1,3229924,259,195_nonot,hee,hee,h eː,L from Euvean or Tongan (Ozanne-Rivierre 1994),POLLEX,13,true,^h ee$,default
-259-197_one-1,70231,259,197_one,tahi,tahi,t a h i,L from EUvea,POLLEX,41,true,^t a h i$,default
-259-198_two-1,70588,259,198_two,lua,lua,l u a,Two,POLLEX,1,false,^l u a$,default
-259-199_three-1,70945,259,199_three,tolu,tolu,t o l u,Three,POLLEX,1,false,^t o l u$,default
-259-200_four-1,71302,259,200_four,fa,fa,f a,Four,POLLEX,"1,66",false,^f a$,default
-259-201_five-1,83787,259,201_five,lima,lima,l i m a,"Five, hand-arm.(Source: Pollex)",POLLEX,1,false,^l i m a$,default
+259-1_hand-1,259,259,1_hand,lima,lima,l i m a,Five; hand-arm,,"1, 64",false,^l i m a$,default
+259-2_left-1,616,259,2_left,sema,sema,s e m a,Gauche (Hmn),,11,false,^s e m a$,default
+259-3_right-1,973,259,3_right,matau,matau,m a t a u,"Right-handed, skilful (Hmn)",,"5,13",false,^m a t a u$,default
+259-4_legfoot-1,1330,259,4_legfoot,vae,vae,v a e,"Foot, leg (Hmn)",,"1, 100",false,^v a e$,default
+259-5_towalk-1,1687,259,5_towalk,haele,haele,h a e l e,L from EUvea or Tongan,,6,true,^h a e l e$,default
+259-6_roadpath-1,2044,259,6_roadpath,ala,ala,a l a,Road,,1,false,^a l a$,default
+259-7_tocome-1,167974,259,7_tocome,'au mai,'au mai,ʔ a u + m a i,,,"1,44",false,^'a u + m a i$,default
+259-8_toturn-1,3241502,259,8_toturn,faliu,faliu,f a l i u,,,2,false,^f a l i u$,default
+259-9_toswim-1,87921,259,9_toswim,kakau,kakau,k a k a u,Swim,,5,false,^k a k a u$,default
+259-9_toswim-2,87922,259,9_toswim,kaua,kaua,k a u a,Swim (Hmn),,5,false,^k a u a$,default
+259-10_dirty-1,3241503,259,10_dirty,kele,kele,k e l e,,,10,false,^k e l e$,default
+259-11_dust-1,3229928,259,11_dust,sasa,sasa,s a s a,L from NC lgs - likely Iaai (Ozanne-Rivierre 1994),,,true,^s a s a$,default
+259-12_skin-1,3241504,259,12_skin,kili,kili,k i l i,,,1,false,^k i l i$,default
+259-13_back-1,90909,259,13_back,tua,tua,t u a,,,11,false,^t u a$,default
+259-14_belly-1,5257,259,14_belly,tinae,tinae,t i n a e,Belly,,"19, 34",false,^t i n a e$,default
+259-15_bone-1,3241505,259,15_bone,ivi,ivi,i v i,,,"52,5",false,^i v i$,default
+259-16_intestines-1,3241506,259,16_intestines,tinae,tinae,t i n a e,,,1,false,^t i n a e$,default
+259-17_liver-1,5971,259,17_liver,ate,ate,a t e,Liver,,1,false,^a t e$,default
+259-18_breast-1,6328,259,18_breast,ū,ū,ū/u,Sein (Hmn),,1,false,^ū$,default
+259-19_shoulder-1,3241507,259,19_shoulder,pakakau,pakakau,p a k a k a u,,,22,false,^p a k a k a u$,default
+259-20_toknowbeknowledgeable-1,3241508,259,20_toknowbeknowledgeable,iloa,iloa,i l o a,,,13,false,^i l o a$,default
+259-21_tothink-1,3241509,259,21_tothink,loto,loto,l o t o,,,,false,^l o t o$,default
+259-22_tofear-1,7756,259,22_tofear,mataku,mataku,m a t a k u,"Afraid, fear",,1,false,^m a t a k u$,default
+259-23_blood-1,8113,259,23_blood,toto,toto,t o t o,Blood,,4,false,^t o t o$,default
+259-24_head-1,8470,259,24_head,ulu,ulu,u l u,Head,,1,false,^u l u$,default
+259-25_neck-1,3241510,259,25_neck,ua,ua,u a,,,18,false,^u a$,default
+259-26_hair-1,3241511,259,26_hair,lauulu,lauulu,l a uː l u,,,40,false,^l a uu l u$,default
+259-27_nose-1,9541,259,27_nose,isu,isu,i s u,Nose,,1,false,^i s u$,default
+259-28_tobreathe-1,3241512,259,28_tobreathe,homena,homena,h o m e n a,Loan from Iaai,,,true,^h o m e n a$,default
+259-29_tosniffsmell-1,90951,259,29_tosniffsmell,soŋi,soŋi,s o ŋ i,Pollex 06: Smell (sth.) (Hmn).,,9,false,^s o ŋ i$,default
+259-29_tosniffsmell-2,90952,259,29_tosniffsmell,soŋia,soŋia,s o ŋ i a,Pollex 06: Smell (sth.) (Hmn).,,9,false,^s o ŋ i a$,default
+259-30_mouth-1,90912,259,30_mouth,ŋutu,ŋutu,ŋ u t u,"Pollex 06: Ngutu. :Mouth, beak, muzzle (Hmn).",,2,false,^ŋ u t u$,default
+259-31_tooth-1,3241513,259,31_tooth,nifo,nifo,n i f o,,,1,false,^n i f o$,default
+259-32_tongue-1,11326,259,32_tongue,fagalelo,fagalelo,f a g a l e l o,,,15,false,^f a g a l e l o$,default
+259-33_tolaugh-1,11683,259,33_tolaugh,kata,kata,k a t a,Laugh,,7,false,^k a t a$,default
+259-34_tocry-1,12040,259,34_tocry,taŋi,taŋi,t a ŋ i,Cry,,1,false,^t a ŋ i$,default
+259-35_tovomit-1,12397,259,35_tovomit,lulua,lulua,l u l u a,Vomit,,8,false,^l u l u a$,default
+259-36_tospit-1,3241514,259,36_tospit,anusi,anusi,a n u s i,,,"14, 84",false,^a n u s i$,default
+259-37_toeat-1,13111,259,37_toeat,kai,kai,k a i,"Food, eat",,"1,47",false,^k a i$,default
+259-38_tochew-1,13468,259,38_tochew,ŋaua,ŋaua,ŋ a u a,"Chew (cane, purau etc.) (Hmn)",,8,false,^ŋ a u a$,default
+259-39_tocook-1,13825,259,39_tocook,taona,taona,t a o n a,Cook in earth oven,,10,false,^t a o n a$,default
+259-40_todrink-1,14182,259,40_todrink,inu,inu,i n u,Drink,,1,false,^i n u$,default
+259-41_tobite-1,90953,259,41_tobite,ū,ū,ū/u,,,8,false,^ū$,default
+259-42_tosuck-1,3241515,259,42_tosuck,cemi ina,cemi ina,c e m i + i n a,,,7,false,^c e m i + i n a$,default
+259-43_ear-1,3241516,259,43_ear,taliŋa,taliŋa,t a l i ŋ a,,,1,false,^t a l i ŋ a$,default
+259-44_tohear-1,15610,259,44_tohear,loŋona,loŋona,l o ŋ o n a,"Hear, listen",,1,false,^l o ŋ o n a$,default
+259-45_eye-1,15967,259,45_eye,faimata,faimata,f a i m a t a,,,1,false,^f a i m a t a$,default
+259-46_tosee-1,90914,259,46_tosee,kitea,kitea,k i t e a,,,1,false,^k i t e a$,default
+259-47_toyawn-1,3229930,259,47_toyawn,ohaem,ohaem,o h a e m,L from NC lgs - likely Iaai (Ozanne-Rivierre 1994),,,true,^o h a e m$,default
+259-48_tosleep-1,17038,259,48_tosleep,moe,moe,m o e,Sleep,,"10, 109",false,^m o e$,default
+259-49_toliedown-1,3241517,259,49_toliedown,moe,moe,m o e,,,6,false,^m o e$,default
+259-50_todream-1,17752,259,50_todream,miti,miti,m i t i,Dream,,36,false,^m i t i$,default
+259-51_tosit-1,90916,259,51_tosit,nō,nō,n ō/o,"Var. hnō, noho",,16,false,^n ō$,default
+259-52_tostand-1,18466,259,52_tostand,tū,tū,t ū,Stand,,2,false,^t ū$,default
+259-53_personhumanbeing-1,18823,259,53_personhumanbeing,taŋata,taŋata,t a ŋ a t a,Man,,"1,66, 97",false,^t a ŋ a t a$,default
+259-54_manmale-1,19180,259,54_manmale,taŋata,taŋata,t a ŋ a t a,Man,,"12,14",false,^t a ŋ a t a$,default
+259-55_womanfemale-1,91088,259,55_womanfemale,fafine,fafine,f a f i n e,Woman,,"1,106",false,^f a f i n e$,default
+259-55_womanfemale-2,91089,259,55_womanfemale,fine,fine,f i n e,"Woman, girl, female, wife (Dty)",,"1,41",false,^f i n e$,default
+259-56_child-1,3241518,259,56_child,tama,tama,t a m a,,,6,false,^t a m a$,default
+259-58_wife-1,91232,259,58_wife,fafine,fafine,f a f i n e,Woman,,"5,68",false,^f a f i n e$,default
+259-58_wife-2,91233,259,58_wife,fine,fine,f i n e,"Woman, girl, female, wife (Dty)",,"5, 89",false,^f i n e$,default
+259-59_mother-1,20965,259,59_mother,tinana,tinana,t i n a n a,Mother,,1,false,^t i n a n a$,default
+259-60_father-1,90917,259,60_father,tamana,tamana,t a m a n a,Pollex 06: Tamana. :Father (Hmn).,,1,false,^t a m a n a$,default
+259-61_house-1,21679,259,61_house,fale,fale,f a l e,House,,14,false,^f a l e$,default
+259-62_thatchroof-1,3229929,259,62_thatchroof,hagoe,hagoe,h a g o e,L from NC lgs - likely Iaai (Ozanne-Rivierre 1994),,,true,^h a g o e$,default
+259-63_name-1,90918,259,63_name,iŋoa,iŋoa,i ŋ o a,Pollex 06: Ingoa. :Name.,,6,false,^i ŋ o a$,default
+259-64_tosay-1,3241519,259,64_tosay,muna,muna,m u n a,,,129,false,^m u n a$,default
+259-65_rope-1,90919,259,65_rope,umaea,umaea,u m a e a,Pollex 06: U/maea/. :Rope (U 1888) (Hmn).,,10,false,^u m a e a$,default
+259-65_rope-2,90920,259,65_rope,tukutuku,tukutuku,t u k u t u k u,Pollex 06: Tuku/tuku. :Rope (slack) (Hmn).,,,false,^t u k u t u k u$,default
+259-66_totieupfasten-1,23464,259,66_totieupfasten,lītia,lītia,l ī/i t i a,Tie up,,14,false,^l ī t i a$,default
+259-67_tosew-1,23821,259,67_tosew,tuia,tuia,t u i a,Sew,,"13, 16",false,^t u i a$,default
+259-68_needle-1,91572,259,68_needle,sau,sau,s a u,,,1,false,^s a u$,default
+259-68_needle-2,91573,259,68_needle,sika,sika,s i k a,Netting needle,,9,false,^s i k a$,default
+259-69_tohunt-1,3241520,259,69_tohunt,bosi,bosi,b o s i,possible loan from Iaai,,,false,^b o s i$,default
+259-70_toshoot-1,24892,259,70_toshoot,fana,fana,f a n a,"Arc, tirer ... l'arc (Hmn)",,1,false,^f a n a$,default
+259-71_tostabpierce-1,90921,259,71_tostabpierce,suki,suki,s u k i,"Pollex 06: Suki. :Spear, stab, pierce.",,"1, 8",false,^s u k i$,default
+259-72_tohit-1,3241521,259,72_tohit,tā,tā,t ā/a,also: tāia,,10,false,^t ā$,default
+259-73_tosteal-1,25963,259,73_tosteal,kaia,kaia,k a i a,Steal,,7,false,^k a i a$,default
+259-74_tokill-1,3229926,259,74_tokill,hliŋeina,hliŋeina,h l i ŋ e i n a,L from Iaai (Ozanne-Rivierre 1994),,,true,^h l i ŋ e i n a$,default
+259-75_todiebedead-1,26677,259,75_todiebedead,mate,mate,m a t e,"Dead, ill",,1,false,^m a t e$,default
+259-76_tolivebealive-1,90922,259,76_tolivebealive,māuli,māuli,m ā/a u l i,"Pollex 06: Maauli. :Life, living, to live (Hmn).",,"1, 76",false,^m ā u l i$,default
+259-77_toscratch-1,27391,259,77_toscratch,alatia,alatia,a l a t i a,Gratter (quelque partie du corps) (Hmn),,10,false,^a l a t i a$,default
+259-78_tocuthack-1,92280,259,78_tocuthack,tūtia,tūtia,t ū t i a,Couper,,17,false,^t ū t i a$,default
+259-79_stickwood-1,3241522,259,79_stickwood,lākau,lākau,l ā/a k a u,,,"1, 26",false,^l ā k a u$,default
+259-80_tosplit-1,28462,259,80_tosplit,isia,isia,i s i a,,,7,false,^i s i a$,default
+259-81_sharp-1,90923,259,81_sharp,mata kakai,mata kakai,m a t a + k a k a i,,,"14,16",false,^m a t a + k a k a i$,default
+259-82_dullblunt-1,3241523,259,82_dullblunt,petu,petu,p e t u,,,1,false,^p e t u$,default
+259-83_towork-1,3241524,259,83_towork,gaobi,gaobi,g a o b i,L from Iaai,,,true,^g a o b i$,default
+259-84_toplant-1,29890,259,84_toplant,tokia,tokia,t o k i a,"Semer, planter (Hmn)",,"4,5",false,^t o k i a$,default
+259-85_tochoose-1,3241525,259,85_tochoose,itra ina,itra ina,i t r a + i n a,,,,false,^i t r a + i n a$,default
+259-86_togrow-1,30604,259,86_togrow,somo,somo,s o m o,(Coco) germant; germer (Hmn),,7,false,^s o m o$,default
+259-87_toswell-1,3241526,259,87_toswell,fufula,fufula,f u f u l a,,,7,false,^f u f u l a$,default
+259-88_tosqueeze-1,31318,259,88_tosqueeze,lomia,lomia,l o m i a,Press down with hand,,10,false,^l o m i a$,default
+259-89_tohold-1,3241527,259,89_tohold,kumia,kumia,k u m i a,,,1,false,^k u m i a$,default
+259-89_tohold-2,3241528,259,89_tohold,kukumi,kukumi,k u k u m i,,,1,false,^k u k u m i$,default
+259-90_todig-1,32032,259,90_todig,kelia,kelia,k e l i a,Dig (a hole),,1,false,^k e l i a$,default
+259-91_tobuy-1,76590,259,91_tobuy,taui,taui,t a u i,Payment; pay (Hmn),,"9,13",false,^t a u i$,default
+259-91_tobuy-2,76591,259,91_tobuy,tauia,tauia,t a u i a,Payment; pay (Hmn),,"9,13",false,^t a u i a$,default
+259-92_toopenuncover-1,32746,259,92_toopenuncover,fukea,fukea,f u k e a,,,"1,63",false,^f u k e a$,default
+259-94_tothrow-1,3241529,259,94_tothrow,titī,titī,t i t ī/i,Also tīa,,9,false,^t i t ī$,default
+259-95_tofall-1,33817,259,95_tofall,siŋa,siŋa,s i ŋ a,Fall,,44,false,^s i ŋ a$,default
+259-96_dog-1,3241530,259,96_dog,kuli,kuli,k u l i,,,7,false,^k u l i$,default
+259-97_bird-1,34531,259,97_bird,manu,manu,m a n u,"Animal, bird. (WUH) insect (Hmn)",,1,false,^m a n u$,default
+259-98_egg-1,3241531,259,98_egg,wākuny,wākuny,w ā/a k u n y/j,L from Iaai,,,true,^w ā k u n y $,default
+259-99_feather-1,90924,259,99_feather,fulu,fulu,f u l u,Pollex 06: Fulu. :Feathers.,,1,false,^f u l u$,default
+259-100_wing-1,35602,259,100_wing,pakakau,pakakau,p a k a k a u,"Epaule, aile, nageoire de tortue (Hmn)",,"1,59,88",false,^p a k a k a u$,default
+259-101_tofly-1,35959,259,101_tofly,lele,lele,l e l e,Fly,,11,false,^l e l e$,default
+259-102_rat-1,90925,259,102_rat,kimoa,kimoa,k i m o a,,,14,false,^k i m o a$,default
+259-103_meatflesh-1,90926,259,103_meatflesh,io,io,i o,,,10,false,^i o$,default
+259-104_fatgrease-1,3241532,259,104_fatgrease,giris,giris,g i r i s,L from Eng,,,true,^g i r i s$,default
+259-105_tail-1,3241533,259,105_tail,mokunen,mokunen,m o k u n e n,L from Iaai,,,true,^m o k u n e n$,default
+259-106_snake-1,90927,259,106_snake,fei,fei,f e i,Pollex 06: <Fei. :Snake (1888)>.; This may very well be a Greek loan?,,,false,^f e i$,default
+259-107_wormearthworm-1,3229925,259,107_wormearthworm,biget,biget,b i g e t,L from Iaai (Ozanne-Rivierre 1994),,,true,^b i g e t$,default
+259-108_louse-1,38458,259,108_louse,kutu,kutu,k u t u,,,"1,6",false,^k u t u$,default
+259-109_mosquito-1,3241534,259,109_mosquito,namu,namu,n a m u,,,1,false,^n a m u$,default
+259-110_spider-1,3241535,259,110_spider,wale lemo,wale lemo,w a l e + l e m o,L from Iaai,,,true,^w a l e + l e m o$,default
+259-111_fish-1,39529,259,111_fish,ika,ika,i k a,,,1,false,^i k a$,default
+259-112_rotten-1,39886,259,112_rotten,popo,popo,p o p o,Rotten,,14,false,^p o p o$,default
+259-113_branch-1,40243,259,113_branch,lālā,lālā,l ā/a l ā/a,Branch,,1,false,^l ā l ā$,default
+259-114_leaf-1,40600,259,114_leaf,lau,lau,l a u,Leaf,,1,false,^l a u$,default
+259-115_root-1,40957,259,115_root,aka,aka,a k a,Root,,2,false,^a k a$,default
+259-116_flower-1,90928,259,116_flower,sei,sei,s e i,Pollex 06: Sei. :Flower (Hmn).,,9,false,^s e i$,default
+259-117_fruit-1,41671,259,117_fruit,fua,fua,f u a,Fruit,,1,false,^f u a$,default
+259-119_earthsoil-1,42385,259,119_earthsoil,kele,kele,k e l e,Earth,,10,false,^k e l e$,default
+259-120_stone-1,105423,259,120_stone,fatu,fatu,f a t u,"Pierre, caillou",,1,false,^f a t u$,default
+259-120_stone-2,105424,259,120_stone,kōfatu,kōfatu,k ō/o f a t u,"Hard, light-brown stone [<]",,"1,39",false,^k ō f a t u$,default
+259-121_sand-1,43099,259,121_sand,one,one,o n e,Sand,,1,false,^o n e$,default
+259-122_water-1,90929,259,122_water,tai,tai,t a i,Pollex 06: Tai. :Water (kind of water is marked by adjectives) (Hmn).,,2,false,^t a i$,default
+259-123_toflow-1,3241536,259,123_toflow,tafe,tafe,t a f e,,,10,false,^t a f e$,default
+259-124_sea-1,167975,259,124_sea,tai,tai,t a i,,,1,false,^t a i$,default
+259-126_lake-1,3241538,259,126_lake,mātai,mātai,m ā/a t a i,,,,false,^m ā t a i$,default
+259-127_woodsforest-1,107874,259,127_woodsforest,ūlakau,ūlakau,ū/u l a k a u,Grove,,"15, 13",false,^ū l a k a u$,default
+259-127_woodsforest-2,107875,259,127_woodsforest,vao,vao,v a o,Forest,,14,false,^v a o$,default
+259-128_sky-1,45598,259,128_sky,laŋi,laŋi,l a ŋ i,Sky,,1,false,^l a ŋ i$,default
+259-129_moon-1,45955,259,129_moon,masina,masina,m a s i n a,"Lune, mois (Hmn)",,"37, 5",false,^m a s i n a$,default
+259-130_star-1,3241539,259,130_star,fetū,fetū,f e t ū,,,1,false,^f e t ū$,default
+259-131_cloud-1,3241540,259,131_cloud,ao,ao,a o,,,12,false,^a o$,default
+259-132_fog-1,3229927,259,132_fog,sahot,sahot,s a h o t,L from NC lgs -likely Iaai (Ozanne-Rivierre 1994),,,true,^s a h o t$,default
+259-133_rain-1,47383,259,133_rain,ua,ua,u a,,,1,false,^u a$,default
+259-134_thunder-1,108007,259,134_thunder,fatutuli,fatutuli,f a t u t u l i,,,14,false,^f a t u t u l i$,default
+259-135_lightning-1,48097,259,135_lightning,wīla,wīla,w ī/i l a,Lightning,,2,false,^w ī l a$,default
+259-136_wind-1,48454,259,136_wind,mataŋi,mataŋi,m a t a ŋ i,Wind,,"1,66",false,^m a t a ŋ i$,default
+259-137_toblow-1,48811,259,137_toblow,aŋiaŋi,aŋiaŋi,a ŋ i a ŋ i,Blow,,8,false,^a ŋ i a ŋ i$,default
+259-138_warm-1,49168,259,138_warm,mafana,mafana,m a f a n a,Lukewarm,,"1, 72",false,^m a f a n a$,default
+259-139_cold-1,49525,259,139_cold,makalili,makalili,m a k a l i l i,Cold,,"1,52",false,^m a k a l i l i$,default
+259-140_dry-1,120828,259,140_dry,masa,masa,m a s a,Dried up (of a well),,11,false,^m a s a$,default
+259-140_dry-2,120829,259,140_dry,malō,malō,m a l ō/o,Sec (Hmn),,13,false,^m a l ō$,default
+259-142_heavy-1,50596,259,142_heavy,momafa,momafa,m o m a f a,"Heavy, pregnancy",,46,false,^m o m a f a$,default
+259-142_heavy-2,3241541,259,142_heavy,mumaha,mumaha,m u m a h a,,,46,false,^m u m a h a$,default
+259-143_fire-1,50953,259,143_fire,afi,afi,a f i,Feu (Hmn),,1,false,^a f i$,default
+259-144_toburn-1,51310,259,144_toburn,tafuna,tafuna,t a f u n a,Light a fire. (WUH) cook over fire (Hmn),,8,false,^t a f u n a$,default
+259-145_smoke-1,51667,259,145_smoke,au,au,a u,Smoke,,2,false,^a u$,default
+259-146_ashes-1,3241567,259,146_ashes,lefu,lefu,l e f u,,,67,false,^l e f u$,default
+259-147_black-1,52381,259,147_black,uli,uli,u l i,Black,,7,false,^u l i$,default
+259-148_white-1,90930,259,148_white,sina,sina,s i n a,Pollex 06: Sina. :White.,,66,false,^s i n a$,default
+259-149_red-1,53095,259,149_red,melo,melo,m e l o,Red,,"1, 16",false,^m e l o$,default
+259-150_yellow-1,53452,259,150_yellow,melo,melo,m e l o,Yellow,,11?,false,^m e l o$,default
+259-151_green-1,3241542,259,151_green,mata,mata,m a t a,,,1,false,^m a t a$,default
+259-152_small-1,90931,259,152_small,tokoisi,tokoisi,t o k o i s i,,,141,false,^t o k o i s i$,default
+259-153_big-1,3241543,259,153_big,efa,efa,e f a,,,13,false,^e f a$,default
+259-154_short-1,3241544,259,154_short,totoe,totoe,t o t o e,,,,false,^t o t o e$,default
+259-155_long-1,55237,259,155_long,loa,loa,l o a,Long,,"12,105",false,^l o a$,default
+259-156_thin-1,55594,259,156_thin,manifi,manifi,m a n i f i,Thin,,1,false,^m a n i f i$,default
+259-157_thick-1,3241547,259,157_thick,mātolu,mātolu,m ā/a t o l u,,,3,false,^m ā t o l u$,default
+259-158_narrow-1,90933,259,158_narrow,lauliki,lauliki,l a u l i k i,Pollex 06: Lauliki. :Narrow (Leverd).,,84,false,^l a u l i k i$,default
+259-159_wide-1,3241546,259,159_wide,lauefa,lauefa,l a u e f a,,,"73, 48",false,^l a u e f a$,default
+259-160_painfulsick-1,123030,259,160_painfulsick,momae,momae,m o m a e,Pain (1880 WUM) (Hmn),,10,false,^m o m a e$,default
+259-160_painfulsick-2,123031,259,160_painfulsick,mumae,mumae,m u m a e,"Distress, pain, toil (Hmn)",,10,false,^m u m a e$,default
+259-161_shyashamed-1,57379,259,161_shyashamed,mā,mā,m ā/a,Be ashamed (Hmn),,1,false,^m ā$,default
+259-162_old-1,3241548,259,162_old,matua,matua,m a t u a,,,1,false,^m a t u a$,default
+259-163_new-1,58093,259,163_new,fōu,fōu,f ō/o u,New,,1,false,^f ō u$,default
+259-164_good-1,58450,259,164_good,mārie,mārie,m ā/a r i e,Good,,16,false,^m ā r i e$,default
+259-165_badevil-1,3241549,259,165_badevil,ŋaio,ŋaio,ŋ a i o,,,,false,^ŋ a i o$,default
+259-165_badevil-2,3241550,259,165_badevil,kakino,kakino,k a k i n o,,,9,false,^k a k i n o$,default
+259-166_correcttrue-1,59164,259,166_correcttrue,tonu,tonu,t o n u,Correct,,8,false,^t o n u$,default
+259-167_night-1,59521,259,167_night,pō,pō,p ō/o,Night,,1,false,^p ō$,default
+259-168_day-1,59878,259,168_day,ao,ao,a o,Day (not night),,"1, 54",false,^a o$,default
+259-169_year-1,60235,259,169_year,tau,tau,t a u,Year,,1,false,^t a u$,default
+259-170_when-1,60592,259,170_when,afea,afea,a f e a,Quand? (Hmn),,5,false,^a f e a$,default
+259-171_tohide-1,3241551,259,171_tohide,mumuni,mumuni,m u m u n i,,,"1, 67",false,^m u m u n i$,default
+259-172_toclimb-1,61306,259,172_toclimb,kake,kake,k a k e,Climb,,32,false,^k a k e$,default
+259-173_at-1,61663,259,173_at,i,i,i,At,,1,false,^i$,default
+259-174_ininside-1,62020,259,174_ininside,loto,loto,l o t o,"Interior, inside of anything; deep (Hmn)",,5,false,^l o t o$,default
+259-175_above-1,62377,259,175_above,aluŋa,aluŋa,a l u ŋ a,Au-dessus; vers le haut; surface; partie sup√©rieure (Hmn),,9,false,^a l u ŋ a$,default
+259-176_below-1,3241552,259,176_below,lalo,lalo,l a l o,,,8,false,^l a l o$,default
+259-177_this-1,90934,259,177_this,denei,denei,d e n e i,Pollex 06: Denei. :This.,,"7,1",false,^d e n e i$,default
+259-178_that-1,3241553,259,178_that,dela,dela,d e l a,,,65,false,^d e l a$,default
+259-178_that-2,3241554,259,178_that,dena,dena,d e n a,,,1,false,^d e n a$,default
+259-179_near-1,3241555,259,179_near,taiaki,taiaki,t a i a k i,,,43,false,^t a i a k i$,default
+259-180_far-1,64162,259,180_far,mumao,mumao,m u m a o,"Far off, distant",,13,false,^m u m a o$,default
+259-181_where-1,64519,259,181_where,i fea,i fea,i + f e a,Where?,,"3,35",false,^i + f e a$,default
+259-182_i-1,64876,259,182_i,au,au,a u,"I, me",,"1,21",false,^a u$,default
+259-183_thou-1,123558,259,183_thou,ge,ge,g e,(Ply),,5,false,^g e$,default
+259-183_thou-2,123559,259,183_thou,goe,goe,g o e,You (Sing.),,1,false,^g o e$,default
+259-183_thou-3,132676,259,183_thou,goe,goe,g o e,You (Sing.),,1,false,^g o e$,default
+259-184_heshe-1,65590,259,184_heshe,ia,ia,i a,Third person singular personal pronoun,,1,false,^i a$,default
+259-185_we-1,123509,259,185_we,kita,kita,k i t a,First person inclusive marker (Ply),,1,false,^k i t a$,default
+259-185_we-2,123510,259,185_we,gima,gima,g i m a,L from Iaai,,2,true,^g i m a$,default
+259-186_you-1,132675,259,186_you,ge,ge,g e,(Ply),,1,false,^g e$,default
+259-186_you-2,132677,259,186_you,godou,godou,g o d o u,(Ply),,16,false,^g o d o u$,default
+259-187_they-1,3241556,259,187_they,latou,latou,l a t o u,,,"1, 72",false,^l a t o u$,default
+259-188_what-1,3241557,259,188_what,hea,hea,h e a,,,83,false,^h e a$,default
+259-189_who-1,122643,259,189_who,ai,ai,a i,Pollex 06: Who? (Hmn).,,1,false,^a i$,default
+259-189_who-2,122644,259,189_who,wai,wai,w a i,Pollex 06: Who? (Hmn).,,"1,19",false,^w a i$,default
+259-194_how-1,3241558,259,194_how,nafea,nafea,n a f e a,,,"11, 51",false,^n a f e a$,default
+259-195_nonot-1,3229924,259,195_nonot,hee,hee,h eː,L from Euvean or Tongan (Ozanne-Rivierre 1994),,13,true,^h ee$,default
+259-196_tocount-1,3241559,259,196_tocount,tau,tau,t a u,Also: taua,,8,false,^t a u$,default
+259-197_one-1,70231,259,197_one,tahi,tahi,t a h i,L from EUvea,,41,true,^t a h i$,default
+259-198_two-1,70588,259,198_two,lua,lua,l u a,Two,,1,false,^l u a$,default
+259-199_three-1,70945,259,199_three,tolu,tolu,t o l u,Three,,1,false,^t o l u$,default
+259-200_four-1,71302,259,200_four,fa,fa,f a,Four,,"1,66",false,^f a$,default
+259-201_five-1,83787,259,201_five,lima,lima,l i m a,"Five, hand-arm.(Source: Pollex)",,1,false,^l i m a$,default
+259-202_six-1,3241560,259,202_six,tahi hona tupu,tahi hona tupu,t a h i + h o n a + t u p u,,,,false,^t a h i + h o n a + t u p u$,default
+259-203_seven-1,3241561,259,203_seven,lua honu tupu,lua honu tupu,l u a + h o n u + t u p u,,,,false,^l u a + h o n u + t u p u$,default
+259-204_eight-1,3241562,259,204_eight,tolu honu tupu,tolu honu tupu,t o l u + h o n u + t u p u,,,,false,^t o l u + h o n u + t u p u$,default
+259-205_nine-1,3241563,259,205_nine,fā honu tupu,fā honu tupu,f ā/a + h o n u + t u p u,,,,false,^f ā + h o n u + t u p u$,default
+259-206_ten-1,3241564,259,206_ten,lua a lima,lua a lima,l u a + a + l i m a,,,,false,^l u a + a + l i m a$,default
+259-207_twenty-1,3241565,259,207_twenty,tēnua,tēnua,t ē/e n u a,,,,false,^t ē n u a$,default
+259-209_onehundred-1,3241566,259,209_onehundred,lima a tēnua,lima a tēnua,l i m a + a + t ē/e n u a,,,,false,^l i m a + a + t ē n u a$,default
 264-1_hand-1,130656,264,1_hand,rima,rima,r i m a,,POLLEX,"1, 64",false,^r i m a$,default
 264-2_left-1,130655,264,2_left,maui,maui,m a u i,,POLLEX,"1,59",false,^m a u i$,default
 264-2_left-2,3228584,264,2_left,hema,hema,h e m a,,POLLEX,11,false,^h e m a$,default
@@ -8295,7 +8333,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 264-53_personhumanbeing-2,133567,264,53_personhumanbeing,tagata,tagata,t a g a t a,man,POLLEX,"1,66, 97",false,^t a g a t a$,default
 264-54_manmale-1,19185,264,54_manmale,tane,tane,t a n e,L from Tahitian,POLLEX,"1,11",true,^t a n e$,default
 264-54_manmale-2,3228606,264,54_manmale,tamaroa,tamaroa,t a m a r o a,,POLLEX,10,false,^t a m a r o a$,default
-264-55_womanfemale-1,91090,264,55_womanfemale,bahine,bahine,b a h i n e,L from Tahitian,POLLEX,"1,106, 116",true,^b a h i n e$,default
+264-55_womanfemale-1,91090,264,55_womanfemale,vahine,vahine,v a h i n e,L from Tahitian,POLLEX,"1,106, 116",true,^v a h i n e$,default
 264-55_womanfemale-2,91091,264,55_womanfemale,tama(ha)/hine/,tama,t a m a,"Feminine, female (Fts)",POLLEX,"1,98",false,^t a m a$,default
 264-55_womanfemale-3,91091,264,55_womanfemale,tama(ha)/hine/,hine,h i n e,"Feminine, female (Fts)",POLLEX,"1,98",false,^h i n e$,default
 264-55_womanfemale-4,133611,264,55_womanfemale,tama,tama,t a m a,,POLLEX,98,false,^t a m a$,default
@@ -9018,7 +9056,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 512-124_sea-1,135945,512,124_sea,wai taci,wai taci,w a i + t a c/ts i,,Tuisawau-512-2008,1,false,^w a i + t a c i$,default
 512-125_salt-1,135946,512,125_salt,masima,masima,m a s i m a,,Tuisawau-512-2008,3,false,^m a s i m a$,default
 512-126_lake-1,135947,512,126_lake,drano,drano,d r a n o,,Tuisawau-512-2008,1,false,^d r a n o$,default
-512-127_woodsforest-1,135948,512,127_woodsforest,veikaikai,veikaikai,v e i k a i k a i,,Tuisawau-512-2008,13,false,^v e i k a i k a i$,default
+512-127_woodsforest-1,135948,512,127_woodsforest,veikaikai,veikaikai,v e i k a i k a i,,Tuisawau-512-2008,,false,^v e i k a i k a i$,default
 512-128_sky-1,135949,512,128_sky,lomalagi,lomalagi,l o m a l a g i,,Tuisawau-512-2008,"1,84",false,^l o m a l a g i$,default
 512-129_moon-1,135950,512,129_moon,vula,vula,v u l a,,Tuisawau-512-2008,1,false,^v u l a$,default
 512-130_star-1,135951,512,130_star,kalokalo,kalokalo,k a l o k a l o,,Tuisawau-512-2008,28,false,^k a l o k a l o$,default
@@ -9033,7 +9071,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 512-138_warm-1,135959,512,138_warm,katakata,katakata,k a t a k a t a,,Tuisawau-512-2008,36,false,^k a t a k a t a$,default
 512-139_cold-1,135960,512,139_cold,kakasali,kakasali,k a k a s a l i,,Tuisawau-512-2008,,false,^k a k a s a l i$,default
 512-140_dry-1,135961,512,140_dry,macamaca,macamaca,m a c/ts a m a c/ts a,,Tuisawau-512-2008,11,false,^m a c a m a c a$,default
-512-141_wet-1,135962,512,141_wet,lulu,lulu,l u l u,,Tuisawau-512-2008,123,false,^l u l u$,default
+512-141_wet-1,135962,512,141_wet,lulu,lulu,l u l u,,Tuisawau-512-2008,123?,false,^l u l u$,default
 512-142_heavy-1,135963,512,142_heavy,bibita,bibita,b i b i t a,,Tuisawau-512-2008,37,false,^b i b i t a$,default
 512-143_fire-1,135964,512,143_fire,cece,cece,c e c/ts e,,Tuisawau-512-2008,,false,^c e c e$,default
 512-144_toburn-1,135965,512,144_toburn,tavunia,tavunia,t a v u n i a,,Tuisawau-512-2008,,false,^t a v u n i a$,default
@@ -9280,8 +9318,8 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 559-185_we-4,146798,559,185_we,kimāua,kimāua,k i m ā/a u a,we (1du.excl),85830,"2, 29",false,^k i m ā u a$,default
 559-186_you-1,146804,559,186_you,koutou,koutou,k o u t o u,you (2pl),85830,16,false,^k o u t o u$,default
 559-187_they-1,146806,559,187_they,kiŋatou,kiŋatou,k i ŋ a t o u,they (3pl),85830,"1, 19",false,^k i ŋ a t o u$,default
-559-188_what-1,146807,559,188_what,tia,tia,t i a,what?,85830,83?,false,^t i a$,default
-559-188_what-2,146808,559,188_what,nia,nia,n i a,what?,85830,83?,false,^n i a$,default
+559-188_what-1,146807,559,188_what,tia,tia,t i a,what?,85830,,false,^t i a$,default
+559-188_what-2,146808,559,188_what,nia,nia,n i a,what?,85830,,false,^n i a$,default
 559-189_who-1,146809,559,189_who,koai,koai,k o a i,who?,85830,1,false,^k o a i$,default
 559-192_and-1,146810,559,192_and,kae,kae,k a e,and,85830,1,false,^k a e$,default
 559-192_and-2,146811,559,192_and,ma,ma,m a,and,85830,2,false,^m a$,default
@@ -9826,7 +9864,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 654-80_tosplit-1,168925,654,80_tosplit,vahi,vahi,v a h i,,Pawley-654-2009,4,false,^v a h i$,default
 654-81_sharp-1,168926,654,81_sharp,koi,koi,k o i,,Pawley-654-2009,"14,66",false,^k o i$,default
 654-82_dullblunt-1,168927,654,82_dullblunt,humu'ee,humu'ee,h u m u ʔ e e,,Pawley-654-2009,10,false,^h u m u 'e e$,default
-654-87_toswell-1,168928,654,87_toswell,huhu'a,huhu'a,h u h u ʔ a,,Pawley-654-2009,10,false,^h u h u 'a$,default
+654-87_toswell-1,168928,654,87_toswell,huhu'a,huhu'a,h u h u ʔ a,,Pawley-654-2009,7,false,^h u h u 'a$,default
 654-88_tosqueeze-1,168929,654,88_tosqueeze,naku,naku,n a k u,,Pawley-654-2009,,false,^n a k u$,default
 654-89_tohold-1,168930,654,89_tohold,to'o,to'o,t o ʔ o,,Pawley-654-2009,,false,^t o 'o$,default
 654-90_todig-1,168931,654,90_todig,ke'i,ke'i,k e ʔ i,,Pawley-654-2009,1,false,^k e 'i$,default
@@ -11340,7 +11378,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1030-138_warm-1,267604,1030,138_warm,mafanafana,mafanafana,m a f a n a f a n a,,52375,"1, 72",false,^m a f a n a f a n a$,default
 1030-139_cold-1,262936,1030,139_cold,makariri,makariri,m a k a r i r i,,52375,"1,52",false,^m a k a r i r i$,default
 1030-140_dry-1,262077,1030,140_dry,maro,maro,m a r o,,52375,13,false,^m a r o$,default
-1030-141_wet-1,262252,1030,141_wet,roro,roro,r o r o,,52375,123,false,^r o r o$,default
+1030-141_wet-1,262252,1030,141_wet,roro,roro,r o r o,,52375,123?,false,^r o r o$,default
 1030-142_heavy-1,262606,1030,142_heavy,mamafa,mamafa,m a m a f a,,52375,46,false,^m a m a f a$,default
 1030-143_fire-1,257469,1030,143_fire,afi,afi,a f i,,52375,1,false,^a f i$,default
 1030-144_toburn-1,273710,1030,144_toburn,tuŋia,tuŋia,t u ŋ i a,,52375,"1,7",false,^t u ŋ i a$,default
@@ -11370,7 +11408,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1030-174_ininside-1,277851,1030,174_ininside,i roto,i roto,i + r o t o,,52375,5,false,^i + r o t o$,default
 1030-177_this-1,278268,1030,177_this,reni,reni,r e n i,,52375,1,false,^r e n i$,default
 1030-178_that-1,278035,1030,178_that,ira,ira,i r a,,52375,65,false,^i r a$,default
-1030-179_near-1,277923,1030,179_near,fefetai,fefetai,f e f e t a i,,52375,,false,^f e f e t a i$,default
+1030-179_near-1,277923,1030,179_near,fefetai,fefetai,f e f e t a i,,52375,43,false,^f e f e t a i$,default
 1030-180_far-1,277666,1030,180_far,iᵐbua,iᵐbua,i ⁿb u a,,52375,,false,^iᵐb u a$,default
 1030-181_where-1,267352,1030,181_where,ife,ife,i f e,,52375,"3, 35",false,^i f e$,default
 1030-182_i-1,268287,1030,182_i,kou,kou,k o u,,52375,"1,21",false,^k o u$,default
@@ -11477,7 +11515,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1055-83_towork-1,267509,1055,83_towork,wosiana,wosiana,w o s i a n a,,52375,"10,67",false,^w o s i a n a$,default
 1055-88_tosqueeze-1,276412,1055,88_tosqueeze,worasukina,worasukina,w o r a s u k i n a,,52375,,false,^w o r a s u k i n a$,default
 1055-89_tohold-1,272880,1055,89_tohold,pačia,pačia,p a č/tʃ i a,,52375,,false,^p a č i a$,default
-1055-89_tohold-2,272881,1055,89_tohold,kamoa,kamoa,k a m o a,,52375,"1,85",false,^k a m o a$,default
+1055-89_tohold-2,272881,1055,89_tohold,kamoa,kamoa,k a m o a,,52375,,false,^k a m o a$,default
 1055-90_todig-1,274181,1055,90_todig,keria,keria,k e r i a,,52375,1,false,^k e r i a$,default
 1055-94_tothrow-1,277004,1055,94_tothrow,temala,temala,t e m a l a,,52375,,false,^t e m a l a$,default
 1055-95_tofall-1,272178,1055,95_tofall,melu,melu,m e l u,,52375,89,false,^m e l u$,default
@@ -11521,7 +11559,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1055-138_warm-1,267613,1055,138_warm,efera,efera,e f e r a,,52375,8,false,^e f e r a$,default
 1055-139_cold-1,262946,1055,139_cold,makariri,makariri,m a k a r i r i,,52375,"1,52",false,^m a k a r i r i$,default
 1055-140_dry-1,262088,1055,140_dry,matu,matu,m a t u,,52375,66,false,^m a t u$,default
-1055-141_wet-1,262263,1055,141_wet,leusa,leusa,l e u s a,,52375,123,false,^l e u s a$,default
+1055-141_wet-1,262263,1055,141_wet,leusa,leusa,l e u s a,,52375,,false,^l e u s a$,default
 1055-142_heavy-1,262617,1055,142_heavy,mafa,mafa,m a f a,,52375,46,false,^m a f a$,default
 1055-143_fire-1,257480,1055,143_fire,afi,afi,a f i,,52375,1,false,^a f i$,default
 1055-144_toburn-1,273720,1055,144_toburn,βera,βera,β e r a,,52375,63,false,^β e r a$,default
@@ -11708,7 +11746,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1163-138_warm-1,267612,1163,138_warm,wera,wera,w e r a,,52375,8,false,^w e r a$,default
 1163-139_cold-1,262945,1163,139_cold,makariri,makariri,m a k a r i r i,,52375,"1,52",false,^m a k a r i r i$,default
 1163-140_dry-1,262087,1163,140_dry,ma·tu,ma·tu,m a + t u,,52375,66,false,^m a · t u$,default
-1163-141_wet-1,262262,1163,141_wet,lousa,lousa,l o u s a,,52375,123,false,^l o u s a$,default
+1163-141_wet-1,262262,1163,141_wet,lousa,lousa,l o u s a,,52375,,false,^l o u s a$,default
 1163-142_heavy-1,262616,1163,142_heavy,ma·fa,ma·fa,m a + f a,,52375,46,false,^m a · f a$,default
 1163-143_fire-1,257479,1163,143_fire,afi,afi,a f i,,52375,1,false,^a f i$,default
 1163-144_toburn-1,273719,1163,144_toburn,tuŋia,tuŋia,t u ŋ i a,,52375,"1,7",false,^t u ŋ i a$,default
@@ -12325,7 +12363,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1214-76_tolivebealive-1,345816,1214,76_tolivebealive,ora,ora,o r a,,Walworth-1214-2015,6,false,^o r a$,default
 1214-77_toscratch-1,345803,1214,77_toscratch,pāraku,pāraku,p ā/a r a k u,,Walworth-1214-2015,9,false,^p ā r a k u$,default
 1214-78_tocuthack-1,345788,1214,78_tocuthack,koti,koti,k o t i,,Walworth-1214-2015,9,false,^k o t i$,default
-1214-79_stickwood-1,345770,1214,79_stickwood,rārā,rārā,r ā/a r ā/a,,Walworth-1214-2015,26,false,^r ā r ā$,default
+1214-79_stickwood-1,345770,1214,79_stickwood,rārā,rārā,r ā/a r ā/a,,Walworth-1214-2015,,false,^r ā r ā$,default
 1214-80_tosplit-1,345806,1214,80_tosplit,kōpanga,kōpanga,k ō/o p a n g a,,Walworth-1214-2015,,false,^k ō p a n g a$,default
 1214-81_sharp-1,345764,1214,81_sharp,koi,koi,k o i,,Walworth-1214-2015,"14,66",false,^k o i$,default
 1214-83_towork-1,291408,1214,83_towork,ʔaŋa,ʔaŋa,ʔ a ŋ a,,Walworth-1214-2015,10,false,^ʔ a ŋ a$,default
@@ -12398,6 +12436,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1214-160_painfulsick-1,291427,1214,160_painfulsick,maki,maki,m a k i,,Walworth-1214-2015,1,false,^m a k i$,default
 1214-161_shyashamed-1,345766,1214,161_shyashamed,'akamā,'akamā,ʔ a k a m ā/a,,Walworth-1214-2015,1,false,^'a k a m ā$,default
 1214-162_old-1,345755,1214,162_old,'ivi,'ivi,ʔ i v i,,Walworth-1214-2015,,false,^'i v i$,default
+1214-162_old-2,3241500,1214,162_old,ta'ito,ta'ito,t a ʔ i t o,,Walworth-1214-2015,10,false,^t a 'i t o$,default
 1214-163_new-1,345752,1214,163_new,'ou,'ou,ʔ o u,,Walworth-1214-2015,1,false,^'o u$,default
 1214-164_good-1,345744,1214,164_good,maitaki,maitaki,m a i t a k i,,Walworth-1214-2015,15,false,^m a i t a k i$,default
 1214-165_badevil-1,345729,1214,165_badevil,kino,kino,k i n o,,Walworth-1214-2015,9,false,^k i n o$,default
@@ -13270,164 +13309,164 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1636-207_twenty-1,3229611,1636,207_twenty,piti 'ahuru,piti 'ahuru,p i t i + ʔ a h u r u,,AT2020,"28,6",false,^p i t i + 'a h u r u$,default
 1636-209_onehundred-1,3229612,1636,209_onehundred,hanere,hanere,h a n e r e,L from English,AT2020,,true,^h a n e r e$,default
 1636-210_onethousand-1,3229613,1636,210_onethousand,mano,mano,m a n o,,AT2020,2,false,^m a n o$,default
-1654-1_hand-1,3233063,1654,1_hand,rima,rima,r i m a,,,"1, 64",false,^r i m a$,default
-1654-2_left-1,3233064,1654,2_left,maaui,maaui,m aː u i,,,"1,59",false,^m aa u i$,default
-1654-3_right-1,3233065,1654,3_right,maatau,maatau,m aː t a u,,,"5,13",false,^m aa t a u$,default
-1654-4_legfoot-1,3233066,1654,4_legfoot,vae,vae,v a e,'leg',,"1, 100",false,^v a e$,default
-1654-5_towalk-1,3233067,1654,5_towalk,taahao,taahao,t aː h a o,'to play; walkabout',,7,false,^t aa h a o$,default
-1654-6_roadpath-1,3233068,1654,6_roadpath,mateara,mateara,m a t e a r a,,,1,false,^m a t e a r a$,default
-1654-7_tocome-1,3233069,1654,7_tocome,haa mai,haa mai,h aː + m a i,,,"1,44",false,^h aa + m a i$,default
-1654-9_toswim-1,3233070,1654,9_toswim,kaukau,kaukau,k a u k a u,also shows koko,,5,false,^k a u k a u$,default
-1654-10_dirty-1,3233071,1654,10_dirty,kere,kere,k e r e,,,10,false,^k e r e$,default
-1654-11_dust-1,3233072,1654,11_dust,rehu,rehu,r e h u,'charcoal dust',,"1,68",false,^r e h u$,default
-1654-12_skin-1,3233073,1654,12_skin,kiri,kiri,k i r i,,,1,false,^k i r i$,default
-1654-13_back-1,3233074,1654,13_back,muri,muri,m u r i,,,3,false,^m u r i$,default
-1654-14_belly-1,3233075,1654,14_belly,manava,manava,m a n a v a,,,9,false,^m a n a v a$,default
-1654-15_bone-1,3233076,1654,15_bone,ivi,ivi,i v i,,,"52,5",false,^i v i$,default
-1654-17_liver-1,3233077,1654,17_liver,ate,ate,a t e,,,1,false,^a t e$,default
-1654-19_shoulder-1,3233078,1654,19_shoulder,panaua,panaua,p a n a u a,,,8,false,^p a n a u a$,default
-1654-20_toknowbeknowledgeable-1,3233079,1654,20_toknowbeknowledgeable,iloa/iroa,iloa,i l o a,,,13,false,^i l o a$,default
-1654-20_toknowbeknowledgeable-2,3233079,1654,20_toknowbeknowledgeable,iloa/iroa,iroa,i r o a,,,13,false,^i r o a$,default
-1654-21_tothink-1,3233080,1654,21_tothink,maanatu,maanatu,m aː n a t u,also: kaho,,9,false,^m aa n a t u$,default
-1654-22_tofear-1,3233081,1654,22_tofear,mataku,mataku,m a t a k u,,,1,false,^m a t a k u$,default
-1654-23_blood-1,3233082,1654,23_blood,toto,toto,t o t o,,,4,false,^t o t o$,default
-1654-24_head-1,3233083,1654,24_head,pohouru,pohouru,p o h o u r u,,,1,false,^p o h o u r u$,default
-1654-25_neck-1,3233084,1654,25_neck,ua,ua,u a,,,18,false,^u a$,default
-1654-26_hair-1,3233085,1654,26_hair,rau uru,rau uru,r a u + u r u,,,40,false,^r a u + u r u$,default
-1654-27_nose-1,3233086,1654,27_nose,kaihu/kaiuhu,kaihu,k a i h u,,,"1,10",false,^k a i h u$,default
-1654-27_nose-2,3233086,1654,27_nose,kaihu/kaiuhu,kaiuhu,k a i u h u,,,"1,10",false,^k a i u h u$,default
-1654-29_tosniffsmell-1,3233087,1654,29_tosniffsmell,hauna,hauna,h a u n a,,,10,false,^h a u n a$,default
-1654-30_mouth-1,3233088,1654,30_mouth,pokua,pokua,p o k u a,maihu,,49,false,^p o k u a$,default
-1654-31_tooth-1,3233089,1654,31_tooth,niho,niho,n i h o,,,,false,^n i h o$,default
-1654-32_tongue-1,3233090,1654,32_tongue,alelo,alelo,a l e l o,,,,false,^a l e l o$,default
-1654-34_tocry-1,3233091,1654,34_tocry,tani,tani,t a n i,,,,false,^t a n i$,default
-1654-35_tovomit-1,3233092,1654,35_tovomit,rua,rua,r u a,,,,false,^r u a$,default
-1654-37_toeat-1,3233093,1654,37_toeat,kai,kai,k a i,,,,false,^k a i$,default
-1654-38_tochew-1,3233094,1654,38_tochew,nau,nau,n a u,,,,false,^n a u$,default
-1654-39_tocook-1,3233095,1654,39_tocook,moa,moa,m o a,,,51,false,^m o a$,default
-1654-43_ear-1,3233096,1654,43_ear,katarina,katarina,k a t a r i n a,,,"1,25",false,^k a t a r i n a$,default
-1654-45_eye-1,3233097,1654,45_eye,kanomata,kanomata,k a n o m a t a,,,"1,18",false,^k a n o m a t a$,default
-1654-46_tosee-1,3233098,1654,46_tosee,kite,kite,k i t e,,,1,false,^k i t e$,default
-1654-47_toyawn-1,3233099,1654,47_toyawn,maaeva,maaeva,m aː e v a,,,"19, 39",false,^m aa e v a$,default
-1654-48_tosleep-1,3233100,1654,48_tosleep,moe,moe,m o e,,,"10, 109",false,^m o e$,default
-1654-49_toliedown-1,3233101,1654,49_toliedown,moe,moe,m o e,,,6,false,^m o e$,default
-1654-51_tosit-1,3233102,1654,51_tosit,noho,noho,n o h o,,,16,false,^n o h o$,default
-1654-52_tostand-1,3233103,1654,52_tostand,tu/tuu,tu,t u,,,2,false,^t u$,default
-1654-52_tostand-2,3233103,1654,52_tostand,tu/tuu,tuu,t uː,,,2,false,^t uu$,default
-1654-53_personhumanbeing-1,3233104,1654,53_personhumanbeing,tanata,tanata,t a n a t a,,,"1,66, 97",false,^t a n a t a$,default
-1654-54_manmale-1,3233105,1654,54_manmale,tanata,tanata,t a n a t a,,,"12,14",false,^t a n a t a$,default
-1654-55_womanfemale-1,3233106,1654,55_womanfemale,hine,hine,h i n e,,,"1,41",false,^h i n e$,default
-1654-56_child-1,3233107,1654,56_child,tama,tama,t a m a,,,6,false,^t a m a$,default
-1654-57_husband-1,3233108,1654,57_husband,avana,avana,a v a n a,,,13,false,^a v a n a$,default
-1654-58_wife-1,3233109,1654,58_wife,avana,avana,a v a n a,,,8,false,^a v a n a$,default
-1654-59_mother-1,3233110,1654,59_mother,tinna/tinana,tinna,t i nː a,,,1,false,^t i nn a$,default
-1654-59_mother-2,3233110,1654,59_mother,tinna/tinana,tinana,t i n a n a,,,1,false,^t i n a n a$,default
-1654-60_father-1,3233111,1654,60_father,tamana,tamana,t a m a n a,,,1,false,^t a m a n a$,default
-1654-61_house-1,3233112,1654,61_house,hare,hare,h a r e,,,14,false,^h a r e$,default
-1654-63_name-1,3233113,1654,63_name,inoa,inoa,i n o a,,,6,false,^i n o a$,default
-1654-64_tosay-1,3233114,1654,64_tosay,meake,meake,m e a k e,,,170,false,^m e a k e$,default
-1654-65_rope-1,3233115,1654,65_rope,patuahau,patuahau,p a t u a h a u,'cord made from fibers of the hau tree',,92,false,^p a t u a h a u$,default
-1654-66_totieupfasten-1,3233116,1654,66_totieupfasten,mau,mau,m a u,,,149,false,^m a u$,default
-1654-70_toshoot-1,3233117,1654,70_toshoot,hakappihi,hakappihi,h a k a pː i h i,,,17,false,^h a k a pp i h i$,default
-1654-71_tostabpierce-1,3233118,1654,71_tostabpierce,tokia,tokia,t o k i a,,,77,false,^t o k i a$,default
-1654-72_tohit-1,3233119,1654,72_tohit,taa,taa,t aː,,,10,false,^t aa$,default
-1654-73_tosteal-1,3233120,1654,73_tosteal,kai lalao,kai lalao,k a i + l a l a o,,,7,false,^k a i + l a l a o$,default
-1654-74_tokill-1,3233121,1654,74_tokill,taa mate,taa mate,t aː + m a t e,,,2,false,^t aa + m a t e$,default
-1654-75_todiebedead-1,3233122,1654,75_todiebedead,mate,mate,m a t e,,,1,false,^m a t e$,default
-1654-76_tolivebealive-1,3233123,1654,76_tolivebealive,noho,noho,n o h o,,,,false,^n o h o$,default
-1654-78_tocuthack-1,3233124,1654,78_tocuthack,tuu,tuu,t uː,,,17,false,^t uu$,default
-1654-83_towork-1,3233214,1654,83_towork,uata,uata,u a t a,,,,false,^u a t a$,default
-1654-83_towork-2,3233215,1654,83_towork,hekau,hekau,h e k a u,,,26,false,^h e k a u$,default
-1654-88_tosqueeze-1,3233126,1654,88_tosqueeze,kumi,kumi,k u m i,,,14,false,^k u m i$,default
-1654-89_tohold-1,3233127,1654,89_tohold,taohi,taohi,t a o h i,,,17,false,^t a o h i$,default
-1654-92_toopenuncover-1,3233128,1654,92_toopenuncover,huke,huke,h u k e,,,"1,63",false,^h u k e$,default
-1654-93_topoundbeat-1,3233129,1654,93_topoundbeat,tuki,tuki,t u k i,,,2,false,^t u k i$,default
-1654-94_tothrow-1,3233130,1654,94_tothrow,tiri,tiri,t i r i,,,9,false,^t i r i$,default
-1654-98_egg-1,3233131,1654,98_egg,hua,hua,h u a,,,5,false,^h u a$,default
-1654-100_wing-1,3233132,1654,100_wing,kapakau,kapakau,k a p a k a u,,,"1,59",false,^k a p a k a u$,default
-1654-101_tofly-1,3233133,1654,101_tofly,lle,lle,lː e,,,11,false,^ll e$,default
-1654-102_rat-1,3233134,1654,102_rat,kiore,kiore,k i o r e,,,12,false,^k i o r e$,default
-1654-108_louse-1,3233135,1654,108_louse,kutu,kutu,k u t u,,,1,false,^k u t u$,default
-1654-109_mosquito-1,3233136,1654,109_mosquito,namu,namu,n a m u,,,1,false,^n a m u$,default
-1654-110_spider-1,3233137,1654,110_spider,vere,vere,v e r e,,,"1,99",false,^v e r e$,default
-1654-111_fish-1,3233138,1654,111_fish,ika,ika,i k a,,,1,false,^i k a$,default
-1654-114_leaf-1,3233139,1654,114_leaf,rau,rau,r a u,,,1,false,^r a u$,default
-1654-116_flower-1,3233140,1654,116_flower,kaute,kaute,k a u t e,,,,false,^k a u t e$,default
-1654-118_grass-1,3233141,1654,118_grass,vao,vao,v a o,,,,false,^v a o$,default
-1654-119_earthsoil-1,3233142,1654,119_earthsoil,pela,pela,p e l a,,,32,false,^p e l a$,default
-1654-120_stone-1,3233143,1654,120_stone,hatu,hatu,h a t u,,,1,false,^h a t u$,default
-1654-121_sand-1,3233144,1654,121_sand,kerekere,kerekere,k e r e k e r e,,,"30,74",false,^k e r e k e r e$,default
-1654-122_water-1,3233145,1654,122_water,vai,vai,v a i,,,2,false,^v a i$,default
-1654-124_sea-1,3233146,1654,124_sea,tai,tai,t a i,,,1,false,^t a i$,default
-1654-128_sky-1,3233147,1654,128_sky,vaelani,vaelani,v a e l a n i,,,"1,83",false,^v a e l a n i$,default
-1654-129_moon-1,3233148,1654,129_moon,maahina,maahina,m aː h i n a,,,"37, 5",false,^m aa h i n a$,default
-1654-131_cloud-1,3233149,1654,131_cloud,pukurehurehu,pukurehurehu,p u k u r e h u r e h u,,,,false,^p u k u r e h u r e h u$,default
-1654-133_rain-1,3233212,1654,133_rain,ua,ua,u a,,,1,false,^u a$,default
-1654-133_rain-2,3233213,1654,133_rain,rehurehu,rehurehu,r e h u r e h u,,,,false,^r e h u r e h u$,default
-1654-134_thunder-1,3233216,1654,134_thunder,mana,mana,m a n a,,,37,false,^m a n a$,default
-1654-134_thunder-2,3233217,1654,134_thunder,haturi,haturi,h a t u r i,,,14,false,^h a t u r i$,default
-1654-139_cold-1,3233152,1654,139_cold,saumalli,saumalli,s a u m a lː i,,,"1,52",false,^s a u m a ll i$,default
-1654-140_dry-1,3233153,1654,140_dry,pakupaku,pakupaku,p a k u p a k u,,,38,false,^p a k u p a k u$,default
-1654-141_wet-1,3233154,1654,141_wet,suu,suu,s uː,,,11,false,^s uu$,default
-1654-143_fire-1,3233155,1654,143_fire,ahi,ahi,a h i,,,1,false,^a h i$,default
-1654-144_toburn-1,3233156,1654,144_toburn,tuni,tuni,t u n i,,,"1,7",false,^t u n i$,default
-1654-145_smoke-1,3233157,1654,145_smoke,umi,umi,u m i,,,,false,^u m i$,default
-1654-146_ashes-1,3233158,1654,146_ashes,rehu,rehu,r e h u,,,67,false,^r e h u$,default
-1654-147_black-1,3233159,1654,147_black,pallaa,pallaa,p a lː aː,,,,false,^p a ll aa$,default
-1654-148_white-1,3233160,1654,148_white,makini,makini,m a k i n i,,,,false,^m a k i n i$,default
-1654-149_red-1,3233161,1654,149_red,mea,mea,m e a,,,1,false,^m e a$,default
-1654-150_yellow-1,3233162,1654,150_yellow,selo,selo,s e l o,,,11,false,^s e l o$,default
-1654-151_green-1,3233163,1654,151_green,tea,tea,t e a,,,87,false,^t e a$,default
-1654-152_small-1,3233164,1654,152_small,paamee,paamee,p aː m eː,,,,false,^p aa m ee$,default
-1654-153_big-1,3233165,1654,153_big,lahi,lahi,l a h i,,,12,false,^l a h i$,default
-1654-156_thin-1,3233166,1654,156_thin,mannihi,mannihi,m a nː i h i,,,1,false,^m a nn i h i$,default
-1654-157_thick-1,3233167,1654,157_thick,mattoru,mattoru,m a tː o r u,,,3,false,^m a tt o r u$,default
-1654-160_painfulsick-1,3233168,1654,160_painfulsick,maki,maki,m a k i,sick,,1,false,^m a k i$,default
-1654-161_shyashamed-1,3233169,1654,161_shyashamed,napa,napa,n a p a,,,48,false,^n a p a$,default
-1654-162_old-1,3233170,1654,162_old,tanata matua,tanata matua,t a n a t a + m a t u a,,,1,false,^t a n a t a + m a t u a$,default
-1654-164_good-1,3233171,1654,164_good,taureka,taureka,t a u r e k a,,,14,false,^t a u r e k a$,default
-1654-165_badevil-1,3233172,1654,165_badevil,haaeo,haaeo,h aː e o,,,1,false,^h aa e o$,default
-1654-166_correcttrue-1,3233173,1654,166_correcttrue,maoni,maoni,m a o n i,,,105,false,^m a o n i$,default
-1654-167_night-1,3233174,1654,167_night,po,po,p o,,,1,false,^p o$,default
-1654-168_day-1,3233175,1654,168_day,aho,aho,a h o,,,"1,54",false,^a h o$,default
-1654-169_year-1,3233176,1654,169_year,hetau,hetau,h e t a u,,,1,false,^h e t a u$,default
-1654-171_tohide-1,3233177,1654,171_tohide,huu,huu,h uː,,,"1, 16",false,^h uu$,default
-1654-172_toclimb-1,3233178,1654,172_toclimb,kake,kake,k a k e,,,,false,^k a k e$,default
-1654-173_at-1,3233179,1654,173_at,ki,ki,k i,,,,false,^k i$,default
-1654-174_ininside-1,3233180,1654,174_ininside,roto,roto,r o t o,,,5,false,^r o t o$,default
-1654-175_above-1,3233181,1654,175_above,runa/luna,runa,r u n a,,,9,false,^r u n a$,default
-1654-175_above-2,3233181,1654,175_above,runa/luna,luna,l u n a,,,9,false,^l u n a$,default
-1654-176_below-1,3233182,1654,176_below,raro/lalo,raro,r a r o,,,8,false,^r a r o$,default
-1654-176_below-2,3233182,1654,176_below,raro/lalo,lalo,l a l o,,,8,false,^l a l o$,default
-1654-177_this-1,3233183,1654,177_this,te mea nei,te mea nei,t e + m e a + n e i,,,1,false,^t e + m e a + n e i$,default
-1654-178_that-1,3233184,1654,178_that,te mea na,te mea na,t e + m e a + n a,,,1,false,^t e + m e a + n a$,default
-1654-181_where-1,3233185,1654,181_where,hee,hee,h eː,,,"3, 35",false,^h ee$,default
-1654-182_i-1,3233186,1654,182_i,anau,anau,a n a u,,,"1, 22",false,^a n a u$,default
-1654-183_thou-1,3233187,1654,183_thou,akoe,akoe,a k o e,,,1,false,^a k o e$,default
-1654-184_heshe-1,3233188,1654,184_heshe,aia,aia,a i a,,,1,false,^a i a$,default
-1654-185_we-1,3233220,1654,185_we,maaua,maaua,m aː u a,,,"2, 29",false,^m aa u a$,default
-1654-185_we-2,3233218,1654,185_we,taaua,taaua,t aː u a,,,"1, 29",false,^t aa u a$,default
-1654-185_we-3,3233219,1654,185_we,taatou,taatou,t aː t o u,,,"1, 39",false,^t aa t o u$,default
-1654-185_we-4,3233221,1654,185_we,maatou,maatou,m aː t o u,,,"2, 39",false,^m aa t o u$,default
-1654-186_you-1,3233190,1654,186_you,korua/kotou,korua,k o r u a,,,16,false,^k o r u a$,default
-1654-186_you-2,3233190,1654,186_you,korua/kotou,kotou,k o t o u,,,16,false,^k o t o u$,default
-1654-187_they-1,3233191,1654,187_they,raaua/laatou,raaua,r aː u a,,,"1, 72",false,^r aa u a$,default
-1654-187_they-2,3233191,1654,187_they,raaua/laatou,laatou,l aː t o u,,,"1, 72",false,^l aa t o u$,default
-1654-188_what-1,3233192,1654,188_what,hea,hea,h e a,,,83,false,^h e a$,default
-1654-189_who-1,3233193,1654,189_who,ko ai,ko ai,k o + a i,,,1,false,^k o + a i$,default
-1654-190_other-1,3233194,1654,190_other,alaa,alaa,a l aː,,,25,false,^a l aa$,default
-1654-191_all-1,3233195,1654,191_all,hokatoa,hokatoa,h o k a t o a,,,13,false,^h o k a t o a$,default
-1654-194_how-1,3233196,1654,194_how,peehee,peehee,p eː h eː,,,11,false,^p ee h ee$,default
-1654-195_nonot-1,3233197,1654,195_nonot,se,se,s e,,,13,false,^s e$,default
-1654-197_one-1,3233198,1654,197_one,hokotahi,hokotahi,h o k o t a h i,,,41,false,^h o k o t a h i$,default
-1654-198_two-1,3233199,1654,198_two,rua,rua,r u a,,,1,false,^r u a$,default
-1654-199_three-1,3233200,1654,199_three,toru,toru,t o r u,,,1,false,^t o r u$,default
-1654-200_four-1,3233201,1654,200_four,haa,haa,h aː,,,"1,66",false,^h aa$,default
-1654-201_five-1,3233202,1654,201_five,rima,rima,r i m a,,,1,false,^r i m a$,default
-1654-202_six-1,3233203,1654,202_six,ono,ono,o n o,,,1,false,^o n o$,default
-1654-203_seven-1,3233204,1654,203_seven,hitu,hitu,h i t u,,,1,false,^h i t u$,default
-1654-204_eight-1,3233205,1654,204_eight,varu,varu,v a r u,,,3,false,^v a r u$,default
-1654-205_nine-1,3233206,1654,205_nine,sivo,sivo,s i v o,,,"5,43",false,^s i v o$,default
-1654-206_ten-1,3233207,1654,206_ten,sanahuru,sanahuru,s a n a h u r u,,,5,false,^s a n a h u r u$,default
-1654-207_twenty-1,3233208,1654,207_twenty,tipu rua,tipu rua,t i p u + r u a,,,3,false,^t i p u + r u a$,default
-1654-209_onehundred-1,3233209,1654,209_onehundred,llau,llau,lː a u,,,2,false,^ll a u$,default
+1654-1_hand-1,3233063,1654,1_hand,rima,rima,r i m a,,FeinbergND,"1, 64",false,^r i m a$,default
+1654-2_left-1,3233064,1654,2_left,maaui,maaui,m aː u i,,FeinbergND,"1,59",false,^m aa u i$,default
+1654-3_right-1,3233065,1654,3_right,maatau,maatau,m aː t a u,,FeinbergND,"5,13",false,^m aa t a u$,default
+1654-4_legfoot-1,3233066,1654,4_legfoot,vae,vae,v a e,'leg',FeinbergND,"1, 100",false,^v a e$,default
+1654-5_towalk-1,3233067,1654,5_towalk,taahao,taahao,t aː h a o,'to play; walkabout',FeinbergND,7,false,^t aa h a o$,default
+1654-6_roadpath-1,3233068,1654,6_roadpath,mateara,mateara,m a t e a r a,,FeinbergND,1,false,^m a t e a r a$,default
+1654-7_tocome-1,3233069,1654,7_tocome,haa mai,haa mai,h aː + m a i,,FeinbergND,"1,44",false,^h aa + m a i$,default
+1654-9_toswim-1,3233070,1654,9_toswim,kaukau,kaukau,k a u k a u,also shows koko,FeinbergND,5,false,^k a u k a u$,default
+1654-10_dirty-1,3233071,1654,10_dirty,kere,kere,k e r e,,FeinbergND,10,false,^k e r e$,default
+1654-11_dust-1,3233072,1654,11_dust,rehu,rehu,r e h u,'charcoal dust',FeinbergND,"1,68",false,^r e h u$,default
+1654-12_skin-1,3233073,1654,12_skin,kiri,kiri,k i r i,,FeinbergND,1,false,^k i r i$,default
+1654-13_back-1,3233074,1654,13_back,muri,muri,m u r i,,FeinbergND,3,false,^m u r i$,default
+1654-14_belly-1,3233075,1654,14_belly,manava,manava,m a n a v a,,FeinbergND,9,false,^m a n a v a$,default
+1654-15_bone-1,3233076,1654,15_bone,ivi,ivi,i v i,,FeinbergND,"52,5",false,^i v i$,default
+1654-17_liver-1,3233077,1654,17_liver,ate,ate,a t e,,FeinbergND,1,false,^a t e$,default
+1654-19_shoulder-1,3233078,1654,19_shoulder,panaua,panaua,p a n a u a,,FeinbergND,8,false,^p a n a u a$,default
+1654-20_toknowbeknowledgeable-1,3233079,1654,20_toknowbeknowledgeable,iloa/iroa,iloa,i l o a,,FeinbergND,13,false,^i l o a$,default
+1654-20_toknowbeknowledgeable-2,3233079,1654,20_toknowbeknowledgeable,iloa/iroa,iroa,i r o a,,FeinbergND,13,false,^i r o a$,default
+1654-21_tothink-1,3233080,1654,21_tothink,maanatu,maanatu,m aː n a t u,also: kaho,FeinbergND,9,false,^m aa n a t u$,default
+1654-22_tofear-1,3233081,1654,22_tofear,mataku,mataku,m a t a k u,,FeinbergND,1,false,^m a t a k u$,default
+1654-23_blood-1,3233082,1654,23_blood,toto,toto,t o t o,,FeinbergND,4,false,^t o t o$,default
+1654-24_head-1,3233083,1654,24_head,pohouru,pohouru,p o h o u r u,,FeinbergND,1,false,^p o h o u r u$,default
+1654-25_neck-1,3233084,1654,25_neck,ua,ua,u a,,FeinbergND,18,false,^u a$,default
+1654-26_hair-1,3233085,1654,26_hair,rau uru,rau uru,r a u + u r u,,FeinbergND,40,false,^r a u + u r u$,default
+1654-27_nose-1,3233617,1654,27_nose,kaihu,kaihu,k a i h u,,FeinbergND,"1, 10",false,^k a i h u$,default
+1654-27_nose-2,3233618,1654,27_nose,kaiuhu,kaiuhu,k a i u h u,,FeinbergND,"1, 10",false,^k a i u h u$,default
+1654-29_tosniffsmell-1,3233087,1654,29_tosniffsmell,hauna,hauna,h a u n a,,FeinbergND,10,false,^h a u n a$,default
+1654-30_mouth-1,3233088,1654,30_mouth,pokua,pokua,p o k u a,maihu,FeinbergND,49,false,^p o k u a$,default
+1654-31_tooth-1,3233089,1654,31_tooth,niho,niho,n i h o,,FeinbergND,,false,^n i h o$,default
+1654-32_tongue-1,3233090,1654,32_tongue,alelo,alelo,a l e l o,,FeinbergND,,false,^a l e l o$,default
+1654-34_tocry-1,3233091,1654,34_tocry,tani,tani,t a n i,,FeinbergND,,false,^t a n i$,default
+1654-35_tovomit-1,3233092,1654,35_tovomit,rua,rua,r u a,,FeinbergND,,false,^r u a$,default
+1654-37_toeat-1,3233093,1654,37_toeat,kai,kai,k a i,,FeinbergND,,false,^k a i$,default
+1654-38_tochew-1,3233094,1654,38_tochew,nau,nau,n a u,,FeinbergND,,false,^n a u$,default
+1654-39_tocook-1,3233095,1654,39_tocook,moa,moa,m o a,,FeinbergND,51,false,^m o a$,default
+1654-43_ear-1,3233096,1654,43_ear,katarina,katarina,k a t a r i n a,,FeinbergND,"1,25",false,^k a t a r i n a$,default
+1654-45_eye-1,3233097,1654,45_eye,kanomata,kanomata,k a n o m a t a,,FeinbergND,"1,18",false,^k a n o m a t a$,default
+1654-46_tosee-1,3233098,1654,46_tosee,kite,kite,k i t e,,FeinbergND,1,false,^k i t e$,default
+1654-47_toyawn-1,3233099,1654,47_toyawn,maaeva,maaeva,m aː e v a,,FeinbergND,"19, 39",false,^m aa e v a$,default
+1654-48_tosleep-1,3233100,1654,48_tosleep,moe,moe,m o e,,FeinbergND,"10, 109",false,^m o e$,default
+1654-49_toliedown-1,3233101,1654,49_toliedown,moe,moe,m o e,,FeinbergND,6,false,^m o e$,default
+1654-51_tosit-1,3233102,1654,51_tosit,noho,noho,n o h o,,FeinbergND,16,false,^n o h o$,default
+1654-52_tostand-1,3233612,1654,52_tostand,tuu,tuu,t uː,,FeinbergND,2,false,^t uu$,default
+1654-52_tostand-2,3233611,1654,52_tostand,tu,tu,t u,,FeinbergND,2,false,^t u$,default
+1654-53_personhumanbeing-1,3233104,1654,53_personhumanbeing,tanata,tanata,t a n a t a,,FeinbergND,"1,66, 97",false,^t a n a t a$,default
+1654-54_manmale-1,3233105,1654,54_manmale,tanata,tanata,t a n a t a,,FeinbergND,"12,14",false,^t a n a t a$,default
+1654-55_womanfemale-1,3233106,1654,55_womanfemale,hine,hine,h i n e,,FeinbergND,"1,41",false,^h i n e$,default
+1654-56_child-1,3233107,1654,56_child,tama,tama,t a m a,,FeinbergND,6,false,^t a m a$,default
+1654-57_husband-1,3233108,1654,57_husband,avana,avana,a v a n a,,FeinbergND,13,false,^a v a n a$,default
+1654-58_wife-1,3233109,1654,58_wife,avana,avana,a v a n a,,FeinbergND,8,false,^a v a n a$,default
+1654-59_mother-1,3233607,1654,59_mother,tinna,tinna,t i nː a,,FeinbergND,1,false,^t i nn a$,default
+1654-59_mother-2,3233608,1654,59_mother,tinana,tinana,t i n a n a,,FeinbergND,1,false,^t i n a n a$,default
+1654-60_father-1,3233111,1654,60_father,tamana,tamana,t a m a n a,,FeinbergND,1,false,^t a m a n a$,default
+1654-61_house-1,3233112,1654,61_house,hare,hare,h a r e,,FeinbergND,14,false,^h a r e$,default
+1654-63_name-1,3233113,1654,63_name,inoa,inoa,i n o a,,FeinbergND,6,false,^i n o a$,default
+1654-64_tosay-1,3233114,1654,64_tosay,meake,meake,m e a k e,,FeinbergND,170,false,^m e a k e$,default
+1654-65_rope-1,3233115,1654,65_rope,patuahau,patuahau,p a t u a h a u,'cord made from fibers of the hau tree',FeinbergND,92,false,^p a t u a h a u$,default
+1654-66_totieupfasten-1,3233116,1654,66_totieupfasten,mau,mau,m a u,,FeinbergND,149,false,^m a u$,default
+1654-70_toshoot-1,3233117,1654,70_toshoot,hakappihi,hakappihi,h a k a pː i h i,,FeinbergND,17,false,^h a k a pp i h i$,default
+1654-71_tostabpierce-1,3233118,1654,71_tostabpierce,tokia,tokia,t o k i a,,FeinbergND,77,false,^t o k i a$,default
+1654-72_tohit-1,3233119,1654,72_tohit,taa,taa,t aː,,FeinbergND,10,false,^t aa$,default
+1654-73_tosteal-1,3233120,1654,73_tosteal,kai lalao,kai lalao,k a i + l a l a o,,FeinbergND,7,false,^k a i + l a l a o$,default
+1654-74_tokill-1,3233121,1654,74_tokill,taa mate,taa mate,t aː + m a t e,,FeinbergND,2,false,^t aa + m a t e$,default
+1654-75_todiebedead-1,3233122,1654,75_todiebedead,mate,mate,m a t e,,FeinbergND,1,false,^m a t e$,default
+1654-76_tolivebealive-1,3233123,1654,76_tolivebealive,noho,noho,n o h o,,FeinbergND,,false,^n o h o$,default
+1654-78_tocuthack-1,3233124,1654,78_tocuthack,tuu,tuu,t uː,,FeinbergND,17,false,^t uu$,default
+1654-83_towork-1,3233214,1654,83_towork,uata,uata,u a t a,,FeinbergND,,false,^u a t a$,default
+1654-83_towork-2,3233215,1654,83_towork,hekau,hekau,h e k a u,,FeinbergND,26,false,^h e k a u$,default
+1654-88_tosqueeze-1,3233126,1654,88_tosqueeze,kumi,kumi,k u m i,,FeinbergND,14,false,^k u m i$,default
+1654-89_tohold-1,3233127,1654,89_tohold,taohi,taohi,t a o h i,,FeinbergND,17,false,^t a o h i$,default
+1654-92_toopenuncover-1,3233128,1654,92_toopenuncover,huke,huke,h u k e,,FeinbergND,"1,63",false,^h u k e$,default
+1654-93_topoundbeat-1,3233129,1654,93_topoundbeat,tuki,tuki,t u k i,,FeinbergND,2,false,^t u k i$,default
+1654-94_tothrow-1,3233130,1654,94_tothrow,tiri,tiri,t i r i,,FeinbergND,9,false,^t i r i$,default
+1654-98_egg-1,3233131,1654,98_egg,hua,hua,h u a,,FeinbergND,5,false,^h u a$,default
+1654-100_wing-1,3233132,1654,100_wing,kapakau,kapakau,k a p a k a u,,FeinbergND,"1,59",false,^k a p a k a u$,default
+1654-101_tofly-1,3233133,1654,101_tofly,lle,lle,lː e,,FeinbergND,11,false,^ll e$,default
+1654-102_rat-1,3233134,1654,102_rat,kiore,kiore,k i o r e,,FeinbergND,12,false,^k i o r e$,default
+1654-108_louse-1,3233135,1654,108_louse,kutu,kutu,k u t u,,FeinbergND,1,false,^k u t u$,default
+1654-109_mosquito-1,3233136,1654,109_mosquito,namu,namu,n a m u,,FeinbergND,1,false,^n a m u$,default
+1654-110_spider-1,3233137,1654,110_spider,vere,vere,v e r e,,FeinbergND,"1,99",false,^v e r e$,default
+1654-111_fish-1,3233138,1654,111_fish,ika,ika,i k a,,FeinbergND,1,false,^i k a$,default
+1654-114_leaf-1,3233139,1654,114_leaf,rau,rau,r a u,,FeinbergND,1,false,^r a u$,default
+1654-116_flower-1,3233140,1654,116_flower,kaute,kaute,k a u t e,,FeinbergND,,false,^k a u t e$,default
+1654-118_grass-1,3233141,1654,118_grass,vao,vao,v a o,,FeinbergND,,false,^v a o$,default
+1654-119_earthsoil-1,3233142,1654,119_earthsoil,pela,pela,p e l a,,FeinbergND,32,false,^p e l a$,default
+1654-120_stone-1,3233143,1654,120_stone,hatu,hatu,h a t u,,FeinbergND,1,false,^h a t u$,default
+1654-121_sand-1,3233144,1654,121_sand,kerekere,kerekere,k e r e k e r e,,FeinbergND,"30,74",false,^k e r e k e r e$,default
+1654-122_water-1,3233145,1654,122_water,vai,vai,v a i,,FeinbergND,2,false,^v a i$,default
+1654-124_sea-1,3233146,1654,124_sea,tai,tai,t a i,,FeinbergND,1,false,^t a i$,default
+1654-128_sky-1,3233147,1654,128_sky,vaelani,vaelani,v a e l a n i,,FeinbergND,"1,83",false,^v a e l a n i$,default
+1654-129_moon-1,3233148,1654,129_moon,maahina,maahina,m aː h i n a,,FeinbergND,"37, 5",false,^m aa h i n a$,default
+1654-131_cloud-1,3233149,1654,131_cloud,pukurehurehu,pukurehurehu,p u k u r e h u r e h u,,FeinbergND,,false,^p u k u r e h u r e h u$,default
+1654-133_rain-1,3233212,1654,133_rain,ua,ua,u a,,FeinbergND,1,false,^u a$,default
+1654-133_rain-2,3233213,1654,133_rain,rehurehu,rehurehu,r e h u r e h u,,FeinbergND,,false,^r e h u r e h u$,default
+1654-134_thunder-1,3233216,1654,134_thunder,mana,mana,m a n a,,FeinbergND,37,false,^m a n a$,default
+1654-134_thunder-2,3233217,1654,134_thunder,haturi,haturi,h a t u r i,,FeinbergND,14,false,^h a t u r i$,default
+1654-139_cold-1,3233152,1654,139_cold,saumalli,saumalli,s a u m a lː i,,FeinbergND,"1,52",false,^s a u m a ll i$,default
+1654-140_dry-1,3233153,1654,140_dry,pakupaku,pakupaku,p a k u p a k u,,FeinbergND,38,false,^p a k u p a k u$,default
+1654-141_wet-1,3233154,1654,141_wet,suu,suu,s uː,,FeinbergND,11,false,^s uu$,default
+1654-143_fire-1,3233155,1654,143_fire,ahi,ahi,a h i,,FeinbergND,1,false,^a h i$,default
+1654-144_toburn-1,3233156,1654,144_toburn,tuni,tuni,t u n i,,FeinbergND,"1,7",false,^t u n i$,default
+1654-145_smoke-1,3233157,1654,145_smoke,umi,umi,u m i,,FeinbergND,,false,^u m i$,default
+1654-146_ashes-1,3233158,1654,146_ashes,rehu,rehu,r e h u,,FeinbergND,67,false,^r e h u$,default
+1654-147_black-1,3233159,1654,147_black,pallaa,pallaa,p a lː aː,,FeinbergND,,false,^p a ll aa$,default
+1654-148_white-1,3233160,1654,148_white,makini,makini,m a k i n i,,FeinbergND,,false,^m a k i n i$,default
+1654-149_red-1,3233161,1654,149_red,mea,mea,m e a,,FeinbergND,1,false,^m e a$,default
+1654-150_yellow-1,3233162,1654,150_yellow,selo,selo,s e l o,,FeinbergND,11,false,^s e l o$,default
+1654-151_green-1,3233163,1654,151_green,tea,tea,t e a,,FeinbergND,87,false,^t e a$,default
+1654-152_small-1,3233164,1654,152_small,paamee,paamee,p aː m eː,,FeinbergND,,false,^p aa m ee$,default
+1654-153_big-1,3233165,1654,153_big,lahi,lahi,l a h i,,FeinbergND,12,false,^l a h i$,default
+1654-156_thin-1,3233166,1654,156_thin,mannihi,mannihi,m a nː i h i,,FeinbergND,1,false,^m a nn i h i$,default
+1654-157_thick-1,3233167,1654,157_thick,mattoru,mattoru,m a tː o r u,,FeinbergND,3,false,^m a tt o r u$,default
+1654-160_painfulsick-1,3233168,1654,160_painfulsick,maki,maki,m a k i,sick,FeinbergND,1,false,^m a k i$,default
+1654-161_shyashamed-1,3233169,1654,161_shyashamed,napa,napa,n a p a,,FeinbergND,48,false,^n a p a$,default
+1654-162_old-1,3233170,1654,162_old,tanata matua,tanata matua,t a n a t a + m a t u a,,FeinbergND,1,false,^t a n a t a + m a t u a$,default
+1654-164_good-1,3233171,1654,164_good,taureka,taureka,t a u r e k a,,FeinbergND,14,false,^t a u r e k a$,default
+1654-165_badevil-1,3233172,1654,165_badevil,haaeo,haaeo,h aː e o,,FeinbergND,1,false,^h aa e o$,default
+1654-166_correcttrue-1,3233173,1654,166_correcttrue,maoni,maoni,m a o n i,,FeinbergND,105,false,^m a o n i$,default
+1654-167_night-1,3233174,1654,167_night,po,po,p o,,FeinbergND,1,false,^p o$,default
+1654-168_day-1,3233175,1654,168_day,aho,aho,a h o,,FeinbergND,"1,54",false,^a h o$,default
+1654-169_year-1,3233176,1654,169_year,hetau,hetau,h e t a u,,FeinbergND,1,false,^h e t a u$,default
+1654-171_tohide-1,3233177,1654,171_tohide,huu,huu,h uː,,FeinbergND,"1, 16",false,^h uu$,default
+1654-172_toclimb-1,3233178,1654,172_toclimb,kake,kake,k a k e,,FeinbergND,,false,^k a k e$,default
+1654-173_at-1,3233179,1654,173_at,ki,ki,k i,,FeinbergND,,false,^k i$,default
+1654-174_ininside-1,3233180,1654,174_ininside,roto,roto,r o t o,,FeinbergND,5,false,^r o t o$,default
+1654-175_above-1,3233613,1654,175_above,runa,runa,r u n a,,FeinbergND,9,false,^r u n a$,default
+1654-175_above-2,3233614,1654,175_above,luna,luna,l u n a,,FeinbergND,9,false,^l u n a$,default
+1654-176_below-1,3233615,1654,176_below,raro,raro,r a r o,,FeinbergND,8,false,^r a r o$,default
+1654-176_below-2,3233616,1654,176_below,lalo,lalo,l a l o,,FeinbergND,8,false,^l a l o$,default
+1654-177_this-1,3233183,1654,177_this,te mea nei,te mea nei,t e + m e a + n e i,,FeinbergND,1,false,^t e + m e a + n e i$,default
+1654-178_that-1,3233184,1654,178_that,te mea na,te mea na,t e + m e a + n a,,FeinbergND,1,false,^t e + m e a + n a$,default
+1654-181_where-1,3233185,1654,181_where,hee,hee,h eː,,FeinbergND,"3, 35",false,^h ee$,default
+1654-182_i-1,3233186,1654,182_i,anau,anau,a n a u,,FeinbergND,"1, 22",false,^a n a u$,default
+1654-183_thou-1,3233187,1654,183_thou,akoe,akoe,a k o e,,FeinbergND,1,false,^a k o e$,default
+1654-184_heshe-1,3233188,1654,184_heshe,aia,aia,a i a,,FeinbergND,1,false,^a i a$,default
+1654-185_we-1,3233220,1654,185_we,maaua,maaua,m aː u a,,FeinbergND,"2, 29",false,^m aa u a$,default
+1654-185_we-2,3233218,1654,185_we,taaua,taaua,t aː u a,,FeinbergND,"1, 29",false,^t aa u a$,default
+1654-185_we-3,3233219,1654,185_we,taatou,taatou,t aː t o u,,FeinbergND,"1, 39",false,^t aa t o u$,default
+1654-185_we-4,3233221,1654,185_we,maatou,maatou,m aː t o u,,FeinbergND,"2, 39",false,^m aa t o u$,default
+1654-186_you-1,3233619,1654,186_you,korua,korua,k o r u a,,FeinbergND,16,false,^k o r u a$,default
+1654-186_you-2,3233620,1654,186_you,kotou,kotou,k o t o u,,FeinbergND,16,false,^k o t o u$,default
+1654-187_they-1,3233609,1654,187_they,raaua,raaua,r aː u a,,FeinbergND,"1, 72",false,^r aa u a$,default
+1654-187_they-2,3233610,1654,187_they,laatou,laatou,l aː t o u,,FeinbergND,"1, 72",false,^l aa t o u$,default
+1654-188_what-1,3233192,1654,188_what,hea,hea,h e a,,FeinbergND,83,false,^h e a$,default
+1654-189_who-1,3233193,1654,189_who,ko ai,ko ai,k o + a i,,FeinbergND,1,false,^k o + a i$,default
+1654-190_other-1,3233194,1654,190_other,alaa,alaa,a l aː,,FeinbergND,25,false,^a l aa$,default
+1654-191_all-1,3233195,1654,191_all,hokatoa,hokatoa,h o k a t o a,,FeinbergND,13,false,^h o k a t o a$,default
+1654-194_how-1,3233196,1654,194_how,peehee,peehee,p eː h eː,,FeinbergND,11,false,^p ee h ee$,default
+1654-195_nonot-1,3233197,1654,195_nonot,se,se,s e,,FeinbergND,13,false,^s e$,default
+1654-197_one-1,3233198,1654,197_one,hokotahi,hokotahi,h o k o t a h i,,FeinbergND,41,false,^h o k o t a h i$,default
+1654-198_two-1,3233199,1654,198_two,rua,rua,r u a,,FeinbergND,1,false,^r u a$,default
+1654-199_three-1,3233200,1654,199_three,toru,toru,t o r u,,FeinbergND,1,false,^t o r u$,default
+1654-200_four-1,3233201,1654,200_four,haa,haa,h aː,,FeinbergND,"1,66",false,^h aa$,default
+1654-201_five-1,3233202,1654,201_five,rima,rima,r i m a,,FeinbergND,1,false,^r i m a$,default
+1654-202_six-1,3233203,1654,202_six,ono,ono,o n o,,FeinbergND,1,false,^o n o$,default
+1654-203_seven-1,3233204,1654,203_seven,hitu,hitu,h i t u,,FeinbergND,1,false,^h i t u$,default
+1654-204_eight-1,3233205,1654,204_eight,varu,varu,v a r u,,FeinbergND,3,false,^v a r u$,default
+1654-205_nine-1,3233206,1654,205_nine,sivo,sivo,s i v o,,FeinbergND,"5,43",false,^s i v o$,default
+1654-206_ten-1,3233207,1654,206_ten,sanahuru,sanahuru,s a n a h u r u,,FeinbergND,5,false,^s a n a h u r u$,default
+1654-207_twenty-1,3233208,1654,207_twenty,tipu rua,tipu rua,t i p u + r u a,,FeinbergND,3,false,^t i p u + r u a$,default
+1654-209_onehundred-1,3233209,1654,209_onehundred,llau,llau,lː a u,,FeinbergND,2,false,^ll a u$,default
