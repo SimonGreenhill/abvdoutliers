@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/SimonGreenhill/abvdoutliers",
             "rdf:type": "prov:Entity",
-            "dc:created": "f2fb762",
+            "dc:created": "v1-3-g7e80c6c",
             "dc:title": "Repository"
         },
         {
@@ -29,13 +29,13 @@
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.6.0",
+            "dc:created": "v3.2.0-190-g521423c8",
             "dc:title": "Concepticon"
         },
         {
             "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.2.0",
+            "dc:created": "v2.3.0-4-g824176a",
             "dc:title": "CLTS"
         }
     ],
@@ -46,7 +46,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.11.1"
+            "dc:description": "3.13.1"
         },
         {
             "dc:title": "python-packages",
@@ -59,7 +59,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
             "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 13471,
+            "dc:extent": 12748,
             "tableSchema": {
                 "columns": [
                     {
@@ -162,7 +162,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 55,
+            "dc:extent": 54,
             "tableSchema": {
                 "columns": [
                     {
@@ -284,7 +284,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
-            "dc:extent": 14198,
+            "dc:extent": 14011,
             "tableSchema": {
                 "columns": [
                     {
