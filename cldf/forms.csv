@@ -9177,7 +9177,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 653-14_belly-1,168717,653,14_belly,ketemu,ketemu,k e t e m u,,Saunders-653-2009,7,false,^k e t e m u$,default
 653-15_bone-1,168718,653,15_bone,sui,sui,s u i,,Saunders-653-2009,52,false,^s u i$,default
 653-17_liver-1,168719,653,17_liver,ulu ni vanu,ulu ni vanu,u l u + n i + v a n u,,Saunders-653-2009,,false,^u l u + n i + v a n u$,default
-653-18_breast-1,173017,653,18_breast,Sucuna,Sucuna,<<S>> u c/ts u n a,,Saunders-653-2009,1,false,^ <S> u c u n a$,default
+653-18_breast-1,173017,653,18_breast,sucuna,sucuna,s u c/ts u n a,,Saunders-653-2009,1,false,^s u c u n a$,default
 653-20_toknowbeknowledgeable-1,168720,653,20_toknowbeknowledgeable,gauna oqo,gauna oqo,g a u n a + o q o,,Saunders-653-2009,,false,^g a u n a + o q o$,default
 653-21_tothink-1,168721,653,21_tothink,mo vakasama,mo vakasama,m o + v a k a s a m a,,Saunders-653-2009,42,false,^m o + v a k a s a m a$,default
 653-22_tofear-1,168722,653,22_tofear,somo bula,somo bula,s o m o + b u l a,,Saunders-653-2009,,false,^s o m o + b u l a$,default
@@ -9192,7 +9192,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 653-31_tooth-1,168731,653,31_tooth,batimu,batimu,b a t i m u,,Saunders-653-2009,6,false,^b a t i m u$,default
 653-32_tongue-1,168732,653,32_tongue,yamemu,yamemu,y/j a m e m u,,Saunders-653-2009,7,false,^y a m e m u$,default
 653-33_tolaugh-1,168733,653,33_tolaugh,dredre,dredre,d r e d r e,,Saunders-653-2009,50,false,^d r e d r e$,default
-653-34_tocry-1,3230419,653,34_tocry,Mo tagi,Mo tagi,m o + t a g i,,Saunders-653-2009,1,false,^ M o + t a g i$,default
+653-34_tocry-1,3230419,653,34_tocry,mo tagi,mo tagi,m o + t a g i,,Saunders-653-2009,1,false,^m o + t a g i$,default
 653-35_tovomit-1,168734,653,35_tovomit,mo lua,mo lua,m o + l u a,,Saunders-653-2009,8,false,^m o + l u a$,default
 653-36_tospit-1,168735,653,36_tospit,mo kasiyi,mo kasiyi,m o + k a s i y/j i,,Saunders-653-2009,"19, 55",false,^m o + k a s i y i$,default
 653-37_toeat-1,168736,653,37_toeat,kana,kana,k a n a,,Saunders-653-2009,1,false,^k a n a$,default
@@ -11367,17 +11367,17 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1212-208_fifty-1,290900,1212,208_fifty,tipu rima,tipu rima,t i p u + r i m a,,Davletshin-1212-2015,,false,^t i p u + r i m a$,default
 1212-209_onehundred-1,290901,1212,209_onehundred,rau,rau,r a u,,Davletshin-1212-2015,2,false,^r a u$,default
 1212-210_onethousand-1,290902,1212,210_onethousand,tipu te rau,tipu te rau,t i p u + t e + r a u,,Davletshin-1212-2015,,false,^t i p u + t e + r a u$,default
-1213-1_hand-1,291152,1213,1_hand,Gima,Gima,<<G>> i m a,,Tamaititahio-1213-2015,"1, 64",false,^ <G> i m a$,default
+1213-1_hand-1,291152,1213,1_hand,Gima,Gima,ɢ i m a,,Tamaititahio-1213-2015,"1, 64",false,^ G i m a$,default
 1213-2_left-1,291153,1213,2_left,ʔaui,ʔaui,ʔ a u i,,Tamaititahio-1213-2015,"1,42",false,^ʔ a u i$,default
 1213-3_right-1,291154,1213,3_right,ʔatau,ʔatau,ʔ a t a u,,Tamaititahio-1213-2015,"5,40",false,^ʔ a t a u$,default
 1213-4_legfoot-1,291155,1213,4_legfoot,vaevae,vaevae,v a e v a e,(Stimson 1938),Tamaititahio-1213-2015,"1, 100",false,^v a e v a e$,default
-1213-5_towalk-1,291156,1213,5_towalk,haeGe,haeGe,h a e <<G>> e,,Tamaititahio-1213-2015,6,false,^h a e <G> e$,default
-1213-6_roadpath-1,291157,1213,6_roadpath,aGa,aGa,a <<G>> a,,Tamaititahio-1213-2015,1,false,^a <G> a$,default
-1213-7_tocome-1,291158,1213,7_tocome,haeGe mai,haeGe mai,h a e <<G>> e + m a i,,Tamaititahio-1213-2015,"1,42",false,^h a e <G> e + m a i$,default
-1213-8_toturn-1,291159,1213,8_toturn,tāviGi,tāviGi,t ā/a v i <<G>> i,PPN *r/l > Rai G,Tamaititahio-1213-2015,90,false,^t ā v i <G> i$,default
+1213-5_towalk-1,291156,1213,5_towalk,haeGe,haeGe,h a e ɢ e,,Tamaititahio-1213-2015,6,false,^h a e G e$,default
+1213-6_roadpath-1,291157,1213,6_roadpath,aGa,aGa,a ɢ a,,Tamaititahio-1213-2015,1,false,^a G a$,default
+1213-7_tocome-1,291158,1213,7_tocome,haeGe mai,haeGe mai,h a e ɢ e + m a i,,Tamaititahio-1213-2015,"1,42",false,^h a e G e + m a i$,default
+1213-8_toturn-1,291159,1213,8_toturn,tāviGi,tāviGi,t ā/a v i ɢ i,PPN *r/l > Rai G,Tamaititahio-1213-2015,90,false,^t ā v i G i$,default
 1213-9_toswim-1,291160,1213,9_toswim,ʔau,ʔau,ʔ a u,,Tamaititahio-1213-2015,5,false,^ʔ a u$,default
-1213-10_dirty-1,291161,1213,10_dirty,Gepo,Gepo,<<G>> e p o,,Tamaititahio-1213-2015,9,false,^ <G> e p o$,default
-1213-12_skin-1,291162,1213,12_skin,ʔiGi,ʔiGi,ʔ i <<G>> i,,Tamaititahio-1213-2015,1,false,^ʔ i <G> i$,default
+1213-10_dirty-1,291161,1213,10_dirty,Gepo,Gepo,ɢ e p o,,Tamaititahio-1213-2015,9,false,^ G e p o$,default
+1213-12_skin-1,291162,1213,12_skin,ʔiGi,ʔiGi,ʔ i ɢ i,,Tamaititahio-1213-2015,1,false,^ʔ i G i$,default
 1213-13_back-1,291163,1213,13_back,tua,tua,t u a,,Tamaititahio-1213-2015,11,false,^t u a$,default
 1213-14_belly-1,291164,1213,14_belly,ʔōpū,ʔōpū,ʔ ō/o p ū,,Tamaititahio-1213-2015,2,false,^ʔ ō p ū$,default
 1213-15_bone-1,291165,1213,15_bone,iviivi,iviivi,i v iː v i,,Tamaititahio-1213-2015,"52,5",false,^i v ii v i$,default
@@ -11386,18 +11386,18 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1213-18_breast-1,291168,1213,18_breast,ʔouma,ʔouma,ʔ o u m a,,Tamaititahio-1213-2015,"7,50",false,^ʔ o u m a$,default
 1213-19_shoulder-1,291169,1213,19_shoulder,paʔuhi,paʔuhi,p a ʔ u h i,,Tamaititahio-1213-2015,8,false,^p a ʔ u h i$,default
 1213-20_toknowbeknowledgeable-1,291170,1213,20_toknowbeknowledgeable,ʔite,ʔite,ʔ i t e,,Tamaititahio-1213-2015,12,false,^ʔ i t e$,default
-1213-21_tothink-1,291171,1213,21_tothink,heGuGi,heGuGi,h e <<G>> u <<G>> i,L from Tahitian (Stimson 1938 reports mana'o),Tamaititahio-1213-2015,,true,^h e <G> u <G> i$,default
-1213-22_tofear-1,291172,1213,22_tofear,Gi'aGi'a,Gi'aGi'a,<<G>> i ʔ a <<G>> i ʔ a,L from Tahitian (Stimson 1938 reports taiā),Tamaititahio-1213-2015,8,true,^ <G> i 'a <G> i 'a$,default
+1213-21_tothink-1,291171,1213,21_tothink,heGuGi,heGuGi,h e ɢ u ɢ i,L from Tahitian (Stimson 1938 reports mana'o),Tamaititahio-1213-2015,,true,^h e G u G i$,default
+1213-22_tofear-1,291172,1213,22_tofear,Gi'aGi'a,Gi'aGi'a,ɢ i ʔ a ɢ i ʔ a,L from Tahitian (Stimson 1938 reports taiā),Tamaititahio-1213-2015,8,true,^ G i 'a G i 'a$,default
 1213-23_blood-1,291173,1213,23_blood,toto,toto,t o t o,,Tamaititahio-1213-2015,4,false,^t o t o$,default
 1213-24_head-1,291174,1213,24_head,upoʔo,upoʔo,u p o ʔ o,,Tamaititahio-1213-2015,10,false,^u p o ʔ o$,default
-1213-25_neck-1,291175,1213,25_neck,ʔaGapoʔa,ʔaGapoʔa,ʔ a <<G>> a p o ʔ a,L from Tahitian (Stimson 1938 reports ua),Tamaititahio-1213-2015,132,true,^ʔ a <G> a p o ʔ a$,default
-1213-26_hair-1,291176,1213,26_hair,huGuhuGu poʔo,huGuhuGu poʔo,h u <<G>> u h u <<G>> u + p o ʔ o,,Tamaititahio-1213-2015,31,false,^h u <G> u h u <G> u + p o ʔ o$,default
+1213-25_neck-1,291175,1213,25_neck,ʔaGapoʔa,ʔaGapoʔa,ʔ a ɢ a p o ʔ a,L from Tahitian (Stimson 1938 reports ua),Tamaititahio-1213-2015,132,true,^ʔ a G a p o ʔ a$,default
+1213-26_hair-1,291176,1213,26_hair,huGuhuGu poʔo,huGuhuGu poʔo,h u ɢ u h u ɢ u + p o ʔ o,,Tamaititahio-1213-2015,31,false,^h u G u h u G u + p o ʔ o$,default
 1213-27_nose-1,291177,1213,27_nose,ihu,ihu,i h u,,Tamaititahio-1213-2015,1,false,^i h u$,default
 1213-28_tobreathe-1,291178,1213,28_tobreathe,huti te aho,huti te aho,h u t i + t e + a h o,,Tamaititahio-1213-2015,9,false,^h u t i + t e + a h o$,default
 1213-29_tosniffsmell-1,291179,1213,29_tosniffsmell,hauʔa,hauʔa,h a u ʔ a,,Tamaititahio-1213-2015,10,false,^h a u ʔ a$,default
 1213-30_mouth-1,291180,1213,30_mouth,vaha,vaha,v a h a,,Tamaititahio-1213-2015,"1,8",false,^v a h a$,default
 1213-31_tooth-1,291181,1213,31_tooth,niho,niho,n i h o,,Tamaititahio-1213-2015,1,false,^n i h o$,default
-1213-32_tongue-1,291182,1213,32_tongue,aGeGo,aGeGo,a <<G>> e <<G>> o,,Tamaititahio-1213-2015,15,false,^a <G> e <G> o$,default
+1213-32_tongue-1,291182,1213,32_tongue,aGeGo,aGeGo,a ɢ e ɢ o,,Tamaititahio-1213-2015,15,false,^a G e G o$,default
 1213-33_tolaugh-1,291183,1213,33_tolaugh,ʔata,ʔata,ʔ a t a,,Tamaititahio-1213-2015,7,false,^ʔ a t a$,default
 1213-34_tocry-1,291184,1213,34_tocry,heva,heva,h e v a,,Tamaititahio-1213-2015,72,false,^h e v a$,default
 1213-35_tovomit-1,291185,1213,35_tovomit,pihaʔe,pihaʔe,p i h a ʔ e,L from Tahitian (Stimson 1938 reports rua'i),Tamaititahio-1213-2015,30,true,^p i h a ʔ e$,default
@@ -11407,13 +11407,13 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1213-39_tocook-1,291189,1213,39_tocook,tunu,tunu,t u n u,,Tamaititahio-1213-2015,9,false,^t u n u$,default
 1213-40_todrink-1,291190,1213,40_todrink,inu,inu,i n u,,Tamaititahio-1213-2015,1,false,^i n u$,default
 1213-42_tosuck-1,291191,1213,42_tosuck,ʔote,ʔote,ʔ o t e,,Tamaititahio-1213-2015,9,false,^ʔ o t e$,default
-1213-43_ear-1,291192,1213,43_ear,taGiʔa,taGiʔa,t a <<G>> i ʔ a,,Tamaititahio-1213-2015,1,false,^t a <G> i ʔ a$,default
-1213-44_tohear-1,291193,1213,44_tohear,haʔaGoʔo,haʔaGoʔo,h a ʔ a <<G>> o ʔ o,,Tamaititahio-1213-2015,1,false,^h a ʔ a <G> o ʔ o$,default
+1213-43_ear-1,291192,1213,43_ear,taGiʔa,taGiʔa,t a ɢ i ʔ a,,Tamaititahio-1213-2015,1,false,^t a G i ʔ a$,default
+1213-44_tohear-1,291193,1213,44_tohear,haʔaGoʔo,haʔaGoʔo,h a ʔ a ɢ o ʔ o,,Tamaititahio-1213-2015,1,false,^h a ʔ a G o ʔ o$,default
 1213-45_eye-1,291194,1213,45_eye,mata,mata,m a t a,,Tamaititahio-1213-2015,1,false,^m a t a$,default
 1213-46_tosee-1,291195,1213,46_tosee,ʔite,ʔite,ʔ i t e,,Tamaititahio-1213-2015,1,false,^ʔ i t e$,default
 1213-47_toyawn-1,291196,1213,47_toyawn,hāmama te vaha,hāmama te vaha,h ā/a m a m a + t e + v a h a,,Tamaititahio-1213-2015,"19,28",false,^h ā m a m a + t e + v a h a$,default
 1213-48_tosleep-1,291197,1213,48_tosleep,moe,moe,m o e,,Tamaititahio-1213-2015,"10, 109",false,^m o e$,default
-1213-49_toliedown-1,291198,1213,49_toliedown,tīGaha,tīGaha,t ī/i <<G>> a h a,,Tamaititahio-1213-2015,82,false,^t ī <G> a h a$,default
+1213-49_toliedown-1,291198,1213,49_toliedown,tīGaha,tīGaha,t ī/i ɢ a h a,,Tamaititahio-1213-2015,82,false,^t ī G a h a$,default
 1213-50_todream-1,291199,1213,50_todream,moemoeā,moemoeā,m o e m o e ā/a,,Tamaititahio-1213-2015,"7,27",false,^m o e m o e ā$,default
 1213-51_tosit-1,291200,1213,51_tosit,nohotu,nohotu,n o h o t u,,Tamaititahio-1213-2015,16,false,^n o h o t u$,default
 1213-52_tostand-1,291348,1213,52_tostand,tū,tū,t ū,,Tamaititahio-1213-2015,2,false,^t ū$,default
@@ -11421,18 +11421,18 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1213-53_personhumanbeing-1,291202,1213,53_personhumanbeing,taʔata,taʔata,t a ʔ a t a,,Tamaititahio-1213-2015,"1,66, 97",false,^t a ʔ a t a$,default
 1213-54_manmale-1,291203,1213,54_manmale,tāne,tāne,t ā/a n e,,Tamaititahio-1213-2015,"1,11",false,^t ā n e$,default
 1213-55_womanfemale-1,291204,1213,55_womanfemale,vahine,vahine,v a h i n e,,Tamaititahio-1213-2015,"1,106,116",false,^v a h i n e$,default
-1213-56_child-1,291205,1213,56_child,tamaGiʔi,tamaGiʔi,t a m a <<G>> i ʔ i,,Tamaititahio-1213-2015,"6,63",false,^t a m a <G> i ʔ i$,default
+1213-56_child-1,291205,1213,56_child,tamaGiʔi,tamaGiʔi,t a m a ɢ i ʔ i,,Tamaititahio-1213-2015,"6,63",false,^t a m a G i ʔ i$,default
 1213-57_husband-1,291206,1213,57_husband,tāne,tāne,t ā/a n e,,Tamaititahio-1213-2015,14,false,^t ā n e$,default
 1213-58_wife-1,291207,1213,58_wife,vahine,vahine,v a h i n e,,Tamaititahio-1213-2015,"5,68",false,^v a h i n e$,default
 1213-59_mother-1,291208,1213,59_mother,metua vahine,metua vahine,m e t u a + v a h i n e,,Tamaititahio-1213-2015,4,false,^m e t u a + v a h i n e$,default
 1213-60_father-1,291209,1213,60_father,metua tāne,metua tāne,m e t u a + t ā/a n e,,Tamaititahio-1213-2015,9,false,^m e t u a + t ā n e$,default
-1213-61_house-1,291210,1213,61_house,haGe,haGe,h a <<G>> e,,Tamaititahio-1213-2015,14,false,^h a <G> e$,default
-1213-62_thatchroof-1,291211,1213,62_thatchroof,haGe niʔau,haGe niʔau,h a <<G>> e + n i ʔ a u,,Tamaititahio-1213-2015,,false,^h a <G> e + n i ʔ a u$,default
+1213-61_house-1,291210,1213,61_house,haGe,haGe,h a ɢ e,,Tamaititahio-1213-2015,14,false,^h a G e$,default
+1213-62_thatchroof-1,291211,1213,62_thatchroof,haGe niʔau,haGe niʔau,h a ɢ e + n i ʔ a u,,Tamaititahio-1213-2015,,false,^h a G e + n i ʔ a u$,default
 1213-63_name-1,291212,1213,63_name,iʔoa,iʔoa,i ʔ o a,,Tamaititahio-1213-2015,6,false,^i ʔ o a$,default
-1213-64_tosay-1,291213,1213,64_tosay,paGaupaGau,paGaupaGau,p a <<G>> a u p a <<G>> a u,L from Tahitian (Stimson 1938 reports re'o),Tamaititahio-1213-2015,12,true,^p a <G> a u p a <G> a u$,default
+1213-64_tosay-1,291213,1213,64_tosay,paGaupaGau,paGaupaGau,p a ɢ a u p a ɢ a u,L from Tahitian (Stimson 1938 reports re'o),Tamaititahio-1213-2015,12,true,^p a G a u p a G a u$,default
 1213-65_rope-1,291214,1213,65_rope,nape,nape,n a p e,L from Tahitian (Stimson 1938 reports taura),Tamaititahio-1213-2015,64,true,^n a p e$,default
 1213-66_totieupfasten-1,291215,1213,66_totieupfasten,tāʔamu,tāʔamu,t ā/a ʔ a m u,L from Tahitian (Stimson 1938 also reports nati/ŋati),Tamaititahio-1213-2015,149,true,^t ā ʔ a m u$,default
-1213-67_tosew-1,291216,1213,67_tosew,niGa,niGa,n i <<G>> a,L from English via Tahitian (Stimson 1938 reports tui),Tamaititahio-1213-2015,,true,^n i <G> a$,default
+1213-67_tosew-1,291216,1213,67_tosew,niGa,niGa,n i ɢ a,L from English via Tahitian (Stimson 1938 reports tui),Tamaititahio-1213-2015,,true,^n i G a$,default
 1213-68_needle-1,291217,1213,68_needle,nira,nira,n i r a,L from English via Tahitian (Stimson 1938 reports au),Tamaititahio-1213-2015,,true,^n i r a$,default
 1213-69_tohunt-1,291218,1213,69_tohunt,aʔuaʔu,aʔuaʔu,a ʔ u a ʔ u,,Tamaititahio-1213-2015,7,false,^a ʔ u a ʔ u$,default
 1213-70_toshoot-1,291219,1213,70_toshoot,teʔa,teʔa,t e ʔ a,L from Tahitian (Stimson 1938 also reports hana),Tamaititahio-1213-2015,3,true,^t e ʔ a$,default
@@ -11441,80 +11441,80 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1213-73_tosteal-1,291222,1213,73_tosteal,ʔeiā,ʔeiā,ʔ e i ā/a,,Tamaititahio-1213-2015,"7,65",false,^ʔ e i ā$,default
 1213-75_todiebedead-1,291223,1213,75_todiebedead,mate,mate,m a t e,,Tamaititahio-1213-2015,1,false,^m a t e$,default
 1213-76_tolivebealive-1,291224,1213,76_tolivebealive,ora,ora,o r a,(Stimson 1938),Tamaititahio-1213-2015,6,false,^o r a$,default
-1213-77_toscratch-1,291225,1213,77_toscratch,maʔeGo,maʔeGo,m a ʔ e <<G>> o,,Tamaititahio-1213-2015,,false,^m a ʔ e <G> o$,default
-1213-78_tocuthack-1,291226,1213,78_tocuthack,tapu te Ga'au,tapu te Ga'au,t a p u + t e + <<G>> a ʔ a u,,Tamaititahio-1213-2015,12,false,^t a p u + t e + <G> a 'a u$,default
-1213-80_tosplit-1,291227,1213,80_tosplit,pāhaGa,pāhaGa,p ā/a h a <<G>> a,,Tamaititahio-1213-2015,5,false,^p āh a <G> a$,default
+1213-77_toscratch-1,291225,1213,77_toscratch,maʔeGo,maʔeGo,m a ʔ e ɢ o,,Tamaititahio-1213-2015,,false,^m a ʔ e G o$,default
+1213-78_tocuthack-1,291226,1213,78_tocuthack,tapu te Ga'au,tapu te Ga'au,t a p u + t e + ɢ a ʔ a u,,Tamaititahio-1213-2015,12,false,^t a p u + t e + G a 'a u$,default
+1213-80_tosplit-1,291227,1213,80_tosplit,pāhaGa,pāhaGa,p ā/a h a ɢ a,,Tamaititahio-1213-2015,5,false,^p āh a G a$,default
 1213-81_sharp-1,291228,1213,81_sharp,ʔoi,ʔoi,ʔ o i,,Tamaititahio-1213-2015,"14,66",false,^ʔ o i$,default
 1213-82_dullblunt-1,291229,1213,82_dullblunt,papa,papa,p a p a,,Tamaititahio-1213-2015,,false,^p a p a$,default
 1213-83_towork-1,291230,1213,83_towork,ʔohipa,ʔohipa,ʔ o h i p a,L from Tahitian (Stimson 1938 also reports haŋa),Tamaititahio-1213-2015,92,true,^ʔ o h i p a$,default
 1213-84_toplant-1,291231,1213,84_toplant,tanu,tanu,t a n u,,Tamaititahio-1213-2015,2,false,^t a n u$,default
-1213-85_tochoose-1,291232,1213,85_tochoose,peGeGau,peGeGau,p e <<G>> e <<G>> a u,,Tamaititahio-1213-2015,,false,^p e <G> e <G> a u$,default
+1213-85_tochoose-1,291232,1213,85_tochoose,peGeGau,peGeGau,p e ɢ e ɢ a u,,Tamaititahio-1213-2015,,false,^p e G e G a u$,default
 1213-86_togrow-1,291233,1213,86_togrow,tupu,tupu,t u p u,,Tamaititahio-1213-2015,1,false,^t u p u$,default
 1213-87_toswell-1,291234,1213,87_toswell,ōpupu,ōpupu,ō/o p u p u,,Tamaititahio-1213-2015,30,false,^ō p u p u$,default
-1213-88_tosqueeze-1,291235,1213,88_tosqueeze,GoGomi,GoGomi,<<G>> o <<G>> o m i,,Tamaititahio-1213-2015,10,false,^ <G> o <G> o m i$,default
-1213-89_tohold-1,291236,1213,89_tohold,Gave,Gave,<<G>> a v e,L from Tahitian (Stimson 1938 also reports mau),Tamaititahio-1213-2015,120,true,^ <G> a v e$,default
+1213-88_tosqueeze-1,291235,1213,88_tosqueeze,GoGomi,GoGomi,ɢ o ɢ o m i,,Tamaititahio-1213-2015,10,false,^ G o G o m i$,default
+1213-89_tohold-1,291236,1213,89_tohold,Gave,Gave,ɢ a v e,L from Tahitian (Stimson 1938 also reports mau),Tamaititahio-1213-2015,120,true,^ G a v e$,default
 1213-90_todig-1,291237,1213,90_todig,ʔō,ʔō,ʔ ō/o,,Tamaititahio-1213-2015,17,false,^ʔ ō$,default
-1213-92_toopenuncover-1,291238,1213,92_toopenuncover,ʔiGiti,ʔiGiti,ʔ i <<G>> i t i,,Tamaititahio-1213-2015,42,false,^ʔ i <G> i t i$,default
-1213-93_topoundbeat-1,291239,1213,93_topoundbeat,oGooGo,oGooGo,o <<G>> oː <<G>> o,,Tamaititahio-1213-2015,,false,^o <G> oo <G> o$,default
-1213-94_tothrow-1,291240,1213,94_tothrow,tāoGa,tāoGa,t ā/a o <<G>> a,,Tamaititahio-1213-2015,10,false,^t ā o <G> a$,default
+1213-92_toopenuncover-1,291238,1213,92_toopenuncover,ʔiGiti,ʔiGiti,ʔ i ɢ i t i,,Tamaititahio-1213-2015,42,false,^ʔ i G i t i$,default
+1213-93_topoundbeat-1,291239,1213,93_topoundbeat,oGooGo,oGooGo,o ɢ oː ɢ o,,Tamaititahio-1213-2015,,false,^o G oo G o$,default
+1213-94_tothrow-1,291240,1213,94_tothrow,tāoGa,tāoGa,t ā/a o ɢ a,,Tamaititahio-1213-2015,10,false,^t ā o G a$,default
 1213-95_tofall-1,291241,1213,95_tofall,topa,topa,t o p a,,Tamaititahio-1213-2015,124,false,^t o p a$,default
-1213-96_dog-1,291242,1213,96_dog,ʔuGi,ʔuGi,ʔ u <<G>> i,,Tamaititahio-1213-2015,7,false,^ʔ u <G> i$,default
+1213-96_dog-1,291242,1213,96_dog,ʔuGi,ʔuGi,ʔ u ɢ i,,Tamaititahio-1213-2015,7,false,^ʔ u G i$,default
 1213-97_bird-1,291243,1213,97_bird,manu,manu,m a n u,,Tamaititahio-1213-2015,1,false,^m a n u$,default
-1213-98_egg-1,291244,1213,98_egg,hueGo,hueGo,h u e <<G>> o,(Stimson 1938 reports a variant huoro),Tamaititahio-1213-2015,94,false,^h u e <G> o$,default
-1213-99_feather-1,291245,1213,99_feather,huGuhuGu manu,huGuhuGu manu,h u <<G>> u h u <<G>> u + m a n u,,Tamaititahio-1213-2015,1,false,^h u <G> u h u <G> u + m a n u$,default
+1213-98_egg-1,291244,1213,98_egg,hueGo,hueGo,h u e ɢ o,(Stimson 1938 reports a variant huoro),Tamaititahio-1213-2015,94,false,^h u e G o$,default
+1213-99_feather-1,291245,1213,99_feather,huGuhuGu manu,huGuhuGu manu,h u ɢ u h u ɢ u + m a n u,,Tamaititahio-1213-2015,1,false,^h u G u h u G u + m a n u$,default
 1213-100_wing-1,291246,1213,100_wing,pererau,pererau,p e r e r a u,(Stimson 1938),Tamaititahio-1213-2015,9,false,^p e r e r a u$,default
-1213-101_tofly-1,291247,1213,101_tofly,GeGe,GeGe,<<G>> e <<G>> e,,Tamaititahio-1213-2015,11,false,^ <G> e <G> e$,default
-1213-102_rat-1,291248,1213,102_rat,ʔioGe,ʔioGe,ʔ i o <<G>> e,,Tamaititahio-1213-2015,12,false,^ʔ i o <G> e$,default
+1213-101_tofly-1,291247,1213,101_tofly,GeGe,GeGe,ɢ e ɢ e,,Tamaititahio-1213-2015,11,false,^ G e G e$,default
+1213-102_rat-1,291248,1213,102_rat,ʔioGe,ʔioGe,ʔ i o ɢ e,,Tamaititahio-1213-2015,12,false,^ʔ i o G e$,default
 1213-103_meatflesh-1,291249,1213,103_meatflesh,ʔiʔo,ʔiʔo,ʔ i ʔ o,,Tamaititahio-1213-2015,10,false,^ʔ i ʔ o$,default
-1213-104_fatgrease-1,291250,1213,104_fatgrease,poGia,poGia,p o <<G>> i a,L from Tahitian (Stimson 1938 also reports hinu),Tamaititahio-1213-2015,,true,^p o <G> i a$,default
-1213-107_wormearthworm-1,291251,1213,107_wormearthworm,toʔe Gepo,toʔe Gepo,t o ʔ e + <<G>> e p o,,Tamaititahio-1213-2015,7,false,^t o ʔ e + <G> e p o$,default
+1213-104_fatgrease-1,291250,1213,104_fatgrease,poGia,poGia,p o ɢ i a,L from Tahitian (Stimson 1938 also reports hinu),Tamaititahio-1213-2015,,true,^p o G i a$,default
+1213-107_wormearthworm-1,291251,1213,107_wormearthworm,toʔe Gepo,toʔe Gepo,t o ʔ e + ɢ e p o,,Tamaititahio-1213-2015,7,false,^t o ʔ e + G e p o$,default
 1213-108_louse-1,291252,1213,108_louse,ʔutuʔu,ʔutuʔu,ʔ u t u ʔ u,,Tamaititahio-1213-2015,1,false,^ʔ u t u ʔ u$,default
 1213-109_mosquito-1,291253,1213,109_mosquito,naonao,naonao,n a o n a o,,Tamaititahio-1213-2015,"1,74",false,^n a o n a o$,default
 1213-110_spider-1,291254,1213,110_spider,tuʔunui,tuʔunui,t u ʔ u n u i,,Tamaititahio-1213-2015,"5,39",false,^t u ʔ u n u i$,default
 1213-111_fish-1,291255,1213,111_fish,iʔa,iʔa,i ʔ a,,Tamaititahio-1213-2015,1,false,^i ʔ a$,default
 1213-112_rotten-1,291256,1213,112_rotten,henoheno,henoheno,h e n o h e n o,,Tamaititahio-1213-2015,,false,^h e n o h e n o$,default
-1213-113_branch-1,291257,1213,113_branch,ʔāmama Gāʔau,ʔāmama Gāʔau,ʔ ā/a m a m a + <<G>> ā/a ʔ a u,,Tamaititahio-1213-2015,"1, 4",false,^ʔ ā m a m a + <G> ā ʔ a u$,default
-1213-114_leaf-1,291258,1213,114_leaf,GaueGe,GaueGe,<<G>> a u e <<G>> e,,Tamaititahio-1213-2015,1,false,^ <G> a u e <G> e$,default
+1213-113_branch-1,291257,1213,113_branch,ʔāmama Gāʔau,ʔāmama Gāʔau,ʔ ā/a m a m a + ɢ ā/a ʔ a u,,Tamaititahio-1213-2015,"1, 4",false,^ʔ ā m a m a + G ā ʔ a u$,default
+1213-114_leaf-1,291258,1213,114_leaf,GaueGe,GaueGe,ɢ a u e ɢ e,,Tamaititahio-1213-2015,1,false,^ G a u e G e$,default
 1213-115_root-1,291259,1213,115_root,aʔa,aʔa,a ʔ a,,Tamaititahio-1213-2015,2,false,^a ʔ a$,default
 1213-116_flower-1,291260,1213,116_flower,pua,pua,p u a,,Tamaititahio-1213-2015,1,false,^p u a$,default
-1213-119_earthsoil-1,291261,1213,119_earthsoil,Gepo,Gepo,<<G>> e p o,,Tamaititahio-1213-2015,11,false,^ <G> e p o$,default
+1213-119_earthsoil-1,291261,1213,119_earthsoil,Gepo,Gepo,ɢ e p o,,Tamaititahio-1213-2015,11,false,^ G e p o$,default
 1213-120_stone-1,291262,1213,120_stone,ʔohai,ʔohai,ʔ o h a i,L from Tahitian (Stimson 1938 also reports hatu),Tamaititahio-1213-2015,"1,39,3",true,^ʔ o h a i$,default
 1213-121_sand-1,291263,1213,121_sand,one,one,o n e,,Tamaititahio-1213-2015,1,false,^o n e$,default
-1213-122_water-1,291264,1213,122_water,pape māʔaGo,pape māʔaGo,p a p e + m ā/a ʔ a <<G>> o,L from Tahitian (Stimson 1938 also reports vai),Tamaititahio-1213-2015,47,true,^p a p e + m ā ʔ a <G> o$,default
+1213-122_water-1,291264,1213,122_water,pape māʔaGo,pape māʔaGo,p a p e + m ā/a ʔ a ɢ o,L from Tahitian (Stimson 1938 also reports vai),Tamaititahio-1213-2015,47,true,^p a p e + m ā ʔ a G o$,default
 1213-123_toflow-1,291265,1213,123_toflow,tahe,tahe,t a h e,,Tamaititahio-1213-2015,10,false,^t a h e$,default
 1213-124_sea-1,291266,1213,124_sea,tai,tai,t a i,,Tamaititahio-1213-2015,1,false,^t a i$,default
 1213-125_salt-1,291267,1213,125_salt,ʔavaʔava,ʔavaʔava,ʔ a v a ʔ a v a,,Tamaititahio-1213-2015,47,false,^ʔ a v a ʔ a v a$,default
-1213-128_sky-1,291268,1213,128_sky,Gaʔi,Gaʔi,<<G>> a ʔ i,,Tamaititahio-1213-2015,1,false,^ <G> a ʔ i$,default
+1213-128_sky-1,291268,1213,128_sky,Gaʔi,Gaʔi,ɢ a ʔ i,,Tamaititahio-1213-2015,1,false,^ G a ʔ i$,default
 1213-129_moon-1,291269,1213,129_moon,ʔāvaʔe,ʔāvaʔe,ʔ ā/a v a ʔ e,,Tamaititahio-1213-2015,6,false,^ʔ ā v a ʔ e$,default
 1213-130_star-1,291270,1213,130_star,hetiʔa,hetiʔa,h e t i ʔ a,L from Tahitian (Stimson 1938 also reports hetū),Tamaititahio-1213-2015,32,true,^h e t i ʔ a$,default
 1213-131_cloud-1,291271,1213,131_cloud,ata,ata,a t a,,Tamaititahio-1213-2015,118,false,^a t a$,default
 1213-133_rain-1,291272,1213,133_rain,ua,ua,u a,,Tamaititahio-1213-2015,1,false,^u a$,default
-1213-134_thunder-1,291273,1213,134_thunder,pātiGi,pātiGi,p ā/a t i <<G>> i,,Tamaititahio-1213-2015,14,false,^p ā t i <G> i$,default
-1213-135_lightning-1,291274,1213,135_lightning,uiGa,uiGa,u i <<G>> a,,Tamaititahio-1213-2015,2,false,^u i <G> a$,default
+1213-134_thunder-1,291273,1213,134_thunder,pātiGi,pātiGi,p ā/a t i ɢ i,,Tamaititahio-1213-2015,14,false,^p ā t i G i$,default
+1213-135_lightning-1,291274,1213,135_lightning,uiGa,uiGa,u i ɢ a,,Tamaititahio-1213-2015,2,false,^u i G a$,default
 1213-136_wind-1,291275,1213,136_wind,mataʔi,mataʔi,m a t a ʔ i,,Tamaititahio-1213-2015,"1,66",false,^m a t a ʔ i$,default
 1213-137_toblow-1,291276,1213,137_toblow,pupuhi,pupuhi,p u p u h i,,Tamaititahio-1213-2015,6,false,^p u p u h i$,default
 1213-138_warm-1,291277,1213,138_warm,veʔaveʔa,veʔaveʔa,v e ʔ a v e ʔ a,,Tamaititahio-1213-2015,8,false,^v e ʔ a v e ʔ a$,default
-1213-139_cold-1,291278,1213,139_cold,haumāGū,haumāGū,h a u m ā/a <<G>> ū,,Tamaititahio-1213-2015,74,false,^h a u m ā <G> ū$,default
-1213-140_dry-1,291279,1213,140_dry,maGo,maGo,m a <<G>> o,,Tamaititahio-1213-2015,13,false,^m a <G> o$,default
+1213-139_cold-1,291278,1213,139_cold,haumāGū,haumāGū,h a u m ā/a ɢ ū,,Tamaititahio-1213-2015,74,false,^h a u m ā G ū$,default
+1213-140_dry-1,291279,1213,140_dry,maGo,maGo,m a ɢ o,,Tamaititahio-1213-2015,13,false,^m a G o$,default
 1213-141_wet-1,291280,1213,141_wet,maʔu,maʔu,m a ʔ u,,Tamaititahio-1213-2015,10,false,^m a ʔ u$,default
 1213-142_heavy-1,291281,1213,142_heavy,toimaha,toimaha,t o i m a h a,,Tamaititahio-1213-2015,"46,66",false,^t o i m a h a$,default
 1213-143_fire-1,291282,1213,143_fire,auahi,auahi,a u a h i,,Tamaititahio-1213-2015,1,false,^a u a h i$,default
 1213-144_toburn-1,291283,1213,144_toburn,tutuʔi,tutuʔi,t u t u ʔ i,,Tamaititahio-1213-2015,"1,7",false,^t u t u ʔ i$,default
 1213-145_smoke-1,291284,1213,145_smoke,au auahi,au auahi,a u + a u a h i,,Tamaititahio-1213-2015,2,false,^a u + a u a h i$,default
-1213-146_ashes-1,291285,1213,146_ashes,Gehu auahi,Gehu auahi,<<G>> e h u + a u a h i,,Tamaititahio-1213-2015,67,false,^ <G> e h u + a u a h i$,default
-1213-147_black-1,291286,1213,147_black,ʔeGeʔeGe,ʔeGeʔeGe,ʔ e <<G>> e ʔ e <<G>> e,,Tamaititahio-1213-2015,5,false,^ʔ e <G> e ʔ e <G> e$,default
+1213-146_ashes-1,291285,1213,146_ashes,Gehu auahi,Gehu auahi,ɢ e h u + a u a h i,,Tamaititahio-1213-2015,67,false,^ G e h u + a u a h i$,default
+1213-147_black-1,291286,1213,147_black,ʔeGeʔeGe,ʔeGeʔeGe,ʔ e ɢ e ʔ e ɢ e,,Tamaititahio-1213-2015,5,false,^ʔ e G e ʔ e G e$,default
 1213-148_white-1,291287,1213,148_white,ʔuoʔuo,ʔuoʔuo,ʔ u o ʔ u o,,Tamaititahio-1213-2015,108,false,^ʔ u o ʔ u o$,default
 1213-149_red-1,291288,1213,149_red,ʔuteʔute,ʔuteʔute,ʔ u t e ʔ u t e,Possible L from Tahitian (Stimson 1938 also reports 'ura as related to 'glowing red'),Tamaititahio-1213-2015,14,true,^ʔ u t e ʔ u t e$,default
-1213-150_yellow-1,291289,1213,150_yellow,GeʔaGeʔa,GeʔaGeʔa,<<G>> e ʔ a <<G>> e ʔ a,,Tamaititahio-1213-2015,10,false,^ <G> e ʔ a <G> e ʔ a$,default
+1213-150_yellow-1,291289,1213,150_yellow,GeʔaGeʔa,GeʔaGeʔa,ɢ e ʔ a ɢ e ʔ a,,Tamaititahio-1213-2015,10,false,^ G e ʔ a G e ʔ a$,default
 1213-151_green-1,291290,1213,151_green,matie,matie,m a t i e,,Tamaititahio-1213-2015,"1, 11",false,^m a t i e$,default
 1213-152_small-1,291291,1213,152_small,iti,iti,i t i,,Tamaititahio-1213-2015,1,false,^i t i$,default
-1213-153_big-1,291292,1213,153_big,Gahi,Gahi,<<G>> a h i,,Tamaititahio-1213-2015,12,false,^ <G> a h i$,default
+1213-153_big-1,291292,1213,153_big,Gahi,Gahi,ɢ a h i,,Tamaititahio-1213-2015,12,false,^ G a h i$,default
 1213-154_short-1,291293,1213,154_short,poto,poto,p o t o,,Tamaititahio-1213-2015,9,false,^p o t o$,default
-1213-155_long-1,291294,1213,155_long,Goa,Goa,<<G>> o a,,Tamaititahio-1213-2015,"12,105",false,^ <G> o a$,default
-1213-156_thin-1,291295,1213,156_thin,GaiGai,GaiGai,<<G>> a i <<G>> a i,,Tamaititahio-1213-2015,5,false,^ <G> a i <G> a i$,default
+1213-155_long-1,291294,1213,155_long,Goa,Goa,ɢ o a,,Tamaititahio-1213-2015,"12,105",false,^ G o a$,default
+1213-156_thin-1,291295,1213,156_thin,GaiGai,GaiGai,ɢ a i ɢ a i,,Tamaititahio-1213-2015,5,false,^ G a i G a i$,default
 1213-157_thick-1,291296,1213,157_thick,meʔumeʔu,meʔumeʔu,m e ʔ u m e ʔ u,,Tamaititahio-1213-2015,39,false,^m e ʔ u m e ʔ u$,default
 1213-158_narrow-1,291297,1213,158_narrow,oaoa,oaoa,o a o a,,Tamaititahio-1213-2015,12,false,^o a o a$,default
-1213-159_wide-1,291298,1213,159_wide,GaGahi,GaGahi,<<G>> a <<G>> a h i,,Tamaititahio-1213-2015,9,false,^ <G> a <G> a h i$,default
+1213-159_wide-1,291298,1213,159_wide,GaGahi,GaGahi,ɢ a ɢ a h i,,Tamaititahio-1213-2015,9,false,^ G a G a h i$,default
 1213-160_painfulsick-1,291299,1213,160_painfulsick,maʔi,maʔi,m a ʔ i,,Tamaititahio-1213-2015,1,false,^m a ʔ i$,default
 1213-161_shyashamed-1,291300,1213,161_shyashamed,māmahu,māmahu,m ā/a m a h u,,Tamaititahio-1213-2015,1,false,^m ā m a h u$,default
 1213-162_old-1,291301,1213,162_old,tahito,tahito,t a h i t o,,Tamaititahio-1213-2015,10,false,^t a h i t o$,default
@@ -11529,9 +11529,9 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1213-171_tohide-1,291310,1213,171_tohide,tāponiponi,tāponiponi,t ā/a p o n i p o n i,,Tamaititahio-1213-2015,1,false,^t ā p o n i p o n i$,default
 1213-172_toclimb-1,291311,1213,172_toclimb,piʔi,piʔi,p i ʔ i,,Tamaititahio-1213-2015,6,false,^p i ʔ i$,default
 1213-173_at-1,291312,1213,173_at,i,i,i,,Tamaititahio-1213-2015,1,false,^i$,default
-1213-174_ininside-1,291313,1213,174_ininside,Goto,Goto,<<G>> o t o,,Tamaititahio-1213-2015,5,false,^ <G> o t o$,default
-1213-175_above-1,291314,1213,175_above,Guʔa,Guʔa,<<G>> u ʔ a,,Tamaititahio-1213-2015,9,false,^ <G> u ʔ a$,default
-1213-176_below-1,291315,1213,176_below,GaGo,GaGo,<<G>> a <<G>> o,,Tamaititahio-1213-2015,8,false,^ <G> a <G> o$,default
+1213-174_ininside-1,291313,1213,174_ininside,Goto,Goto,ɢ o t o,,Tamaititahio-1213-2015,5,false,^ G o t o$,default
+1213-175_above-1,291314,1213,175_above,Guʔa,Guʔa,ɢ u ʔ a,,Tamaititahio-1213-2015,9,false,^ G u ʔ a$,default
+1213-176_below-1,291315,1213,176_below,GaGo,GaGo,ɢ a ɢ o,,Tamaititahio-1213-2015,8,false,^ G a G o$,default
 1213-181_where-1,291316,1213,181_where,hea,hea,h e a,,Tamaititahio-1213-2015,"3, 35",false,^h e a$,default
 1213-182_i-1,291317,1213,182_i,vau,vau,v a u,,Tamaititahio-1213-2015,"1, 21, 18",false,^v a u$,default
 1213-183_thou-1,291318,1213,183_thou,ʔoe,ʔoe,ʔ o e,,Tamaititahio-1213-2015,1,false,^ʔ o e$,default
@@ -11542,7 +11542,7 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1213-185_we-3,291346,1213,185_we,māua,māua,m ā/a u a,,Tamaititahio-1213-2015,"2, 29",false,^m ā u a$,default
 1213-185_we-4,291347,1213,185_we,mātou,mātou,m ā/a t o u,,Tamaititahio-1213-2015,"2, 39",false,^m ā t o u$,default
 1213-186_you-1,291357,1213,186_you,ʔoutou,ʔoutou,ʔ o u t o u,,Tamaititahio-1213-2015,16,false,^ʔ o u t o u$,default
-1213-187_they-1,291353,1213,187_they,Gātou,Gātou,<<G>> ā/a t o u,,Tamaititahio-1213-2015,"1, 72",false,^ <G> ā t o u$,default
+1213-187_they-1,291353,1213,187_they,Gātou,Gātou,ɢ ā/a t o u,,Tamaititahio-1213-2015,"1, 72",false,^ G ā t o u$,default
 1213-188_what-1,291323,1213,188_what,aha,aha,a h a,,Tamaititahio-1213-2015,1,false,^a h a$,default
 1213-189_who-1,291324,1213,189_who,vai,vai,v a i,,Tamaititahio-1213-2015,"1,19",false,^v a i$,default
 1213-191_all-1,291325,1213,191_all,ʔatoʔa,ʔatoʔa,ʔ a t o ʔ a,,Tamaititahio-1213-2015,13,false,^ʔ a t o ʔ a$,default
@@ -11552,17 +11552,17 @@ ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,
 1213-196_tocount-1,291329,1213,196_tocount,taiʔo,taiʔo,t a i ʔ o,,Tamaititahio-1213-2015,9,false,^t a i ʔ o$,default
 1213-197_one-1,291330,1213,197_one,hoʔe,hoʔe,h o ʔ e,L from Tahitian (Stimson 1938 also reports tahi),Tamaititahio-1213-2015,15,true,^h o ʔ e$,default
 1213-198_two-1,291331,1213,198_two,piti,piti,p i t i,L from Tahitian (Stimson 1938 also reports rua),Tamaititahio-1213-2015,4,true,^p i t i$,default
-1213-199_three-1,291332,1213,199_three,toGu,toGu,t o <<G>> u,,Tamaititahio-1213-2015,1,false,^t o <G> u$,default
+1213-199_three-1,291332,1213,199_three,toGu,toGu,t o ɢ u,,Tamaititahio-1213-2015,1,false,^t o G u$,default
 1213-200_four-1,291333,1213,200_four,maha,maha,m a h a,L from Tahitian,Tamaititahio-1213-2015,"1,66, 4",true,^m a h a$,default
 1213-201_five-1,291334,1213,201_five,pae,pae,p a e,L from Tahitian (Stimson 1938 also reports rima),Tamaititahio-1213-2015,9,true,^p a e$,default
 1213-202_six-1,291335,1213,202_six,ono,ono,o n o,,Tamaititahio-1213-2015,1,false,^o n o$,default
 1213-203_seven-1,291336,1213,203_seven,hitu,hitu,h i t u,,Tamaititahio-1213-2015,1,false,^h i t u$,default
-1213-204_eight-1,291337,1213,204_eight,vaGu,vaGu,v a <<G>> u,,Tamaititahio-1213-2015,3,false,^v a <G> u$,default
+1213-204_eight-1,291337,1213,204_eight,vaGu,vaGu,v a ɢ u,,Tamaititahio-1213-2015,3,false,^v a G u$,default
 1213-205_nine-1,291338,1213,205_nine,iva,iva,i v a,,Tamaititahio-1213-2015,"5,44",false,^i v a$,default
-1213-206_ten-1,291339,1213,206_ten,ʔahuGu,ʔahuGu,ʔ a h u <<G>> u,,Tamaititahio-1213-2015,"5,32",false,^ʔ a h u <G> u$,default
-1213-207_twenty-1,291340,1213,207_twenty,piti ʔahuGu,piti ʔahuGu,p i t i + ʔ a h u <<G>> u,L from Tahitian,Tamaititahio-1213-2015,"28,6",true,^p i t i + ʔ a h u <G> u$,default
-1213-208_fifty-1,291341,1213,208_fifty,pae ʔahuGu,pae ʔahuGu,p a e + ʔ a h u <<G>> u,L from Tahitian,Tamaititahio-1213-2015,9,true,^p a e + ʔ a h u <G> u$,default
-1213-209_onehundred-1,291342,1213,209_onehundred,Gau,Gau,<<G>> a u,,Tamaititahio-1213-2015,2,false,^ <G> a u$,default
+1213-206_ten-1,291339,1213,206_ten,ʔahuGu,ʔahuGu,ʔ a h u ɢ u,,Tamaititahio-1213-2015,"5,32",false,^ʔ a h u G u$,default
+1213-207_twenty-1,291340,1213,207_twenty,piti ʔahuGu,piti ʔahuGu,p i t i + ʔ a h u ɢ u,L from Tahitian,Tamaititahio-1213-2015,"28,6",true,^p i t i + ʔ a h u G u$,default
+1213-208_fifty-1,291341,1213,208_fifty,pae ʔahuGu,pae ʔahuGu,p a e + ʔ a h u ɢ u,L from Tahitian,Tamaititahio-1213-2015,9,true,^p a e + ʔ a h u G u$,default
+1213-209_onehundred-1,291342,1213,209_onehundred,Gau,Gau,ɢ a u,,Tamaititahio-1213-2015,2,false,^ G a u$,default
 1213-210_onethousand-1,291354,1213,210_onethousand,tauatini,tauatini,t a u a t i n i,L from English via Tahitian,Tamaititahio-1213-2015,11,true,^t a u a t i n i$,default
 1213-210_onethousand-2,291355,1213,210_onethousand,mano,mano,m a n o,,Tamaititahio-1213-2015,2,false,^m a n o$,default
 1214-1_hand-1,291358,1214,1_hand,rima,rima,r i m a,,Walworth-1214-2015,"1, 64",false,^r i m a$,default
