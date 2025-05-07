@@ -40,8 +40,9 @@ def register(parser):
 
 def run(args):
     mdfile = root / "cldf" / "cldf-metadata.json"
-    records = list(load_cldf(mdfile, table="FormTable"))
-
+    records = list(load_cldf(mdfile, table="FormTable", idcol="Local_ID"))
+    # ^ use Local_ID (=ABVD ID) as the unique ID to make debugging easier.
+    
     args.log.info("%8d records loaded from %s" % (len(records), mdfile))
 
     # run filter if given
@@ -53,7 +54,7 @@ def run(args):
             args.log.info("%8d records removed for parameter %s" % (change, param))
             if change == 0:
                 args.log.warn("No records removed for parameter %s -- typo?" % param)
-
+    
     args.log.info(
         "%8d records written to nexus %s using ascertainment=%s"
         % (len(records), args.output, args.ascertainment)

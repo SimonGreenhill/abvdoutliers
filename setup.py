@@ -27,6 +27,6 @@ setup(
         "pylexibank>=2.1",
         "cldfbench>=1.14.1",
         "clldutils~=3.21.0",
-        "nexusmaker>=2.0.5",
+        "nexusmaker>=2.0.6",
     ],
 )
